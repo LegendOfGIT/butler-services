@@ -1,2 +1,4 @@
 InformationWarehouseService/.vs/config/applicationhost.config
 InformationWarehouseService/
+Information.Warehouse.Repository.Tests/bin/
+Information.Warehouse.Repository.Tests/obj/
