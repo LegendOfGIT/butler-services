@@ -56,6 +56,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Spies\GetChannelRepositorySpy.cs" />
+    <Compile Include="Repository\Stubs\GetChannelRepositoryReturnsChannelInformationStub.cs" />
     <Compile Include="Usecase\GetChannel\GetChannelTests.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -68,6 +70,10 @@
     <ProjectReference Include="..\Information.Warehouse.Interactor\Information.Warehouse.Interactor.csproj">
       <Project>{587f07b9-a4b9-4d95-8343-c684eb8dd8f3}</Project>
       <Name>Information.Warehouse.Interactor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Information.Warehouse.Repository\Information.Warehouse.Repository.csproj">
+      <Project>{230d7265-5065-42b7-8f71-ccea946574ad}</Project>
+      <Name>Information.Warehouse.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Warehouse.Inter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Warehouse.Interactor", "..\Information.Warehouse.Interactor\Information.Warehouse.Interactor.csproj", "{587F07B9-A4B9-4D95-8343-C684EB8DD8F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Warehouse.Repository", "..\Information.Warehouse.Repository\Information.Warehouse.Repository.csproj", "{230D7265-5065-42B7-8F71-CCEA946574AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{587F07B9-A4B9-4D95-8343-C684EB8DD8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{587F07B9-A4B9-4D95-8343-C684EB8DD8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{587F07B9-A4B9-4D95-8343-C684EB8DD8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230D7265-5065-42B7-8F71-CCEA946574AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230D7265-5065-42B7-8F71-CCEA946574AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230D7265-5065-42B7-8F71-CCEA946574AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230D7265-5065-42B7-8F71-CCEA946574AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

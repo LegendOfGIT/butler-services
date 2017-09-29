@@ -1,10 +1,23 @@
-﻿namespace Information.Warehouse.Interactor
+﻿using Information.Warehouse.Repository;
+
+namespace Information.Warehouse.Interactor
 {
-    public class GetChannelInteractor
+  public class GetChannelInteractor
+  {
+    private IGetChannelRepository GetChannelRepository;
+
+    public GetChannelInteractor(IGetChannelRepository GetChannelRepository)
     {
-      public GetChannelResponse Execute()
-      {
-        return new GetChannelResponse();
-      }
+      this.GetChannelRepository = GetChannelRepository;
     }
+
+    public GetChannelResponse Execute()
+    {
+      var response = this.GetChannelRepository.GetChannel();
+      return new GetChannelResponse
+      {
+        ChannelId = response.Id
+      };
+    }
+  }
 }

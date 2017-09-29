@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{587F07B9-A4B9-4D95-8343-C684EB8DD8F3}</ProjectGuid>
+    <ProjectGuid>{230D7265-5065-42B7-8F71-CCEA946574AD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Information.Warehouse.Interactor</RootNamespace>
-    <AssemblyName>Information.Warehouse.Interactor</AssemblyName>
+    <RootNamespace>Information.Warehouse.Repository</RootNamespace>
+    <AssemblyName>Information.Warehouse.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -32,17 +32,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Usecase\GetChannel\GetChannelResponse.cs" />
-    <Compile Include="Usecase\GetChannel\GetChannelInteractor.cs" />
+    <Compile Include="Entity\Channel.cs" />
+    <Compile Include="IGetChannelRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Information.Warehouse.Repository\Information.Warehouse.Repository.csproj">
-      <Project>{230d7265-5065-42b7-8f71-ccea946574ad}</Project>
-      <Name>Information.Warehouse.Repository</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
