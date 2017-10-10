@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entity\Channel.cs" />
+    <Compile Include="GetChannelFilesystemRepository.cs" />
     <Compile Include="IGetChannelRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
