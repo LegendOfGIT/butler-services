@@ -1,6 +1,0 @@
-E:\Entwicklung\GIT\DotNet\butler-services\Information.Store.Service\Information.Store.Interactor.Tests\bin\Debug\Information.Store.Interactor.Tests.dll
-E:\Entwicklung\GIT\DotNet\butler-services\Information.Store.Service\Information.Store.Interactor.Tests\bin\Debug\Information.Store.Interactor.Tests.pdb
-E:\Entwicklung\GIT\DotNet\butler-services\Information.Store.Service\Information.Store.Interactor.Tests\obj\Debug\Information.Store.Interactor.Tests.csprojResolveAssemblyReference.cache
-E:\Entwicklung\GIT\DotNet\butler-services\Information.Store.Service\Information.Store.Interactor.Tests\obj\Debug\Information.Store.Interactor.Tests.csproj.CoreCompileInputs.cache
-E:\Entwicklung\GIT\DotNet\butler-services\Information.Store.Service\Information.Store.Interactor.Tests\obj\Debug\Information.Store.Interactor.Tests.dll
-E:\Entwicklung\GIT\DotNet\butler-services\Information.Store.Service\Information.Store.Interactor.Tests\obj\Debug\Information.Store.Interactor.Tests.pdb

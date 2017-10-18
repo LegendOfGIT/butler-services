@@ -1,11 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using Newtonsoft.Json;
 
 namespace Information.Store.Service
 {
   public class Service : IService
   {
-    public void StoreInformation(Dictionary<string, IEnumerable<object>> information)
+    public void StoreInformation(string informationToken)
     {
+      var dom = JsonConvert.DeserializeXNode(informationToken);
     }
   }
 }

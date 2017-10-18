@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ServiceModel;
+using Newtonsoft.Json;
 
 namespace Information.Store.Service
 {
@@ -8,6 +9,6 @@ namespace Information.Store.Service
   {
 
     [OperationContract]
-    void StoreInformation(Dictionary<string, IEnumerable<object>> information);
+    void StoreInformation(string informationToken);
   }
 }
