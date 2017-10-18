@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Store.Service",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Store.Interactor.Tests", "Information.Store.Interactor.Tests\Information.Store.Interactor.Tests.csproj", "{CE87D8C7-4326-4D5A-BCC5-B4BBC1497E08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Store.Interactor", "Information.Store.Interactor\Information.Store.Interactor.csproj", "{A5332CC7-9184-40A1-90FF-C8FEA8D43193}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CE87D8C7-4326-4D5A-BCC5-B4BBC1497E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE87D8C7-4326-4D5A-BCC5-B4BBC1497E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE87D8C7-4326-4D5A-BCC5-B4BBC1497E08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5332CC7-9184-40A1-90FF-C8FEA8D43193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5332CC7-9184-40A1-90FF-C8FEA8D43193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5332CC7-9184-40A1-90FF-C8FEA8D43193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5332CC7-9184-40A1-90FF-C8FEA8D43193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
