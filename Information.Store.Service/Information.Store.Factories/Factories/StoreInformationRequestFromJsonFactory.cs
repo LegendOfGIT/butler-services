@@ -3,12 +3,20 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Xml.Linq;
 using System.Linq;
+using Information.Store.Interactor;
 
-namespace Information.Store.Interactor
+namespace Information.Store.Factories
 {
   public class StoreInformationRequestFromJsonFactory
   {
-    public static StoreInformationRequest CreateRequest(string jsonString)
+    private IEnumerable<IStringToObject> ObjectFactories;
+
+    public StoreInformationRequestFromJsonFactory(IEnumerable<IStringToObject> ObjectFactories)
+    {
+      this.ObjectFactories = ObjectFactories;
+    }
+
+    public StoreInformationRequest CreateRequest(string jsonString)
     {
       var node = JsonConvert.DeserializeXNode(jsonString);
 
@@ -19,7 +27,7 @@ namespace Information.Store.Interactor
       };
     }
 
-    private static IEnumerable<InformationProperty> GetPropertiesFromPropertiesNode(XNode node)
+    private IEnumerable<InformationProperty> GetPropertiesFromPropertiesNode(XNode node)
     {
       var properties = Enumerable.Empty<InformationProperty>();
 
@@ -41,15 +49,18 @@ namespace Information.Store.Interactor
       return properties;
     }
 
-    private static object GetPropertyObjectFromValue(string value)
+    private object GetPropertyObjectFromValue(string value)
     {
       value = value.Trim();
 
-      var boolResult = default(bool);
-      if (bool.TryParse(value, out boolResult))
+      foreach (var factory in this.ObjectFactories)
       {
-        return boolResult;
-      }
+        var response = factory.GetObjectFromString(value);
+        if(response != null)
+        {
+          return response;
+        }
+      }     
 
       return value;
     }

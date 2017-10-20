@@ -15,3 +15,7 @@ Information.Store.Service/Information.Store.Service/bin/
 Information.Store.Service/packages/
 Information.Warehouse.Interactor/bin/
 Information.Store.Service/Information.Store.Interactor/obj/
+Information.Store.Service/Information.Store.Factories/obj/
+Information.Store.Service/Information.Store.Factories.Tests/obj/
+Information.Store.Service/Information.Store.Factories.Tests/bin/
+Information.Store.Service/Information.Store.Factories/bin/
