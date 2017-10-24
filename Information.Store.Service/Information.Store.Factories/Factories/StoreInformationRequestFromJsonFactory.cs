@@ -43,7 +43,11 @@ namespace Information.Store.Factories
         }
 
         property.Values = property.Values ?? Enumerable.Empty<object>();
-        property.Values = property.Values.Concat(new[] { GetPropertyObjectFromValue(propertyNode.Value) });
+        var propertyObject = GetPropertyObjectFromValue(propertyNode.Value);
+        if(!property.Values.Contains(propertyObject))
+        { 
+          property.Values = property.Values.Concat(new[] { propertyObject });
+        }
       }
 
       return properties;

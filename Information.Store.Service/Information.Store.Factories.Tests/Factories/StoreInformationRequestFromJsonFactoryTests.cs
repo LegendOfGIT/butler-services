@@ -51,7 +51,7 @@
     }
 
     [Fact]
-    public void FactoryAppliesBooleanPropertyWithMultipleValuesFromJsonToRequest()
+    public void FactoryAppliesDistinctIntegerPropertyWithMultipleValuesFromJsonToRequest()
     {
       var request = factory.CreateRequest(
         $"{{ \"information\": {{ \"properties\": [ {{\"size\": [1, \"1\"]}} ] }} }}"
@@ -59,7 +59,7 @@
 
       Assert.Equal(2, this.stringToObjectFactorySpy.GetObjectFromStringCalls);
       Assert.Equal(
-        JsonConvert.SerializeObject(new[] { 1, 1 }),
+        JsonConvert.SerializeObject(new[] { 1 }),
         JsonConvert.SerializeObject(
           request.Properties.FirstOrDefault(prop => prop.Name == "size").Values
         )
