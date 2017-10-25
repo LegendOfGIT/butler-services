@@ -52,6 +52,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Spies\StoreInformationRepositorySpy.cs" />
     <Compile Include="Usecase\StoreInformation\StoreInformationInteractorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -65,6 +66,10 @@
     <ProjectReference Include="..\Information.Store.Interactor\Information.Store.Interactor.csproj">
       <Project>{a5332cc7-9184-40a1-90ff-c8fea8d43193}</Project>
       <Name>Information.Store.Interactor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Information.Store.Repository\Information.Store.Repository.csproj">
+      <Project>{72d7e1b7-df54-400d-a552-de882d45b195}</Project>
+      <Name>Information.Store.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
