@@ -2,12 +2,20 @@
 using System.Threading.Tasks;
 using MongoDB.Bson;
 using MongoDB.Driver;
+using System.Collections.Generic;
+using Information.Store.Repository.MongoDatabase;
 
 namespace Information.Store.Repository.Tests.Spies
 {
   public class MongoDatabaseSpy : IMongoDatabase
   {
+    private Dictionary<string, IMongoCollection<InformationEntry>> collections;
     public string LastSelectedCollectionName { get; set; }
+
+    public MongoDatabaseSpy(Dictionary<string, IMongoCollection<InformationEntry>> collections = null)
+    {
+      this.collections = collections;
+    }
 
     public IMongoClient Client => throw new System.NotImplementedException();
 
@@ -48,7 +56,10 @@ namespace Information.Store.Repository.Tests.Spies
     public IMongoCollection<TDocument> GetCollection<TDocument>(string name, MongoCollectionSettings settings = null)
     {
       this.LastSelectedCollectionName = name;
-      return default(IMongoCollection<TDocument>);
+      return 
+        this.collections != null && this.collections.ContainsKey(name) 
+          ? this.collections[name] as IMongoCollection<TDocument>
+          : default(IMongoCollection<TDocument>);
     }
 
     public IAsyncCursor<BsonDocument> ListCollections(ListCollectionsOptions options = null, CancellationToken cancellationToken = default(CancellationToken))

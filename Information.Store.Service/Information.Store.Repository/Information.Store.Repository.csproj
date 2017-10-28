@@ -47,6 +47,8 @@
   <ItemGroup>
     <Compile Include="Entity\InformationPropertyEntity.cs" />
     <Compile Include="Entity\InformationEntity.cs" />
+    <Compile Include="MongoDatabase\InformationPropertyEntry.cs" />
+    <Compile Include="MongoDatabase\InformationEntry.cs" />
     <Compile Include="MongoDatabase\StoreInformationMongoDatabaseRepository.cs" />
     <Compile Include="IStoreInformationRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
