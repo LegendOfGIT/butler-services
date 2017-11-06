@@ -1,4 +1,6 @@
-﻿using System.ServiceModel;
+﻿using Information.Store.Shared.Entity;
+using System.ServiceModel;
+using System.ServiceModel.Web;
 
 namespace Information.Store.Service
 {
@@ -6,6 +8,7 @@ namespace Information.Store.Service
   public interface IService
   {
     [OperationContract]
-    void StoreInformation(string informationToken);
+    [WebInvoke(UriTemplate = "/StoreInformation", Method = "POST", RequestFormat = WebMessageFormat.Json)]
+    void StoreInformation(InformationRequest request);
   }
 }

@@ -54,7 +54,7 @@
     <Compile Include="Factories\NullableIntegerFromStringFactoryTests.cs" />
     <Compile Include="Factories\NullableBooleanFromStringFactoryTests.cs" />
     <Compile Include="Factories\Spies\StringToObjectFactoryReturnsIntegerSpy.cs" />
-    <Compile Include="Factories\StoreInformationRequestFromJsonFactoryTests.cs" />
+    <Compile Include="Factories\StoreInformationRequestFromWebserviceRequestFactoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -71,6 +71,14 @@
     <ProjectReference Include="..\Information.Store.Interactor\Information.Store.Interactor.csproj">
       <Project>{a5332cc7-9184-40a1-90ff-c8fea8d43193}</Project>
       <Name>Information.Store.Interactor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Information.Store.Service\Information.Store.Service.csproj">
+      <Project>{5b9cb5aa-b571-4b40-9160-5421b5fa442e}</Project>
+      <Name>Information.Store.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Information.Store.Shared.Entities\Information.Store.Shared.Entity.csproj">
+      <Project>{c5dc67bb-3928-4b8a-8aa0-0fa997a21cdc}</Project>
+      <Name>Information.Store.Shared.Entity</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,40 +1,36 @@
-﻿using System.Xml.XPath;
-using Newtonsoft.Json;
-using System.Collections.Generic;
-using System.Xml.Linq;
+﻿using System.Collections.Generic;
 using System.Linq;
 using Information.Store.Interactor;
+using Information.Store.Shared.Entity;
 
 namespace Information.Store.Factories
 {
-  public class StoreInformationRequestFromJsonFactory
+  public class StoreInformationRequestFromWebserviceRequestFactory
   {
     private IEnumerable<IStringToObject> ObjectFactories;
 
-    public StoreInformationRequestFromJsonFactory(IEnumerable<IStringToObject> ObjectFactories)
+    public StoreInformationRequestFromWebserviceRequestFactory(IEnumerable<IStringToObject> ObjectFactories)
     {
       this.ObjectFactories = ObjectFactories;
     }
 
-    public StoreInformationRequest CreateRequest(string jsonString)
+    public StoreInformationRequest CreateRequest(InformationRequest request)
     {
-      var node = JsonConvert.DeserializeXNode(jsonString);
-
       return new StoreInformationRequest
       {
-         Id = node.XPathSelectElement("//id")?.Value ?? string.Empty,
-         Properties = GetPropertiesFromPropertiesNode(node)
+         Id = request?.Id ?? string.Empty,
+         Properties = GetPropertiesFromPropertiesNode(request)
       };
     }
 
-    private IEnumerable<InformationProperty> GetPropertiesFromPropertiesNode(XNode node)
+    private IEnumerable<InformationProperty> GetPropertiesFromPropertiesNode(InformationRequest request)
     {
       var properties = Enumerable.Empty<InformationProperty>();
+      request.Properties = request.Properties ?? Enumerable.Empty<InformationPropertyRequest>();
 
-      var propertyNodes = node.XPathSelectElements("//properties/*");
-      foreach (var propertyNode in propertyNodes)
+      foreach (var propertyNode in request.Properties)
       {
-        var propertyName = propertyNode.Name.LocalName;
+        var propertyName = propertyNode.Name;
         var property = properties.FirstOrDefault(p => p.Name == propertyName);
         if (property == null)
         {
@@ -43,10 +39,13 @@ namespace Information.Store.Factories
         }
 
         property.Values = property.Values ?? Enumerable.Empty<object>();
-        var propertyObject = GetPropertyObjectFromValue(propertyNode.Value);
-        if(!property.Values.Contains(propertyObject))
-        { 
-          property.Values = property.Values.Concat(new[] { propertyObject });
+        foreach (var propertyNodeValue in propertyNode.Values)
+        {
+          var propertyObject = GetPropertyObjectFromValue(propertyNodeValue);
+          if (!property.Values.Contains(propertyObject))
+          {
+            property.Values = property.Values.Concat(new[] { propertyObject });
+          }
         }
       }
 
