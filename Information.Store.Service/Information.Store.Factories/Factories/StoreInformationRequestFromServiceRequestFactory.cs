@@ -5,11 +5,11 @@ using Information.Store.Shared.Entity;
 
 namespace Information.Store.Factories
 {
-  public class StoreInformationRequestFromWebserviceRequestFactory
+  public class StoreInformationRequestFromServiceRequestFactory
   {
     private IEnumerable<IStringToObject> ObjectFactories;
 
-    public StoreInformationRequestFromWebserviceRequestFactory(IEnumerable<IStringToObject> ObjectFactories)
+    public StoreInformationRequestFromServiceRequestFactory(IEnumerable<IStringToObject> ObjectFactories)
     {
       this.ObjectFactories = ObjectFactories;
     }

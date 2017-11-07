@@ -41,7 +41,7 @@
     <Compile Include="Factories\IStringToObject.cs" />
     <Compile Include="Factories\NullableIntegerFromStringFactory.cs" />
     <Compile Include="Factories\NullableBooleanFromStringFactory.cs" />
-    <Compile Include="Factories\StoreInformationRequestFromWebserviceRequestFactory.cs" />
+    <Compile Include="Factories\StoreInformationRequestFromServiceRequestFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

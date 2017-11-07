@@ -5,7 +5,6 @@ using MongoDB.Bson;
 using MongoDB.Driver;
 using Newtonsoft.Json;
 using System.Collections.Generic;
-using System.Linq;
 using Xunit;
 
 namespace Information.Store.Repository.Tests
@@ -37,7 +36,8 @@ namespace Information.Store.Repository.Tests
           new InformationPropertyEntity { Name = "title", Values = new object[]{ "sweet shoes" } },
           new InformationPropertyEntity { Name = "color", Values = new object[]{ "red" } },
           new InformationPropertyEntity { Name = "price", Values = new object[]{ (decimal)12.45 } },
-          new InformationPropertyEntity { Name = "currency", Values = new object[]{ "€" } }
+          new InformationPropertyEntity { Name = "currency", Values = new object[]{ "€" } },
+          new InformationPropertyEntity { Name = "size", Values = new object[]{ 43 } }
         }
       });
 
@@ -46,10 +46,11 @@ namespace Information.Store.Repository.Tests
       {
         Properties = new[]
         {
-          new InformationPropertyEntry { Name = "color", Values = new BsonValue[]{ "red" } },
-          new InformationPropertyEntry { Name = "currency", Values = new BsonValue[]{ "€" } },
-          new InformationPropertyEntry { Name = "price", Values = new BsonValue[]{ (decimal)12.45 } },
-          new InformationPropertyEntry { Name = "title", Values = new BsonValue[]{ "sweet shoes" } },
+          new InformationPropertyEntry { Name = "color", Values = new BsonString[]{ "red" } },
+          new InformationPropertyEntry { Name = "currency", Values = new BsonString[]{ "€" } },
+          new InformationPropertyEntry { Name = "price", Values = new BsonDecimal128[]{ new BsonDecimal128((decimal)12.45) } },
+          new InformationPropertyEntry { Name = "size", Values = new BsonValue[]{ new BsonInt32(43) } },
+          new InformationPropertyEntry { Name = "title", Values = new BsonString[]{ "sweet shoes" } }
         }
       };
       Assert.Equal(

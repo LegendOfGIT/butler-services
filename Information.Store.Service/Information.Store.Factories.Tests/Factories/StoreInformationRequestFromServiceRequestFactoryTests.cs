@@ -6,15 +6,15 @@
   using System.Linq;
   using Xunit;
 
-  public class StoreInformationRequestFromWebserviceRequestFactoryTests
+  public class StoreInformationRequestFromServiceRequestFactoryTests
   {
     private StringToObjectFactoryReturnsIntegerSpy stringToObjectFactorySpy;
-    private StoreInformationRequestFromWebserviceRequestFactory factory;
+    private StoreInformationRequestFromServiceRequestFactory factory;
 
-    public StoreInformationRequestFromWebserviceRequestFactoryTests()
+    public StoreInformationRequestFromServiceRequestFactoryTests()
     {
       this.stringToObjectFactorySpy = new StringToObjectFactoryReturnsIntegerSpy();
-      this.factory = new StoreInformationRequestFromWebserviceRequestFactory(new[]
+      this.factory = new StoreInformationRequestFromServiceRequestFactory(new[]
       {
         this.stringToObjectFactorySpy
       });

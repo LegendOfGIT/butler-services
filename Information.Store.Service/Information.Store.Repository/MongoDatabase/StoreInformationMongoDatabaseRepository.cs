@@ -36,8 +36,10 @@ namespace Information.Store.Repository.MongoDatabase
 
     private BsonValue GetBsonValueFromObject(object value)
     {
+      if (value is int)
+        return new BsonInt32((int)value);
       if (value is decimal)
-        return new BsonDecimal128(new Decimal128((decimal)value));
+        return new BsonDecimal128((decimal)value);
       if (value is double)
         return new BsonDouble((double)value);
       if (value is DateTime)
