@@ -21,6 +21,25 @@ namespace Information.Store.Repository.Tests
     }
 
     [Fact]
+    public void RepositoryInsertsInformationWithFirstActiveVersionWhenInformationDoesNotAlreadyExist()
+    {
+      var informationCollection = new MongoCollectionSpy();
+      var database = new MongoDatabaseSpy(new Dictionary<string, IMongoCollection<InformationEntry>> {
+        { "information", informationCollection }
+      });
+
+      var id = "123-ABC";
+      var repository = new StoreInformationMongoDatabaseRepository(database);
+      repository.StoreInformation(new InformationEntity { Id = id });
+
+      var expectedEntry = new InformationEntry { Id = id, IsActive = true, Version = 1 };
+      Assert.Equal(
+        JsonConvert.SerializeObject(expectedEntry),
+        JsonConvert.SerializeObject(informationCollection.LastInsertedEntry)
+      );
+    }
+
+    [Fact]
     public void RepositoryInsertsInformationAsNewRecord()
     {
       var informationCollection = new MongoCollectionSpy();
@@ -44,6 +63,7 @@ namespace Information.Store.Repository.Tests
       var insertedEntry = informationCollection.LastInsertedEntry;
       var expectedEntry = new InformationEntry
       {
+        IsActive = true,
         Properties = new[]
         {
           new InformationPropertyEntry { Name = "color", Values = new BsonString[]{ "red" } },
@@ -51,7 +71,8 @@ namespace Information.Store.Repository.Tests
           new InformationPropertyEntry { Name = "price", Values = new BsonDecimal128[]{ new BsonDecimal128((decimal)12.45) } },
           new InformationPropertyEntry { Name = "size", Values = new BsonValue[]{ new BsonInt32(43) } },
           new InformationPropertyEntry { Name = "title", Values = new BsonString[]{ "sweet shoes" } }
-        }
+        },
+        Version = 1
       };
       Assert.Equal(
         JsonConvert.SerializeObject(expectedEntry),

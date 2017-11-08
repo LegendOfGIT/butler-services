@@ -18,10 +18,13 @@ namespace Information.Store.Repository.MongoDatabase
     public void StoreInformation(InformationEntity information)
     {
       var informationCollection = this.Database.GetCollection<InformationEntry>("information");
+      
       if (informationCollection != null)
       { 
         informationCollection.InsertOne(new InformationEntry
         {
+          Id = information.Id,
+          IsActive = true,
           Properties = information?.Properties?.OrderBy(property => property.Name).Select(property =>
           {
             return new InformationPropertyEntry
@@ -29,7 +32,8 @@ namespace Information.Store.Repository.MongoDatabase
               Name = property.Name,
               Values = property.Values?.Select(value => GetBsonValueFromObject(value))
             };
-          })
+          }),
+          Version = 1
         });
       }
     }
