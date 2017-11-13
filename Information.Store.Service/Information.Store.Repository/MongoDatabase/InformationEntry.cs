@@ -1,4 +1,5 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
+using System;
 using System.Collections.Generic;
 
 namespace Information.Store.Repository.MongoDatabase
@@ -12,7 +13,7 @@ namespace Information.Store.Repository.MongoDatabase
     public IEnumerable<InformationPropertyEntry> Properties { get; set; }
 
     [BsonElement]
-    public int Version { get; set; }
+    public DateTime DiscoveryTimestamp { get; set; }
 
     [BsonElement]
     public bool IsActive { get; set; }

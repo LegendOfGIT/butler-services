@@ -20,7 +20,20 @@ namespace Information.Store.Repository.MongoDatabase
       var informationCollection = this.Database.GetCollection<InformationEntry>("information");
       
       if (informationCollection != null)
-      { 
+      {
+        var informationItems = informationCollection.FindSync(item => item.Id == information.Id).ToList();
+        foreach(var informationItem in informationItems)
+        {
+          var replaceItem = new InformationEntry {
+            DiscoveryTimestamp = informationItem.DiscoveryTimestamp,
+            Id = informationItem.Id,
+            IsActive = false,
+            Properties = informationItem.Properties
+          };
+
+          informationCollection.ReplaceOne(item => item.Id == information.Id && item.DiscoveryTimestamp == informationItem.DiscoveryTimestamp, replaceItem);
+        }
+
         informationCollection.InsertOne(new InformationEntry
         {
           Id = information.Id,
@@ -33,7 +46,7 @@ namespace Information.Store.Repository.MongoDatabase
               Values = property.Values?.Select(value => GetBsonValueFromObject(value))
             };
           }),
-          Version = 1
+          DiscoveryTimestamp = DateTime.Now
         });
       }
     }

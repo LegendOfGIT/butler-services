@@ -1,9 +1,12 @@
 ﻿using Information.Store.Repository.Entity;
 using Information.Store.Repository.MongoDatabase;
 using Information.Store.Repository.Tests.Spies;
+using Information.Store.Repository.Tests.Stubs;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using Newtonsoft.Json;
+using System;
+using System.Linq;
 using System.Collections.Generic;
 using Xunit;
 
@@ -21,9 +24,11 @@ namespace Information.Store.Repository.Tests
     }
 
     [Fact]
-    public void RepositoryInsertsInformationWithFirstActiveVersionWhenInformationDoesNotAlreadyExist()
+    public void RepositoryInsertsInformationWithActiveFlagAndDiscoveryTimestampWhenInformationDoesNotAlreadyExist()
     {
-      var informationCollection = new MongoCollectionSpy();
+      var informationCollection = new MongoCollectionReturnsSpecificDocumentsStub(
+        new FindCursorReturnsSpecificDocumentsStub(new List<InformationEntry>())
+      );
       var database = new MongoDatabaseSpy(new Dictionary<string, IMongoCollection<InformationEntry>> {
         { "information", informationCollection }
       });
@@ -32,11 +37,78 @@ namespace Information.Store.Repository.Tests
       var repository = new StoreInformationMongoDatabaseRepository(database);
       repository.StoreInformation(new InformationEntity { Id = id });
 
-      var expectedEntry = new InformationEntry { Id = id, IsActive = true, Version = 1 };
+      var expectedEntry = new InformationEntry { Id = id, IsActive = true, DiscoveryTimestamp = MongoCollectionReturnsSpecificDocumentsStub.DiscoveryTimestamp };
       Assert.Equal(
         JsonConvert.SerializeObject(expectedEntry),
         JsonConvert.SerializeObject(informationCollection.LastInsertedEntry)
       );
+    }
+
+    [Fact]
+    public void RepositoryInsertsInformationWithActiveFlagAndResetsActiveFlagsOfOlderVersionsWhenInformationDoesAlreadyExist()
+    {
+      var existingEntries = new[]{
+        new InformationEntry{ Id = "234-BCD", IsActive = false, DiscoveryTimestamp = new DateTime(2017, 2, 3) },
+        new InformationEntry{ Id = "234-BCD", IsActive = true, DiscoveryTimestamp = new DateTime(2017, 10, 4) }
+      };
+      var findCursor = new FindCursorReturnsSpecificDocumentsStub(existingEntries);
+      var informationCollection = new MongoCollectionReturnsSpecificDocumentsStub(findCursor);
+      var database = new MongoDatabaseSpy(new Dictionary<string, IMongoCollection<InformationEntry>> {
+        { "information", informationCollection }
+      });
+
+      var id = "234-BCD";
+      var repository = new StoreInformationMongoDatabaseRepository(database);
+      repository.StoreInformation(new InformationEntity { Id = id });
+
+      var expectedEntry = new InformationEntry { Id = id, IsActive = true, DiscoveryTimestamp = MongoCollectionReturnsSpecificDocumentsStub.DiscoveryTimestamp };
+      Assert.Equal(
+        JsonConvert.SerializeObject(expectedEntry),
+        JsonConvert.SerializeObject(informationCollection.LastInsertedEntry)
+      );
+
+      existingEntries[1].IsActive = false;
+      Assert.Equal(
+        JsonConvert.SerializeObject(existingEntries),
+        JsonConvert.SerializeObject(informationCollection.ReplacedEntries)
+      );
+    }
+
+    [Fact]
+    public void RepositoryInsertNoInformationWhenIdenticalActiveInformationExists()
+    {
+      var existingEntries = new[]{
+        new InformationEntry{ Id = "234-BCD", IsActive = false, DiscoveryTimestamp = new DateTime(2017, 2, 3) },
+        new InformationEntry{
+          Id = "234-BCD",
+          IsActive = true,
+          DiscoveryTimestamp = new DateTime(2017, 10, 4),
+          Properties = new[]
+          {
+            new InformationPropertyEntry{ Name = "titles", Values = new BsonValue[]{ "information A" } }
+          }
+        }
+      };
+      var findCursor = new FindCursorReturnsSpecificDocumentsStub(existingEntries);
+      var informationCollection = new MongoCollectionReturnsSpecificDocumentsStub(findCursor);
+      var database = new MongoDatabaseSpy(new Dictionary<string, IMongoCollection<InformationEntry>> {
+        { "information", informationCollection }
+      });
+
+      var id = "234-BCD";
+      var repository = new StoreInformationMongoDatabaseRepository(database);
+      repository.StoreInformation(new InformationEntity {
+        Id = id,
+        Properties = new[]
+        {
+          new InformationPropertyEntity
+          {
+            Name = "titles", Values = new[]{ "information A" }
+          }
+        }
+      });
+
+      Assert.Empty(informationCollection.ReplacedEntries);
     }
 
     [Fact]
@@ -72,12 +144,21 @@ namespace Information.Store.Repository.Tests
           new InformationPropertyEntry { Name = "size", Values = new BsonValue[]{ new BsonInt32(43) } },
           new InformationPropertyEntry { Name = "title", Values = new BsonString[]{ "sweet shoes" } }
         },
-        Version = 1
+        DiscoveryTimestamp = MongoCollectionSpy.DiscoveryTimestamp
       };
       Assert.Equal(
         JsonConvert.SerializeObject(expectedEntry),
         JsonConvert.SerializeObject(insertedEntry)
       );
+    }
+
+    private MongoDatabaseSpy GetDatabaseSpy(InformationEntry[] entries)
+    {
+      var findCursor = new FindCursorReturnsSpecificDocumentsStub(entries);
+      var informationCollection = new MongoCollectionReturnsSpecificDocumentsStub(findCursor);
+      return new MongoDatabaseSpy(new Dictionary<string, IMongoCollection<InformationEntry>> {
+        { "information", informationCollection }
+      });
     }
   }
 }

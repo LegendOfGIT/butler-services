@@ -67,6 +67,8 @@
     <Compile Include="Spies\MongoDatabaseSpy.cs" />
     <Compile Include="StoreInformationMongoDatabaseRepositoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stubs\FindCursorReturnsSpecificDocumentsStub.cs" />
+    <Compile Include="Stubs\MongoCollectionReturnsSpecificDocumentsStub.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -1,20 +1,28 @@
-﻿using System.Threading;
-using System.Threading.Tasks;
-using MongoDB.Bson;
-using MongoDB.Driver;
-using System.Collections.Generic;
+﻿using MongoDB.Driver;
 using Information.Store.Repository.MongoDatabase;
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 using System;
-using Information.Store.Repository.Tests.Stubs;
+using System.Linq;
 
-namespace Information.Store.Repository.Tests.Spies
+namespace Information.Store.Repository.Tests.Stubs
 {
-  public class MongoCollectionSpy : IMongoCollection<InformationEntry>
+  public class MongoCollectionReturnsSpecificDocumentsStub : IMongoCollection<InformationEntry>
   {
-    public static DateTime DiscoveryTimestamp = new DateTime(2017, 11, 11, 23, 53, 0);
-
     public InformationEntry LastInsertedEntry { get; set; }
+    public IEnumerable<InformationEntry> ReplacedEntries { get; set; }
+
+    public static DateTime DiscoveryTimestamp = new DateTime(2017, 11, 11, 23, 42, 0);
+
+    private IAsyncCursor<InformationEntry> findCursor;
+
+    public MongoCollectionReturnsSpecificDocumentsStub(IAsyncCursor<InformationEntry> findCursor)
+    {
+      this.findCursor = findCursor;
+    }
 
     public CollectionNamespace CollectionNamespace => throw new System.NotImplementedException();
 
@@ -143,7 +151,7 @@ namespace Information.Store.Repository.Tests.Spies
 
     public IAsyncCursor<TProjection> FindSync<TProjection>(FilterDefinition<InformationEntry> filter, FindOptions<InformationEntry, TProjection> options = null, CancellationToken cancellationToken = default(CancellationToken))
     {
-      return new FindCursorReturnsSpecificDocumentsStub(new List<InformationEntry>()) as IAsyncCursor<TProjection>;
+      return this.findCursor as IAsyncCursor<TProjection>;
     }
 
     public void InsertMany(IEnumerable<InformationEntry> documents, InsertManyOptions options = null, CancellationToken cancellationToken = default(CancellationToken))
@@ -184,7 +192,9 @@ namespace Information.Store.Repository.Tests.Spies
 
     public ReplaceOneResult ReplaceOne(FilterDefinition<InformationEntry> filter, InformationEntry replacement, UpdateOptions options = null, CancellationToken cancellationToken = default(CancellationToken))
     {
-      throw new System.NotImplementedException();
+      this.ReplacedEntries = this.ReplacedEntries ?? Enumerable.Empty<InformationEntry>();
+      this.ReplacedEntries = this.ReplacedEntries.Concat(new[] { replacement });
+      return default(ReplaceOneResult);
     }
 
     public Task<ReplaceOneResult> ReplaceOneAsync(FilterDefinition<InformationEntry> filter, InformationEntry replacement, UpdateOptions options = null, CancellationToken cancellationToken = default(CancellationToken))
