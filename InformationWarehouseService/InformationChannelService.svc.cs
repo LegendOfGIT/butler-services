@@ -5,7 +5,7 @@
         public Channel GetChannel(string channelId)
         {
             return new Channel {
-                title = channelId     
+                title = channelId
             };
         }
     }
