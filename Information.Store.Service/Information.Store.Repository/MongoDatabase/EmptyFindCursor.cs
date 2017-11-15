@@ -11,7 +11,6 @@ namespace Information.Store.Repository.MongoDatabase
 
     public void Dispose()
     {
-      throw new System.NotImplementedException();
     }
 
     public bool MoveNext(CancellationToken cancellationToken = default(CancellationToken))

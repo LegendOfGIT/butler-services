@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Information.Store.Repository.MongoDatabase
 {
-  public struct InformationEntry
+  public class InformationEntry
   {
     [BsonElement]
     public string Id { get; set; }

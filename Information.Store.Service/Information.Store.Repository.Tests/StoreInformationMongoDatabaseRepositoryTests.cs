@@ -6,7 +6,6 @@ using MongoDB.Bson;
 using MongoDB.Driver;
 using Newtonsoft.Json;
 using System;
-using System.Linq;
 using System.Collections.Generic;
 using Xunit;
 
@@ -26,9 +25,7 @@ namespace Information.Store.Repository.Tests
     [Fact]
     public void RepositoryInsertsInformationWithActiveFlagAndDiscoveryTimestampWhenInformationDoesNotAlreadyExist()
     {
-      var informationCollection = new MongoCollectionReturnsSpecificDocumentsStub(
-        new FindCursorReturnsSpecificDocumentsStub(new List<InformationEntry>())
-      );
+      var informationCollection = new MongoCollectionReturnsSpecificDocumentsStub(new List<InformationEntry>());
       var database = new MongoDatabaseSpy(new Dictionary<string, IMongoCollection<InformationEntry>> {
         { "information", informationCollection }
       });
@@ -51,17 +48,23 @@ namespace Information.Store.Repository.Tests
         new InformationEntry{ Id = "234-BCD", IsActive = false, DiscoveryTimestamp = new DateTime(2017, 2, 3) },
         new InformationEntry{ Id = "234-BCD", IsActive = true, DiscoveryTimestamp = new DateTime(2017, 10, 4) }
       };
-      var findCursor = new FindCursorReturnsSpecificDocumentsStub(existingEntries);
-      var informationCollection = new MongoCollectionReturnsSpecificDocumentsStub(findCursor);
+      var informationCollection = new MongoCollectionReturnsSpecificDocumentsStub(existingEntries);
       var database = new MongoDatabaseSpy(new Dictionary<string, IMongoCollection<InformationEntry>> {
         { "information", informationCollection }
       });
 
       var id = "234-BCD";
       var repository = new StoreInformationMongoDatabaseRepository(database);
-      repository.StoreInformation(new InformationEntity { Id = id });
+      repository.StoreInformation(new InformationEntity { Id = id, Properties = new[] { new InformationPropertyEntity {
+        Name = "titles",
+        Values = new[] { "title A" }
+      }}});
 
-      var expectedEntry = new InformationEntry { Id = id, IsActive = true, DiscoveryTimestamp = MongoCollectionReturnsSpecificDocumentsStub.DiscoveryTimestamp };
+      var expectedEntry = new InformationEntry { Id = id, IsActive = true, DiscoveryTimestamp = MongoCollectionReturnsSpecificDocumentsStub.DiscoveryTimestamp,
+        Properties = new[] { new InformationPropertyEntry {
+        Name = "titles",
+        Values = new BsonValue[] { "title A" }
+      }}};
       Assert.Equal(
         JsonConvert.SerializeObject(expectedEntry),
         JsonConvert.SerializeObject(informationCollection.LastInsertedEntry)
@@ -89,8 +92,7 @@ namespace Information.Store.Repository.Tests
           }
         }
       };
-      var findCursor = new FindCursorReturnsSpecificDocumentsStub(existingEntries);
-      var informationCollection = new MongoCollectionReturnsSpecificDocumentsStub(findCursor);
+      var informationCollection = new MongoCollectionReturnsSpecificDocumentsStub(existingEntries);
       var database = new MongoDatabaseSpy(new Dictionary<string, IMongoCollection<InformationEntry>> {
         { "information", informationCollection }
       });
@@ -108,7 +110,43 @@ namespace Information.Store.Repository.Tests
         }
       });
 
-      Assert.Empty(informationCollection.ReplacedEntries);
+      Assert.Null(informationCollection.ReplacedEntries);
+    }
+
+    [Fact]
+    public void RepositoryInsertNoInformationWhenIdenticalActiveInformationWithBamboozledPropertiesExists()
+    {
+      var existingEntries = new[]{
+        new InformationEntry{ Id = "234-BCD", IsActive = false, DiscoveryTimestamp = new DateTime(2017, 2, 3) },
+        new InformationEntry{
+          Id = "234-BCD",
+          IsActive = true,
+          DiscoveryTimestamp = new DateTime(2017, 10, 4),
+          Properties = new[]
+          {
+            new InformationPropertyEntry{ Name = "titles", Values = new BsonValue[]{ "information A", "information B", "information C" } },
+            new InformationPropertyEntry{ Name = "prices", Values = new BsonValue[]{ 12.50, 22.60 } },
+          }
+        }
+      };
+      var informationCollection = new MongoCollectionReturnsSpecificDocumentsStub(existingEntries);
+      var database = new MongoDatabaseSpy(new Dictionary<string, IMongoCollection<InformationEntry>> {
+        { "information", informationCollection }
+      });
+
+      var id = "234-BCD";
+      var repository = new StoreInformationMongoDatabaseRepository(database);
+      repository.StoreInformation(new InformationEntity
+      {
+        Id = id,
+        Properties = new[]
+        {
+          new InformationPropertyEntity{ Name = "prices", Values = new BsonValue[]{ 22.60, 12.50 } },
+          new InformationPropertyEntity{ Name = "titles", Values = new[]{ "information B", "information C", "information A" } }
+        }
+      });
+
+      Assert.Null(informationCollection.ReplacedEntries);
     }
 
     [Fact]
@@ -154,8 +192,7 @@ namespace Information.Store.Repository.Tests
 
     private MongoDatabaseSpy GetDatabaseSpy(InformationEntry[] entries)
     {
-      var findCursor = new FindCursorReturnsSpecificDocumentsStub(entries);
-      var informationCollection = new MongoCollectionReturnsSpecificDocumentsStub(findCursor);
+      var informationCollection = new MongoCollectionReturnsSpecificDocumentsStub(entries);
       return new MongoDatabaseSpy(new Dictionary<string, IMongoCollection<InformationEntry>> {
         { "information", informationCollection }
       });

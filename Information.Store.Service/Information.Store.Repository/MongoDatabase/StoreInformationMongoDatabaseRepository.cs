@@ -1,6 +1,7 @@
 ﻿using Information.Store.Repository.Entity;
 using MongoDB.Bson;
 using MongoDB.Driver;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,53 +11,94 @@ namespace Information.Store.Repository.MongoDatabase
   public class StoreInformationMongoDatabaseRepository : IStoreInformationRepository
   {
     private IMongoDatabase Database;
+    private IMongoCollection<InformationEntry> informationCollection;
 
     public StoreInformationMongoDatabaseRepository(IMongoDatabase Database)
     {
       this.Database = Database;
+      this.informationCollection = this.Database.GetCollection<InformationEntry>("information");
     }
 
     public void StoreInformation(InformationEntity information)
     {
-      var informationCollection = this.Database.GetCollection<InformationEntry>("information");
-      
-      if (informationCollection != null)
+      if (!this.HasIdenticalActiveEntryInCollection(information))
       {
-        var informationItems = this.GetInformationEntriesByInformationId(informationCollection, information.Id);
-        foreach(var informationItem in informationItems)
-        {
-          var replaceItem = new InformationEntry {
-            DiscoveryTimestamp = informationItem.DiscoveryTimestamp,
-            Id = informationItem.Id,
-            IsActive = false,
-            Properties = informationItem.Properties
-          };
-
-          informationCollection.ReplaceOne(item => item.Id == information.Id && item.DiscoveryTimestamp == informationItem.DiscoveryTimestamp, replaceItem);
-        }
-
-        informationCollection.InsertOne(new InformationEntry
-        {
-          Id = information.Id,
-          IsActive = true,
-          Properties = information?.Properties?.OrderBy(property => property.Name).Select(property =>
-          {
-            return new InformationPropertyEntry
-            {
-              Name = property.Name,
-              Values = property.Values?.Select(value => GetBsonValueFromObject(value))
-            };
-          }),
-          DiscoveryTimestamp = DateTime.Now
-        });
+        var informationId = information?.Id;
+        this.ResetActivityFlagsInInformationEntries(informationId);
+        this.InsertNewInformationEntryInCollection(information, informationId);
       }
     }
 
-    private IEnumerable<InformationEntry> GetInformationEntriesByInformationId(IMongoCollection<InformationEntry> informationCollection, string informationId)
+    private bool HasIdenticalActiveEntryInCollection(InformationEntity information)
     {
-      var informationEntries = informationCollection.FindSync(item => item.Id == informationId);
-      informationEntries = informationEntries ?? new EmptyFindCursor();
-      return informationEntries.ToList();
+      var activeInformationEntry = GetActiveInformationEntryByInformationId(information?.Id);
+      if (activeInformationEntry == null)
+      {
+        return false;
+      }
+
+      var activeEntry = new { Properties = activeInformationEntry.Properties };
+      var newEntry = new { Properties = information.Properties };
+
+      return JsonConvert.SerializeObject(newEntry) == JsonConvert.SerializeObject(activeEntry);
+    }
+
+    private void ResetActivityFlagsInInformationEntries(string informationId)
+    {
+      var informationItems = this.GetInformationEntriesByInformationId(informationId);
+      foreach (var informationItem in informationItems)
+      {
+        var replaceItem = new InformationEntry
+        {
+          DiscoveryTimestamp = informationItem.DiscoveryTimestamp,
+          Id = informationItem.Id,
+          IsActive = false,
+          Properties = informationItem.Properties
+        };
+
+        this.informationCollection.ReplaceOne(
+          item =>
+            item.Id == informationId && item.DiscoveryTimestamp == informationItem.DiscoveryTimestamp
+
+          , replaceItem
+        );
+      }
+    }
+
+    private void InsertNewInformationEntryInCollection(InformationEntity information, string informationId)
+    {
+      this.informationCollection?.InsertOne(new InformationEntry
+      {
+        Id = informationId,
+        IsActive = true,
+        Properties = information?.Properties?.OrderBy(property => property.Name).Select(property =>
+        {
+          return new InformationPropertyEntry
+          {
+            Name = property.Name,
+            Values = property.Values?.Select(value => GetBsonValueFromObject(value))
+          };
+        }),
+        DiscoveryTimestamp = DateTime.Now
+      });
+    }
+
+    private InformationEntry GetActiveInformationEntryByInformationId(string informationId)
+    {
+      return GetInformationEntriesByInformationId(informationId, true).FirstOrDefault();
+    }
+
+    private IEnumerable<InformationEntry> GetInformationEntriesByInformationId(string informationId, bool? isActive = null)
+    {
+      var informationEntries = this.informationCollection?.FindSync(item => item.Id == informationId);
+      var resultEntries = (informationEntries ?? new EmptyFindCursor()).ToList();
+
+      if (isActive.HasValue)
+      {
+        resultEntries = resultEntries.Where(resultEntry => resultEntry.IsActive == isActive.Value).ToList();
+      }
+
+      return resultEntries;
     }
 
     private BsonValue GetBsonValueFromObject(object value)

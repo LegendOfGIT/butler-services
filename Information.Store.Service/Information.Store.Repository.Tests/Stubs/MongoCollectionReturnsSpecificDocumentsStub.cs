@@ -17,11 +17,11 @@ namespace Information.Store.Repository.Tests.Stubs
 
     public static DateTime DiscoveryTimestamp = new DateTime(2017, 11, 11, 23, 42, 0);
 
-    private IAsyncCursor<InformationEntry> findCursor;
+    private IEnumerable<InformationEntry> existingEntries;
 
-    public MongoCollectionReturnsSpecificDocumentsStub(IAsyncCursor<InformationEntry> findCursor)
+    public MongoCollectionReturnsSpecificDocumentsStub(IEnumerable<InformationEntry> existingEntries)
     {
-      this.findCursor = findCursor;
+      this.existingEntries = existingEntries;
     }
 
     public CollectionNamespace CollectionNamespace => throw new System.NotImplementedException();
@@ -151,7 +151,7 @@ namespace Information.Store.Repository.Tests.Stubs
 
     public IAsyncCursor<TProjection> FindSync<TProjection>(FilterDefinition<InformationEntry> filter, FindOptions<InformationEntry, TProjection> options = null, CancellationToken cancellationToken = default(CancellationToken))
     {
-      return this.findCursor as IAsyncCursor<TProjection>;
+      return new FindCursorReturnsSpecificDocumentsStub(this.existingEntries) as IAsyncCursor<TProjection>;
     }
 
     public void InsertMany(IEnumerable<InformationEntry> documents, InsertManyOptions options = null, CancellationToken cancellationToken = default(CancellationToken))
