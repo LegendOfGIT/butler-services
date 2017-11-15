@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Entity\InformationPropertyEntity.cs" />
     <Compile Include="Entity\InformationEntity.cs" />
+    <Compile Include="MongoDatabase\EmptyFindCursor.cs" />
     <Compile Include="MongoDatabase\InformationPropertyEntry.cs" />
     <Compile Include="MongoDatabase\InformationEntry.cs" />
     <Compile Include="MongoDatabase\StoreInformationMongoDatabaseRepository.cs" />

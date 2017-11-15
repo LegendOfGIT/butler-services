@@ -2,6 +2,7 @@
 using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Information.Store.Repository.MongoDatabase
@@ -21,7 +22,7 @@ namespace Information.Store.Repository.MongoDatabase
       
       if (informationCollection != null)
       {
-        var informationItems = informationCollection.FindSync(item => item.Id == information.Id).ToList();
+        var informationItems = this.GetInformationEntriesByInformationId(informationCollection, information.Id);
         foreach(var informationItem in informationItems)
         {
           var replaceItem = new InformationEntry {
@@ -49,6 +50,13 @@ namespace Information.Store.Repository.MongoDatabase
           DiscoveryTimestamp = DateTime.Now
         });
       }
+    }
+
+    private IEnumerable<InformationEntry> GetInformationEntriesByInformationId(IMongoCollection<InformationEntry> informationCollection, string informationId)
+    {
+      var informationEntries = informationCollection.FindSync(item => item.Id == informationId);
+      informationEntries = informationEntries ?? new EmptyFindCursor();
+      return informationEntries.ToList();
     }
 
     private BsonValue GetBsonValueFromObject(object value)

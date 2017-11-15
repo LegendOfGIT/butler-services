@@ -26,3 +26,6 @@ Information.Store.Service/Information.Store.Repository.Tests/obj/
 Information.Store.Service/Information.Store.Repository/bin/Debug/Information.Store.Repository.dll
 Information.Store.Service/Information.Store.Repository/bin/
 Information.Store.Service/Information.Store.Shared.Entities/obj/
+Information.Store.Service/Information.Store.Shared.Entities/bin/
+Information.Warehouse.Repository/bin/Debug/Information.Warehouse.Repository.dll
+Information.Warehouse.Repository/bin/Debug/Information.Warehouse.Repository.pdb
