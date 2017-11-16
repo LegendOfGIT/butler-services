@@ -37,10 +37,31 @@ namespace Information.Store.Repository.MongoDatabase
         return false;
       }
 
-      var activeEntry = new { Properties = activeInformationEntry.Properties };
-      var newEntry = new { Properties = information.Properties };
+      var activeEntryProperties =
+        activeInformationEntry.Properties?
+          .OrderBy(property => property.Name)
+          .ToDictionary(
+            property => property.Name, 
+            property => 
+              property.Values?
+                .Select(value => value.ToString())
+                .OrderBy(value => value)
+          )
+      ;
 
-      return JsonConvert.SerializeObject(newEntry) == JsonConvert.SerializeObject(activeEntry);
+      var newEntryProperties = 
+        information.Properties?
+          .OrderBy(property => property.Name)
+          .ToDictionary(
+            property => property.Name,
+            property => 
+              property.Values?
+                .Select(value => value.ToString())
+                .OrderBy(value => value)
+          )
+      ;
+
+      return JsonConvert.SerializeObject(newEntryProperties) == JsonConvert.SerializeObject(activeEntryProperties);
     }
 
     private void ResetActivityFlagsInInformationEntries(string informationId)

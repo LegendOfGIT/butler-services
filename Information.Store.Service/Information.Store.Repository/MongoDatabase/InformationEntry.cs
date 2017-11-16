@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 using System;
+using System.Linq;
 using System.Collections.Generic;
 
 namespace Information.Store.Repository.MongoDatabase
