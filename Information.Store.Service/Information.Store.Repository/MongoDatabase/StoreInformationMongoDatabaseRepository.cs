@@ -71,15 +71,16 @@ namespace Information.Store.Repository.MongoDatabase
       {
         var replaceItem = new InformationEntry
         {
+          _id = informationItem._id,
           DiscoveryTimestamp = informationItem.DiscoveryTimestamp,
-          Id = informationItem.Id,
+          InformationId = informationItem.InformationId,
           IsActive = false,
           Properties = informationItem.Properties
         };
 
         this.informationCollection.ReplaceOne(
           item =>
-            item.Id == informationId && item.DiscoveryTimestamp == informationItem.DiscoveryTimestamp
+            item.InformationId == informationId && item.DiscoveryTimestamp == informationItem.DiscoveryTimestamp
 
           , replaceItem
         );
@@ -90,7 +91,7 @@ namespace Information.Store.Repository.MongoDatabase
     {
       this.informationCollection?.InsertOne(new InformationEntry
       {
-        Id = informationId,
+        InformationId = informationId,
         IsActive = true,
         Properties = information?.Properties?.OrderBy(property => property.Name).Select(property =>
         {
@@ -111,7 +112,7 @@ namespace Information.Store.Repository.MongoDatabase
 
     private IEnumerable<InformationEntry> GetInformationEntriesByInformationId(string informationId, bool? isActive = null)
     {
-      var informationEntries = this.informationCollection?.FindSync(item => item.Id == informationId);
+      var informationEntries = this.informationCollection?.FindSync(item => item.InformationId == informationId);
       var resultEntries = (informationEntries ?? new EmptyFindCursor()).ToList();
 
       if (isActive.HasValue)

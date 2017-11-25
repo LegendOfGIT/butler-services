@@ -1,14 +1,17 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 using System;
-using System.Linq;
 using System.Collections.Generic;
 
 namespace Information.Store.Repository.MongoDatabase
 {
   public class InformationEntry
   {
+    [BsonId]
+    public ObjectId _id { get; set; }
+
     [BsonElement]
-    public string Id { get; set; }
+    public string InformationId { get; set; }
 
     [BsonElement]
     public IEnumerable<InformationPropertyEntry> Properties { get; set; }

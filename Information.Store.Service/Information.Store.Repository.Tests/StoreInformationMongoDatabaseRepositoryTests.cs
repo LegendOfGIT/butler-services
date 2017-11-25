@@ -34,7 +34,7 @@ namespace Information.Store.Repository.Tests
       var repository = new StoreInformationMongoDatabaseRepository(database);
       repository.StoreInformation(new InformationEntity { Id = id });
 
-      var expectedEntry = new InformationEntry { Id = id, IsActive = true, DiscoveryTimestamp = MongoCollectionReturnsSpecificDocumentsStub.DiscoveryTimestamp };
+      var expectedEntry = new InformationEntry { InformationId = id, IsActive = true, DiscoveryTimestamp = MongoCollectionReturnsSpecificDocumentsStub.DiscoveryTimestamp };
       Assert.Equal(
         JsonConvert.SerializeObject(expectedEntry),
         JsonConvert.SerializeObject(informationCollection.LastInsertedEntry)
@@ -45,8 +45,8 @@ namespace Information.Store.Repository.Tests
     public void RepositoryInsertsInformationWithActiveFlagAndResetsActiveFlagsOfOlderVersionsWhenInformationDoesAlreadyExist()
     {
       var existingEntries = new[]{
-        new InformationEntry{ Id = "234-BCD", IsActive = false, DiscoveryTimestamp = new DateTime(2017, 2, 3) },
-        new InformationEntry{ Id = "234-BCD", IsActive = true, DiscoveryTimestamp = new DateTime(2017, 10, 4) }
+        new InformationEntry{ InformationId = "234-BCD", IsActive = false, DiscoveryTimestamp = new DateTime(2017, 2, 3) },
+        new InformationEntry{ InformationId = "234-BCD", IsActive = true, DiscoveryTimestamp = new DateTime(2017, 10, 4) }
       };
       var informationCollection = new MongoCollectionReturnsSpecificDocumentsStub(existingEntries);
       var database = new MongoDatabaseSpy(new Dictionary<string, IMongoCollection<InformationEntry>> {
@@ -60,7 +60,7 @@ namespace Information.Store.Repository.Tests
         Values = new[] { "title A" }
       }}});
 
-      var expectedEntry = new InformationEntry { Id = id, IsActive = true, DiscoveryTimestamp = MongoCollectionReturnsSpecificDocumentsStub.DiscoveryTimestamp,
+      var expectedEntry = new InformationEntry { InformationId = id, IsActive = true, DiscoveryTimestamp = MongoCollectionReturnsSpecificDocumentsStub.DiscoveryTimestamp,
         Properties = new[] { new InformationPropertyEntry {
         Name = "titles",
         Values = new BsonValue[] { "title A" }
@@ -81,9 +81,9 @@ namespace Information.Store.Repository.Tests
     public void RepositoryInsertNoInformationWhenIdenticalActiveInformationExists()
     {
       var existingEntries = new[]{
-        new InformationEntry{ Id = "234-BCD", IsActive = false, DiscoveryTimestamp = new DateTime(2017, 2, 3) },
+        new InformationEntry{ InformationId = "234-BCD", IsActive = false, DiscoveryTimestamp = new DateTime(2017, 2, 3) },
         new InformationEntry{
-          Id = "234-BCD",
+          InformationId = "234-BCD",
           IsActive = true,
           DiscoveryTimestamp = new DateTime(2017, 10, 4),
           Properties = new[]
@@ -117,9 +117,9 @@ namespace Information.Store.Repository.Tests
     public void RepositoryInsertNoInformationWhenIdenticalActiveInformationWithBamboozledPropertiesExists()
     {
       var existingEntries = new[]{
-        new InformationEntry{ Id = "234-BCD", IsActive = false, DiscoveryTimestamp = new DateTime(2017, 2, 3) },
+        new InformationEntry{ InformationId = "234-BCD", IsActive = false, DiscoveryTimestamp = new DateTime(2017, 2, 3) },
         new InformationEntry{
-          Id = "234-BCD",
+          InformationId = "234-BCD",
           IsActive = true,
           DiscoveryTimestamp = new DateTime(2017, 10, 4),
           Properties = new[]
