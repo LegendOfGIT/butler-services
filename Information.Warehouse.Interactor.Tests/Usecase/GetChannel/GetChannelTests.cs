@@ -1,4 +1,5 @@
-﻿using Information.Warehouse.Interactor.Tests.Repository.Spies;
+﻿using Information.Warehouse.Entity;
+using Information.Warehouse.Interactor.Tests.Repository.Spies;
 using Information.Warehouse.Repository;
 using Newtonsoft.Json;
 using Xunit;
@@ -43,12 +44,21 @@ namespace Information.Warehouse.Interactor.Tests
     [Fact]
     public void InteractorReturnsChannelInformationFromRepository()
     {
-      SetUpSpecified(new GetChannelRepositoryReturnsChannelInformationStub());
+      var informationItemIds = new[]
+      {
+        "BabyOne.de.TutTutGarage",
+        "Cinemaxx.de.movie.BigGreekWedding"
+      };
+      SetUpSpecified(new GetChannelRepositoryReturnsChannelInformationStub(new Channel {
+        Id = "all",
+        InformationItemIds = informationItemIds
+      }));
       var response = interactor.Execute();
 
       var expectedResponse = new GetChannelResponse
       {
-        ChannelId = GetChannelRepositoryReturnsChannelInformationStub.ChannelId
+        ChannelId = "all",
+        InformationItemIds = informationItemIds
       };
       Assert.Equal(
         JsonConvert.SerializeObject(expectedResponse),

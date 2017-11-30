@@ -5,14 +5,16 @@ namespace Information.Warehouse.Interactor.Tests.Repository.Spies
 {
   public class GetChannelRepositoryReturnsChannelInformationStub : IGetChannelRepository
   {
-    public const string ChannelId = "654321";
+    private Channel channelEntity;
+
+    public GetChannelRepositoryReturnsChannelInformationStub(Channel channelEntity)
+    {
+      this.channelEntity = channelEntity;
+    }
 
     public Channel GetChannel()
     {
-      return new Channel
-      {
-        Id = ChannelId
-      };
+      return this.channelEntity;
     }
   }
 }

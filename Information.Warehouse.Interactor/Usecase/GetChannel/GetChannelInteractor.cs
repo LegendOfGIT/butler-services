@@ -16,7 +16,8 @@ namespace Information.Warehouse.Interactor
       var response = this.GetChannelRepository.GetChannel();
       return new GetChannelResponse
       {
-        ChannelId = response.Id
+        ChannelId = response.Id,
+        InformationItemIds = response.InformationItemIds
       };
     }
   }

@@ -64,6 +64,8 @@
     <Compile Include="GetChannelFilesystemRepositoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Spies\MongoDatabaseSpy.cs" />
+    <Compile Include="Stubs\FindCursorReturnsSpecificDocumentsStub.cs" />
+    <Compile Include="Stubs\MongoCollectionReturnsSpecificDocumentsStub.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
