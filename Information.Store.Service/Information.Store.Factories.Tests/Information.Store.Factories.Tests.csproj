@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\NullableDateTimeFromStringFactoryTests.cs" />
     <Compile Include="Factories\NullableIntegerFromStringFactoryTests.cs" />
     <Compile Include="Factories\NullableBooleanFromStringFactoryTests.cs" />
     <Compile Include="Factories\Spies\StringToObjectFactoryReturnsIntegerSpy.cs" />

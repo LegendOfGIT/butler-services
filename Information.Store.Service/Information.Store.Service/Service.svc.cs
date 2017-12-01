@@ -13,7 +13,8 @@ namespace Information.Store.Service
       var storeInformationRequest = new StoreInformationRequestFromServiceRequestFactory(
         new IStringToObject[]{
           new NullableBooleanFromStringFactory(),
-          new NullableIntegerFromStringFactory()
+          new NullableIntegerFromStringFactory(),
+          new NullableDateTimeFromStringFactory()
         }
       ).CreateRequest(request);
 

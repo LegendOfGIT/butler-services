@@ -39,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Factories\IStringToObject.cs" />
+    <Compile Include="Factories\NullableDateTimeFromStringFactory.cs" />
     <Compile Include="Factories\NullableIntegerFromStringFactory.cs" />
     <Compile Include="Factories\NullableBooleanFromStringFactory.cs" />
     <Compile Include="Factories\StoreInformationRequestFromServiceRequestFactory.cs" />
