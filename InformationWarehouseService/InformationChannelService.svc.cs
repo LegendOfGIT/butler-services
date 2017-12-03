@@ -10,9 +10,11 @@ namespace InformationWarehouse
     {
       var mongoClient = new MongoClient();
       var repository = new GetChannelMongoDatabaseRepository(mongoClient.GetDatabase("information-store"));
-      var interactor = new GetChannelInteractor(repository);          
+      var interactor = new GetChannelInteractor(repository);
 
-      return interactor.Execute();
+      var response = interactor.Execute();
+      response.ChannelId = channelId;
+      return response;
     }
   }
 }
