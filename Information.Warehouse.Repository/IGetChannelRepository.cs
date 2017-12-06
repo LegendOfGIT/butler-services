@@ -2,8 +2,8 @@
 
 namespace Information.Warehouse.Repository
 {
-    public interface IGetChannelRepository
-    {
-      Channel GetChannel();
-    }
+  public interface IGetChannelRepository
+  {
+    Channel GetChannel();
+  }
 }

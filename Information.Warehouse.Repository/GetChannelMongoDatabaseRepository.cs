@@ -21,7 +21,7 @@ namespace Information.Warehouse.Repository
       var informationCollection = this.Database.GetCollection<InformationEntry>("information");
       if (informationCollection != null)
       {
-        informationItemIds = informationCollection.Find<InformationEntry>(item => true).ToList().Select(
+        informationItemIds = informationCollection.Find(item => true).ToList().Select(
           item => item.InformationId
         );
       }

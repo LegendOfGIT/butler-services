@@ -53,11 +53,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\ChannelItem.cs" />
+    <Compile Include="GetChannelItemMongoDatabaseRepository.cs" />
+    <Compile Include="IGetChannelItemRepository.cs" />
     <Compile Include="MongoDatabase\InformationPropertyEntry.cs" />
     <Compile Include="MongoDatabase\InformationEntry.cs" />
     <Compile Include="Entity\Channel.cs" />
     <Compile Include="GetChannelMongoDatabaseRepository.cs" />
-    <Compile Include="GetChannelFilesystemRepository.cs" />
     <Compile Include="IGetChannelRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
