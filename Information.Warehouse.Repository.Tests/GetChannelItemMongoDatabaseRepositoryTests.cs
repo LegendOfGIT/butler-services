@@ -26,21 +26,33 @@ namespace Information.Warehouse.Repository.Tests
     public void RepositoryReturnsChannelItemFromDatabase()
     {
       var informationCollection = new MongoCollectionReturnsSpecificDocumentsStub(new List<InformationEntry>
-      {
-        new InformationEntry{
+      {        
+        new InformationEntry {
           InformationId = "Nintendo.de.Zelda-Twilight-Princess",
           Properties = new[]
           {
-//            new InformationPropertyEntry{ Name = "titles", Values = new BsonValue[]{ "The Legend of Zelda: Twilight Princess" } },
-            new InformationPropertyEntry{ Name = "release-dates", Values = new BsonValue[]{ new DateTime(2016, 3, 4).Ticks } }
+            new InformationPropertyEntry{
+              Name = "titles",
+              Values = new BsonValue[]{ "The Legend of Zelda: Twilight Princess" }
+            },
+            new InformationPropertyEntry{
+              Name = "release-dates",
+              Values = new BsonValue[]{ DateTime.SpecifyKind(new DateTime(2016, 3, 4), DateTimeKind.Utc) }
+            }
           }
         },
-        new InformationEntry{
+        new InformationEntry {
           InformationId = "Steam.de.Sims4",
           Properties = new[]
           {
-            new InformationPropertyEntry{ Name = "titles", Values = new BsonValue[]{ "Die Sims 4" } },
-            new InformationPropertyEntry{ Name = "release-dates", Values = new BsonValue[]{ new DateTime(2014, 9, 2) } }
+            new InformationPropertyEntry{
+              Name = "titles",
+              Values = new BsonValue[]{ "Die Sims 4" }
+            },
+            new InformationPropertyEntry{
+              Name = "release-dates",
+              Values = new BsonValue[]{ DateTime.SpecifyKind(new DateTime(2014, 9, 2), DateTimeKind.Utc) }
+            }
           }
         }
       });
@@ -51,19 +63,18 @@ namespace Information.Warehouse.Repository.Tests
       var repository = new GetChannelItemMongoDatabaseRepository(database);
       var channelItem = repository.GetChannelItem("Nintendo.de.Zelda-Twilight-Princess");
 
-      Assert.Equal(
-        JsonConvert.SerializeObject(new ChannelItem
-        {
-          Id = "Nintendo.de.Zelda-Twilight-Princess",
-          Properties = new Dictionary<string, IEnumerable<object>>
+      var expectedJson = JsonConvert.SerializeObject(new ChannelItem
+      {
+        Id = "Nintendo.de.Zelda-Twilight-Princess",
+        Properties = new Dictionary<string, IEnumerable<object>>
           {
-            //{ "titles", new object[]{ "The Legend of Zelda: Twilight Princess" } },
-            { "release-dates", new object[]{ new DateTime(2016, 3, 4) } }
+            { "titles", new object[]{ "The Legend of Zelda: Twilight Princess" } },
+            { "release-dates", new object[]{ DateTime.SpecifyKind(new DateTime(2016, 3, 4), DateTimeKind.Utc) } }
           }
-        }),
-        JsonConvert.SerializeObject(channelItem)
-      );
-    }
+      });
+      var actualJson = JsonConvert.SerializeObject(channelItem);
 
+      Assert.Equal(expectedJson, actualJson);
+    }
   }
 }

@@ -19,12 +19,17 @@ namespace Information.Warehouse.Repository
     public ChannelItem GetChannelItem(string channelItemId)
     {
       var informationCollection = this.Database.GetCollection<InformationEntry>("information");
-      var informationItem = informationCollection.Find(item => item.InformationId == channelItemId && item.IsActive).First();
+      var informationItem = informationCollection?.Find(item => item.InformationId == channelItemId && item.IsActive).First();
+
+      var propertyDictionary = informationItem?.Properties.ToDictionary(
+        item => item.Name,
+        item => item.Values.Select(value => BsonTypeMapper.MapToDotNetValue(value))
+      );
 
       return new ChannelItem
       {
         Id = channelItemId,
-        Properties = informationItem.Properties.ToDictionary(item => item.Name, item => item.Values.Select(value => (object) new DateTime(value.AsInt64)))
+        Properties = propertyDictionary
       };
     }
   }
