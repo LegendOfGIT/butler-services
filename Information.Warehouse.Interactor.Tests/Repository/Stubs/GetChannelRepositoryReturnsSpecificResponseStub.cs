@@ -1,13 +1,13 @@
 ﻿using Information.Warehouse.Entity;
 using Information.Warehouse.Repository;
 
-namespace Information.Warehouse.Interactor.Tests.Repository.Spies
+namespace Information.Warehouse.Usecase.Tests.Repository.Spies
 {
-  public class GetChannelRepositoryReturnsChannelInformationStub : IGetChannelRepository
+  public class GetChannelRepositoryReturnsSpecificResponseStub : IGetChannelRepository
   {
     private Channel channelEntity;
 
-    public GetChannelRepositoryReturnsChannelInformationStub(Channel channelEntity)
+    public GetChannelRepositoryReturnsSpecificResponseStub(Channel channelEntity)
     {
       this.channelEntity = channelEntity;
     }

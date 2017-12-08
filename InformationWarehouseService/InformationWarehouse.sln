@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InformationWarehouse", "InformationWarehouse.csproj", "{0905355A-EFD5-4C2B-AFC1-9044AC502A90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Warehouse.Interactor.Tests", "..\Information.Warehouse.Interactor.Tests\Information.Warehouse.Interactor.Tests.csproj", "{762ED99F-15C5-4591-96F7-FA1CB8878657}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Warehouse.Usecase.Tests", "..\Information.Warehouse.Interactor.Tests\Information.Warehouse.Usecase.Tests.csproj", "{762ED99F-15C5-4591-96F7-FA1CB8878657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Warehouse.Interactor", "..\Information.Warehouse.Interactor\Information.Warehouse.Interactor.csproj", "{587F07B9-A4B9-4D95-8343-C684EB8DD8F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Warehouse.Usecase", "..\Information.Warehouse.Interactor\Information.Warehouse.Usecase.csproj", "{587F07B9-A4B9-4D95-8343-C684EB8DD8F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Warehouse.Repository", "..\Information.Warehouse.Repository\Information.Warehouse.Repository.csproj", "{230D7265-5065-42B7-8F71-CCEA946574AD}"
 EndProject

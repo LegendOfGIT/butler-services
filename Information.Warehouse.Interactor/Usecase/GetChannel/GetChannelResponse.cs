@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
 
-namespace Information.Warehouse.Interactor
+namespace Information.Warehouse.Usecase
 {
   [DataContract]
   public class GetChannelResponse

@@ -1,10 +1,10 @@
 ﻿using Information.Warehouse.Entity;
-using Information.Warehouse.Interactor.Tests.Repository.Spies;
+using Information.Warehouse.Usecase.Tests.Repository.Spies;
 using Information.Warehouse.Repository;
 using Newtonsoft.Json;
 using Xunit;
 
-namespace Information.Warehouse.Interactor.Tests
+namespace Information.Warehouse.Usecase.Tests
 {
   public class GetChannelTests
   {
@@ -49,7 +49,7 @@ namespace Information.Warehouse.Interactor.Tests
         "BabyOne.de.TutTutGarage",
         "Cinemaxx.de.movie.BigGreekWedding"
       };
-      SetUpSpecified(new GetChannelRepositoryReturnsChannelInformationStub(new Channel {
+      SetUpSpecified(new GetChannelRepositoryReturnsSpecificResponseStub(new Channel {
         Id = "all",
         InformationItemIds = informationItemIds
       }));

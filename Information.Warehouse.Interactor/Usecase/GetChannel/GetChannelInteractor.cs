@@ -1,6 +1,6 @@
 ﻿using Information.Warehouse.Repository;
 
-namespace Information.Warehouse.Interactor
+namespace Information.Warehouse.Usecase
 {
   public class GetChannelInteractor
   {

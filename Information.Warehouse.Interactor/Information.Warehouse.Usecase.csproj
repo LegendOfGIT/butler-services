@@ -35,6 +35,8 @@
     <Reference Include="System.Runtime.Serialization" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Usecase\GetChannelItem\GetChannelItemInteractor.cs" />
+    <Compile Include="Usecase\GetChannelItem\GetChannelItemResponse.cs" />
     <Compile Include="Usecase\GetChannel\GetChannelResponse.cs" />
     <Compile Include="Usecase\GetChannel\GetChannelInteractor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

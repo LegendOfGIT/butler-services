@@ -1,7 +1,7 @@
 ﻿using Information.Warehouse.Entity;
 using Information.Warehouse.Repository;
 
-namespace Information.Warehouse.Interactor.Tests.Repository.Spies
+namespace Information.Warehouse.Usecase.Tests.Repository.Spies
 {
   public class GetChannelRepositorySpy : IGetChannelRepository
   {
