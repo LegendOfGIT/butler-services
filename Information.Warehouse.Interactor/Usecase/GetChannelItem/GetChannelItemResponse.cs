@@ -9,6 +9,9 @@ namespace Information.Warehouse.Usecase
     public string ChannelItemId { get; set; }
 
     [DataMember]
+    public string MainImageUrl { get; set; }
+
+    [DataMember]
     public string Title;
   }
 }

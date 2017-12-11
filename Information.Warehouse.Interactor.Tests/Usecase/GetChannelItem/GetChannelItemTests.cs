@@ -62,5 +62,27 @@ namespace Information.Warehouse.Usecase.Tests
       var response = interactor.Execute("AAA-BBB-CCC-DDD");
       Assert.Equal("Lord of the rings: Shadow of mordor", response.Title);
     }
+
+    [Fact]
+    public void InteractorReturnsMainImagePropertyFromRepository()
+    {
+      var channelItem = new ChannelItem
+      {
+        Properties = new Dictionary<string, IEnumerable<object>>
+        {
+          {
+            "images",
+            new[]{
+              "http://de.web.img2.acsta.net/r_1920_1080/pictures/16/11/16/11/48/237316.jpg",
+              "http://de.web.img2.acsta.net/r_1920_1080/pictures/16/11/16/11/55/237316.jpg"
+            }
+          }
+        }
+      };
+      SetUpSpecified(new GetChannelItemRepositoryReturnsSpecificResponseStub(channelItem));
+
+      var response = interactor.Execute("AAA-BBB-CCC-DDD");
+      Assert.Equal("http://de.web.img2.acsta.net/r_1920_1080/pictures/16/11/16/11/48/237316.jpg", response.MainImageUrl);
+    }
   }
 }

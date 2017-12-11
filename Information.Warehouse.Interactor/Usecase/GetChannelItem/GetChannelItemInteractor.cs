@@ -20,6 +20,7 @@ namespace Information.Warehouse.Usecase
 
       return new GetChannelItemResponse
       {
+        MainImageUrl = GetInformationFromChannelItemProperties(channelItemProperties, "images"),
         Title = GetInformationFromChannelItemProperties(channelItemProperties, "titles")
       };
     }
