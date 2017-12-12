@@ -9,6 +9,8 @@ namespace Information.Warehouse.Usecase.Tests
 {
   public class GetChannelItemTests
   {
+    private const string DescriptionStub = "Das Spiel ist zeitlich zwischen den Ereignissen von Der Hobbit und Der Herr der Ringe angesiedelt. Die Haupthandlung dreht sich um Talion, einen Waldläufer von Gondor, welcher, als der dunkle Herrscher Sauron mit seiner Armee die Herrschaft über Mordor an sich reißt, während der Verteidigung";
+
     private GetChannelItemRepositorySpy repositorySpy;
     private GetChannelItemInteractor interactor;
 
@@ -83,6 +85,38 @@ namespace Information.Warehouse.Usecase.Tests
 
       var response = interactor.Execute("AAA-BBB-CCC-DDD");
       Assert.Equal("http://de.web.img2.acsta.net/r_1920_1080/pictures/16/11/16/11/48/237316.jpg", response.MainImageUrl);
+    }
+
+    [Fact]
+    public void InteractorReturnsDescriptionExcerptPropertyFromRepository()
+    {
+      var channelItem = new ChannelItem
+      {
+        Properties = new Dictionary<string, IEnumerable<object>>
+        {
+          { "descriptions", new[]{ DescriptionStub } }
+        }
+      };
+      SetUpSpecified(new GetChannelItemRepositoryReturnsSpecificResponseStub(channelItem));
+
+      var response = interactor.Execute("AAA-BBB-CCC-DDD");
+      Assert.Equal("Das Spiel ist zeitlich zwischen den Ereignissen von Der Hobbit und Der Herr der Ringe angesiedelt. Die Haupthandlung dreht sich um Talion, einen Waldläufer von Gondor, welcher, als der dunkle Herrscher Sauron mit seiner Armee die Herrschaft über Mordor an...", response.DescriptionExcerpt);
+    }
+
+    [Fact]
+    public void InteractorReturnsDescriptionPropertyFromRepository()
+    {
+      var channelItem = new ChannelItem
+      {
+        Properties = new Dictionary<string, IEnumerable<object>>
+        {
+          { "descriptions", new[]{ DescriptionStub } }
+        }
+      };
+      SetUpSpecified(new GetChannelItemRepositoryReturnsSpecificResponseStub(channelItem));
+
+      var response = interactor.Execute("AAA-BBB-CCC-DDD");
+      Assert.Equal(DescriptionStub, response.Description);
     }
   }
 }
