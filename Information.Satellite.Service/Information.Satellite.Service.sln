@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Information.Satellite.Service", "E:\Entwicklung\GIT\DotNet\butler-services\Information.Satellite.Service\Information.Satellite.Service\", "{458E65C7-E5D7-41F3-9E0C-3BD37B232A95}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62408"
+		Debug.AspNetCompiler.PhysicalPath = "E:\Entwicklung\GIT\DotNet\butler-services\Information.Satellite.Service\Information.Satellite.Service\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62408\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62408"
+		Release.AspNetCompiler.PhysicalPath = "E:\Entwicklung\GIT\DotNet\butler-services\Information.Satellite.Service\Information.Satellite.Service\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62408\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62408"
+		SlnRelativePath = "E:\Entwicklung\GIT\DotNet\butler-services\Information.Satellite.Service\Information.Satellite.Service\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Satellite.Usecase.Tests", "E:\Entwicklung\GIT\DotNet\butler-services\Information.Satellite.Service\Information.Satellite.Usecase.Tests\Information.Satellite.Usecase.Tests.csproj", "{AFF2D057-B593-4E06-A7A7-B14E505D8397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Satellite.Usecase", "E:\Entwicklung\GIT\DotNet\butler-services\Information.Satellite.Service\Information.Satellite.Usecase\Information.Satellite.Usecase.csproj", "{682561A8-F800-40DE-B5CF-84A4C4EE3837}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{458E65C7-E5D7-41F3-9E0C-3BD37B232A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458E65C7-E5D7-41F3-9E0C-3BD37B232A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458E65C7-E5D7-41F3-9E0C-3BD37B232A95}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{458E65C7-E5D7-41F3-9E0C-3BD37B232A95}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{AFF2D057-B593-4E06-A7A7-B14E505D8397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF2D057-B593-4E06-A7A7-B14E505D8397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF2D057-B593-4E06-A7A7-B14E505D8397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF2D057-B593-4E06-A7A7-B14E505D8397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682561A8-F800-40DE-B5CF-84A4C4EE3837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682561A8-F800-40DE-B5CF-84A4C4EE3837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682561A8-F800-40DE-B5CF-84A4C4EE3837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682561A8-F800-40DE-B5CF-84A4C4EE3837}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A333772A-02E8-4C53-AE24-A26B52B69B37}
+	EndGlobalSection
+EndGlobal
