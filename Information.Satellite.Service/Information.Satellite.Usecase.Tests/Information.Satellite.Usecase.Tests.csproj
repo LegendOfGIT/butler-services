@@ -66,6 +66,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Spies\Repository\WebContent\WebContentRepositorySpy.cs" />
+    <Compile Include="Stubs\Repository\WebContent\WebContentRepositoryReturnsSpecificContentStub.cs" />
     <Compile Include="Usecase\GetInformationItem\GetInformationItemInteractorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -79,6 +81,10 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Information.Satellite.Repository\Information.Satellite.Repository.csproj">
+      <Project>{d1f09566-eeeb-42cc-b3df-9a2b49e8b515}</Project>
+      <Name>Information.Satellite.Repository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Information.Satellite.Usecase\Information.Satellite.Usecase.csproj">
       <Project>{682561a8-f800-40de-b5cf-84a4c4ee3837}</Project>
       <Name>Information.Satellite.Usecase</Name>

@@ -7,27 +7,29 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Information.Satellite.Servi
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_62408"
-		Debug.AspNetCompiler.PhysicalPath = "E:\Entwicklung\GIT\DotNet\butler-services\Information.Satellite.Service\Information.Satellite.Service\"
+		Debug.AspNetCompiler.PhysicalPath = "Information.Satellite.Service\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62408\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_62408"
-		Release.AspNetCompiler.PhysicalPath = "E:\Entwicklung\GIT\DotNet\butler-services\Information.Satellite.Service\Information.Satellite.Service\"
+		Release.AspNetCompiler.PhysicalPath = "Information.Satellite.Service\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62408\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "62408"
-		SlnRelativePath = "E:\Entwicklung\GIT\DotNet\butler-services\Information.Satellite.Service\Information.Satellite.Service\"
+		SlnRelativePath = "Information.Satellite.Service\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Satellite.Usecase.Tests", "E:\Entwicklung\GIT\DotNet\butler-services\Information.Satellite.Service\Information.Satellite.Usecase.Tests\Information.Satellite.Usecase.Tests.csproj", "{AFF2D057-B593-4E06-A7A7-B14E505D8397}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Satellite.Usecase", "E:\Entwicklung\GIT\DotNet\butler-services\Information.Satellite.Service\Information.Satellite.Usecase\Information.Satellite.Usecase.csproj", "{682561A8-F800-40DE-B5CF-84A4C4EE3837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information.Satellite.Repository", "Information.Satellite.Repository\Information.Satellite.Repository.csproj", "{D1F09566-EEEB-42CC-B3DF-9A2B49E8B515}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{682561A8-F800-40DE-B5CF-84A4C4EE3837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{682561A8-F800-40DE-B5CF-84A4C4EE3837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{682561A8-F800-40DE-B5CF-84A4C4EE3837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1F09566-EEEB-42CC-B3DF-9A2B49E8B515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F09566-EEEB-42CC-B3DF-9A2B49E8B515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F09566-EEEB-42CC-B3DF-9A2B49E8B515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F09566-EEEB-42CC-B3DF-9A2B49E8B515}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
