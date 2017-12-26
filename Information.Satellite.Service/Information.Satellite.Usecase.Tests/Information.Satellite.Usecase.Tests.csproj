@@ -73,6 +73,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Stubs\Repository\WebContent\emptyHtml.stub" />
+    <None Include="Stubs\Repository\WebContent\Fallout4Goty.stub" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="C:\Users\Marcel_2\source\repos\Information.Satellite.Service %282%29\packages\xunit.analyzers.0.7.0\analyzers\dotnet\cs\xunit.analyzers.dll" />

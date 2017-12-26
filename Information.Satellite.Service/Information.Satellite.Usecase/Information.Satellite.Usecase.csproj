@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IContentParsingCommand.cs" />
+    <Compile Include="Usecase\GetInformationItem\ParseByTagCommand.cs" />
     <Compile Include="Usecase\GetInformationItem\GetInformationItemInteractorRequest.cs" />
     <Compile Include="Usecase\GetInformationItem\GetInformationItemInteractorResponse.cs" />
     <Compile Include="Usecase\GetInformationItem\GetInformationItemInteractor.cs" />

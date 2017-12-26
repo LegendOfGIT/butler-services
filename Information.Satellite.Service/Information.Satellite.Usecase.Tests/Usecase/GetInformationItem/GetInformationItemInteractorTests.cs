@@ -1,7 +1,8 @@
-﻿using Information.Satellite.Usecase.Tests.Spies.Repository.GetWebContent;
+﻿using Information.Satellite.Usecase.GetInformationItem;
+using Information.Satellite.Usecase.Tests.Spies.Repository.GetWebContent;
 using Information.Satellite.Usecase.Tests.Stubs.Repository.GetWebContent;
-using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using Xunit;
 
 namespace Information.Satellite.Usecase.GetInformationItems
@@ -27,7 +28,7 @@ namespace Information.Satellite.Usecase.GetInformationItems
     [Fact]
     public void TestInteractorReturnsContentFromInformationSource()
     {
-      var repository = new WebContentRepositoryReturnsSpecificContentStub("<html></html>");
+      var repository = new WebContentRepositoryReturnsSpecificContentStub("emptyHtml.stub");
       var interactor = new GetInformationItemInteractor(repository);
       var response = interactor.Execute(new GetInformationItemInteractorRequest());
 
@@ -52,24 +53,38 @@ namespace Information.Satellite.Usecase.GetInformationItems
     [Fact]
     public void TestInteractorReturnsContentFromWithinHtmlTag()
     {
-      var interactor = new GetInformationItemInteractor(new WebContentRepositoryReturnsSpecificContentStub(
-        "<div class=\"breadcrumbs\">"
-          + "<div class=\"blockbg\">"
-		        + "<a href=\"http://store.steampowered.com/search/?term=&snr=1_5_9__205\">Alle Spiele</a>"
-						+ "&gt;"
-            + "<a href=\"http://store.steampowered.com/genre/RPG/?snr=1_5_9__205\">RPG</a>"
-            + "&gt;"
-            + "<a href=\"http://store.steampowered.com/app/22370/?snr=1_5_9__205\">"
-              + "<span itemprop=\"name\">Fallout 3: Game of the Year Edition</span>"
-            + "</a>"
-				  + "</div>"
-        + "</div>"
-      ));
+      var interactor = new GetInformationItemInteractor(new WebContentRepositoryReturnsSpecificContentStub("Fallout4Goty.stub"));
       var response = interactor.Execute(new GetInformationItemInteractorRequest());
 
       Assert.Equal(
         "Fallout 3: Game of the Year Edition",
         response.Title
+      );
+    }
+
+    [Fact]
+    public void TestInteractorReturnsReleaseDateFromWithinHtmlTagUsingTagParsingCommands()
+    {
+      var interactor = new GetInformationItemInteractor(new WebContentRepositoryReturnsSpecificContentStub("Fallout4Goty.stub"));
+      var response = interactor.Execute(new GetInformationItemInteractorRequest
+      {
+        ContentParsingCommands = new[]
+        {
+          new ParseByTagCommand
+          {
+            TagName = "div",
+            Attributes = new Dictionary<string, string>{ { "class", "release_date" } },
+            ContentParsingCommand = new ParseByTagCommand {
+              TagName = "div",
+              Attributes = new Dictionary<string, string>{ { "class", "date" }}
+            }
+          }
+        }
+      });
+
+      Assert.Equal(
+        "13. Okt. 2009",
+        response.ReleaseDate
       );
     }
   }

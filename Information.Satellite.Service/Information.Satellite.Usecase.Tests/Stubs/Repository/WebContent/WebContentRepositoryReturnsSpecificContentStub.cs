@@ -1,5 +1,6 @@
 ﻿using System;
 using Information.Satellite.Repository.Interfaces;
+using System.IO;
 
 namespace Information.Satellite.Usecase.Tests.Stubs.Repository.GetWebContent
 {
@@ -7,9 +8,9 @@ namespace Information.Satellite.Usecase.Tests.Stubs.Repository.GetWebContent
   {
     private string webContent;
 
-    public WebContentRepositoryReturnsSpecificContentStub(string webContent)
+    public WebContentRepositoryReturnsSpecificContentStub(string webContentStubFile)
     {
-      this.webContent = webContent;
+      this.webContent = File.ReadAllText($@"../../Stubs/Repository/WebContent/{webContentStubFile}");
     }
 
     public string GetWebContentAsString(Uri uri)

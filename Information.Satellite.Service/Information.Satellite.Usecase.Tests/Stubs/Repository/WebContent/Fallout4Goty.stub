@@ -1,0 +1,1880 @@
+﻿
+<!DOCTYPE html>
+<html class=" responsive" lang="de">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>Sparen Sie 50% bei Fallout 3: Game of the Year Edition auf Steam</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<link href="http://store.edgecast.steamstatic.com/public/shared/css/motiva_sans.css?v=Sd0odMs2NjL1" rel="stylesheet" type="text/css" >
+<link href="http://store.edgecast.steamstatic.com/public/shared/css/shared_global.css?v=W1HKWEcSAl6I" rel="stylesheet" type="text/css" >
+<link href="http://store.edgecast.steamstatic.com/public/shared/css/buttons.css?v=FMXZx9fv9yp_" rel="stylesheet" type="text/css" >
+<link href="http://store.edgecast.steamstatic.com/public/css/v6/store.css?v=JgvvOW4swyRF" rel="stylesheet" type="text/css" >
+<link href="http://store.edgecast.steamstatic.com/public/shared/css/user_reviews.css?v=CnLzLL-Zb2Pi" rel="stylesheet" type="text/css" >
+<link href="http://store.edgecast.steamstatic.com/public/shared/css/store_game_shared.css?v=JivU3bgEI1XA" rel="stylesheet" type="text/css" >
+<link href="http://store.edgecast.steamstatic.com/public/css/v6/game.css?v=3oekprWxYmGm" rel="stylesheet" type="text/css" >
+<link href="http://store.edgecast.steamstatic.com/public/css/v6/recommended.css?v=dEgE71eeR-S9" rel="stylesheet" type="text/css" >
+<link href="http://store.edgecast.steamstatic.com/public/shared/css/apphub.css?v=muYvEyG4Fyyu" rel="stylesheet" type="text/css" >
+<link href="http://store.edgecast.steamstatic.com/public/shared/css/shared_responsive.css?v=Dm6dKxyudx2Y" rel="stylesheet" type="text/css" >
+			<script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+				ga('create', 'UA-33786258-1', 'auto', {
+					'sampleRate': 0.4				});
+				ga('set', 'dimension1', false );
+				ga('set', 'dimension2', 'External' );
+				ga('set', 'dimension3', 'application' );
+				ga('set', 'dimension4', "application\/app" );
+				ga('send', 'pageview');
+
+			</script>
+			<script type="text/javascript" src="http://store.edgecast.steamstatic.com/public/shared/javascript/jquery-1.8.3.min.js?v=.TZ2NKhB-nliU" ></script>
+<script type="text/javascript">$J = jQuery.noConflict();</script><script type="text/javascript" src="http://store.edgecast.steamstatic.com/public/shared/javascript/tooltip.js?v=.gcRSUfx-SLlh" ></script>
+
+<script type="text/javascript" src="http://store.edgecast.steamstatic.com/public/shared/javascript/shared_global.js?v=8Z6r2Ll-Eqfn&amp;l=german" ></script>
+
+<script type="text/javascript" src="http://store.edgecast.steamstatic.com/public/javascript/main.js?v=i_gHgwA9G5zl&amp;l=german" ></script>
+
+<script type="text/javascript" src="http://store.edgecast.steamstatic.com/public/javascript/dynamicstore.js?v=qxn8Qy0TDIVD&amp;l=german" ></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) { $J.data( document, 'x_readytime', new Date().getTime() ); 
+$J.data( document, 'x_oldref', GetNavCookie() ); 
+$('.tooltip').v_tooltip();
+window.BindStoreTooltip = function( $Selector ) { $Selector.v_tooltip( {'tooltipClass': 'store_tooltip', 'dataName': 'storeTooltip' } ); };
+BindStoreTooltip( $('[data-store-tooltip]') ); 
+});</script><script type="text/javascript" src="http://store.edgecast.steamstatic.com/public/javascript/gamehighlightplayer.js?v=8XCdBi0NdRb-&amp;l=german" ></script>
+<script type="text/javascript" src="http://store.edgecast.steamstatic.com/public/shared/javascript/user_reviews.js?v=Qj_qpDfwxx4G&amp;l=german" ></script>
+<script type="text/javascript" src="http://store.edgecast.steamstatic.com/public/shared/javascript/dselect.js?v=yT8Q5U2-O4wX&amp;l=german" ></script>
+<script type="text/javascript" src="http://store.edgecast.steamstatic.com/public/javascript/app_tagging.js?v=CwaGcW3FNfvv&amp;l=german" ></script>
+<script type="text/javascript" src="http://store.edgecast.steamstatic.com/public/javascript/game.js?v=B9381LC_Zmo3&amp;l=german" ></script>
+<script type="text/javascript" src="http://store.edgecast.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.js?v=.zrJjtPpGflQQ" ></script>
+<script type="text/javascript" src="http://store.edgecast.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.resize.js?v=.TWn5-WgQL6_C" ></script>
+<script type="text/javascript" src="http://store.edgecast.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.time.js?v=.wh3SCHrBBvNi" ></script>
+<script type="text/javascript" src="http://store.edgecast.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.selection.js?v=.EGbodhwqG-oT" ></script>
+<script type="text/javascript" src="http://store.edgecast.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=qxsd4VBQLimM&amp;l=german" ></script>
+
+						<meta name="Description" content="Bereiten Sie sich auf die Zukunft vor!Mit der Fallout 3: Game of the Year Edition können Sie das preisgekrönte Spiel von 2008 wie so noch nie zuvor erleben. Erstellen Sie einen Charakter und tauchen Sie in eine schier unglaubliche, post-apokalyptische Welt, in der jede Minute ein Kampf ums Überleben ist.">
+			
+						<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:site" content="Steam">
+					<meta property="og:description" content="Bereiten Sie sich auf die Zukunft vor!Mit der Fallout 3: Game of the Year Edition können Sie das preisgekrönte Spiel von 2008 wie so noch nie zuvor erleben. Erstellen Sie einen Charakter und tauchen Sie in eine schier unglaubliche, post-apokalyptische Welt, in der jede Minute ein Kampf ums Überleben ist.">
+			
+			<link rel="canonical" href="http://store.steampowered.com/app/22370/Fallout_3_Game_of_the_Year_Edition/">
+	
+			<link rel="image_src" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/header.jpg?t=1449019604">
+		<meta property="og:image" content="http://cdn.edgecast.steamstatic.com/steam/apps/22370/header.jpg?t=1449019604">
+			
+	
+	
+	</head>
+<body class="v6 app game_bg responsive_page">
+
+<div class="responsive_page_frame with_header">
+
+						<div class="responsive_page_menu_ctn mainmenu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://store.steampowered.com//login/?redir=app%2F22370%2FFallout_3_Game_of_the_Year_Edition%2F">
+									Anmelden								</a>
+								<a class="menuitem supernav" href="http://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_store">
+		Shop	</a>
+	<div class="submenu_store" style="display: none;" data-submenuid="store">
+		<a class="submenuitem" href="http://store.steampowered.com/">Angesagt</a>
+		<a class="submenuitem" href="http://store.steampowered.com/explore/">Durchsuchen</a>
+		<a class="submenuitem" href="http://store.steampowered.com/curators/">Kuratoren</a>
+		<a class="submenuitem" href="http://steamcommunity.com/my/wishlist/">Wunschliste</a>
+		<a class="submenuitem" href="http://store.steampowered.com/news/">Neuigkeiten</a>
+		<a class="submenuitem" href="http://store.steampowered.com/stats/">Statistiken</a>
+	</div>
+
+
+	<a class="menuitem supernav" style="display: block" href="http://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_community">
+		Community	</a>
+	<div class="submenu_community" style="display: none;" data-submenuid="community">
+		<a class="submenuitem" href="http://steamcommunity.com/">Startseite</a>
+		<a class="submenuitem" href="http://steamcommunity.com/discussions/">Diskussionen</a>
+		<a class="submenuitem" href="http://steamcommunity.com/workshop/">Workshop</a>
+		<a class="submenuitem" href="http://steamcommunity.com/market/">Markt</a>
+		<a class="submenuitem" href="http://steamcommunity.com/?subsection=broadcasts">Übertragungen</a>
+					</div>
+
+	
+
+	
+	
+	<a class="menuitem" href="https://help.steampowered.com/de/">
+		Support	</a>
+
+							<div class="minor_menu_items">
+																<div class="menuitem change_language_action">
+									Sprache ändern								</div>
+																									<div class="menuitem" onclick="Responsive_RequestDesktopView();">
+										Desktopversion anzeigen									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer"></div>
+						<div class="mainmenu_footer">
+							<div class="mainmenu_footer_logo"><img src="http://store.edgecast.steamstatic.com/public/shared/images/responsive/logo_valve_footer.png"></div>
+							© Valve Corporation. Alle Rechte vorbehalten. Alle Marken sind Eigentum ihrer jeweiligen Besitzer in den USA und anderen Ländern.							<span class="mainmenu_valve_links">
+								<a href="http://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a>
+								&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+								&nbsp;| &nbsp;<a href="http://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+								&nbsp;| &nbsp;<a href="http://store.steampowered.com/steam_refunds/" target="_blank">Refunds</a>
+							</span>
+						</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab">
+
+		</div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu">
+				<div class="localmenu_content">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="http://store.edgecast.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<img src="http://store.edgecast.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+					</div>
+				</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+
+		<div class="responsive_fixonscroll_ctn nonresponsive_hidden ">
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div id="global_header">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="http://store.steampowered.com/">
+						<img src="http://store.edgecast.steamstatic.com/public/shared/images/header/globalheader_logo.png?t=962016" width="176" height="44">
+					</a>
+							</span>
+			<!--[if lt IE 7]>
+			<style type="text/css">
+				#logo_holder img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+				#logo_holder { display: inline-block; width: 176px; height: 44px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://store.edgecast.steamstatic.com/public/images/v5/globalheader_logo.png'); }
+			</style>
+			<![endif]-->
+		</div>
+
+			<div class="supernav_container">
+	<a class="menuitem supernav" href="http://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_store">
+		SHOP	</a>
+	<div class="submenu_store" style="display: none;" data-submenuid="store">
+		<a class="submenuitem" href="http://store.steampowered.com/">Angesagt</a>
+		<a class="submenuitem" href="http://store.steampowered.com/explore/">Durchsuchen</a>
+		<a class="submenuitem" href="http://store.steampowered.com/curators/">Kuratoren</a>
+		<a class="submenuitem" href="http://steamcommunity.com/my/wishlist/">Wunschliste</a>
+		<a class="submenuitem" href="http://store.steampowered.com/news/">Neuigkeiten</a>
+		<a class="submenuitem" href="http://store.steampowered.com/stats/">Statistiken</a>
+	</div>
+
+
+	<a class="menuitem supernav" style="display: block" href="http://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_community">
+		COMMUNITY	</a>
+	<div class="submenu_community" style="display: none;" data-submenuid="community">
+		<a class="submenuitem" href="http://steamcommunity.com/">Startseite</a>
+		<a class="submenuitem" href="http://steamcommunity.com/discussions/">Diskussionen</a>
+		<a class="submenuitem" href="http://steamcommunity.com/workshop/">Workshop</a>
+		<a class="submenuitem" href="http://steamcommunity.com/market/">Markt</a>
+		<a class="submenuitem" href="http://steamcommunity.com/?subsection=broadcasts">Übertragungen</a>
+					</div>
+
+	
+
+	
+			<a class="menuitem" href="http://store.steampowered.com/about/">
+			INFO		</a>
+	
+	<a class="menuitem" href="https://help.steampowered.com/de/">
+		SUPPORT	</a>
+	</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('.tooltip').v_tooltip();
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'tooltipClass': 'supernav_content', 'offsetY':-4, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div id="global_action_menu">
+									<div class="header_installsteam_btn header_installsteam_btn_green">
+						<div class="header_installsteam_btn_leftcap"></div>
+						<div class="header_installsteam_btn_rightcap"></div>
+
+						<a class="header_installsteam_btn_content" href="http://store.steampowered.com/about/">
+							Steam installieren						</a>
+					</div>
+				
+				
+														<a class="global_action_link" href="https://store.steampowered.com//login/?redir=app%2F22370%2FFallout_3_Game_of_the_Year_Edition%2F">Anmelden</a>
+					&nbsp;|&nbsp;
+					<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">Sprache</span>
+					<div class="popup_block_new" id="language_dropdown" style="display: none;">
+						<div class="popup_body popup_menu">
+																																	<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">български (Bulgarisch)</a>
+																										<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">čeština (Tschechisch)</a>
+																										<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">Dansk (Dänisch)</a>
+																										<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">Nederlands (Niederländisch)</a>
+																										<a class="popup_menu_item tight" href="?l=english" onclick="ChangeLanguage( 'english' ); return false;">English (Englisch)</a>
+																										<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">Suomi (Finnisch)</a>
+																										<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">Français (Französisch)</a>
+																										<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">Ελληνικά (Griechisch)</a>
+																																			<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">Magyar (Ungarisch)</a>
+																										<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">Italiano (Italienisch)</a>
+																										<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">日本語 (Japanisch)</a>
+																										<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">한국어 (Koreanisch)</a>
+																										<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">Norsk (Norwegisch)</a>
+																										<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">Polski (Polnisch)</a>
+																										<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">Português (Portugiesisch)</a>
+																										<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">Português-Brasil (Brasil. Portugiesisch)</a>
+																										<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">Русский (Russisch)</a>
+																										<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">Română (Rumänisch)</a>
+																										<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">简体中文 (Vereinfachtes Chinesisch)</a>
+																										<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">Español (Spanisch)</a>
+																										<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">Svenska (Schwedisch)</a>
+																										<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">繁體中文 (Traditionelles Chinesisch)</a>
+																										<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">ไทย (Thai)</a>
+																										<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">Türkçe (Türkisch)</a>
+																										<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">Українська (Ukrainisch)</a>
+																						<a class="popup_menu_item tight" href="http://translation.steampowered.com" target="_blank">Helfen Sie uns, Steam zu übersetzen</a>
+						</div>
+					</div>
+							</div>
+					</div>
+			</div>
+</div>
+<div id="responsive_store_nav_ctn"></div>
+		<div class="responsive_page_template_content">
+
+			<script type="text/javascript">
+
+	var g_eDiscoveryQueueType = 0;
+
+	GStoreItemData.AddStoreItemDataSet(
+		{"rgApps":{"22380":{"name":"Fallout: New Vegas","url_name":"Fallout_New_Vegas","discount_block":"<div class=\"discount_block \"> <div class=\"discount_pct\">-75%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">9,99\u20ac<\/div><div class=\"discount_final_price\">2,49\u20ac<\/div><\/div><\/div>","small_capsulev5":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22380\/capsule_184x69.jpg?t=1508276955","os_windows":true,"discount":true,"localized":true},"377160":{"name":"Fallout 4","url_name":"Fallout_4","discount_block":"<div class=\"discount_block \"> <div class=\"discount_pct\">-50%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">29,99\u20ac<\/div><div class=\"discount_final_price\">14,99\u20ac<\/div><\/div><\/div>","small_capsulev5":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/377160\/capsule_184x69.jpg?t=1507138472","os_windows":true,"discount":true,"localized":true},"22300":{"name":"Fallout 3","url_name":"Fallout_3","discount_block":"<div class=\"discount_block \"> <div class=\"discount_pct\">-75%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">9,99\u20ac<\/div><div class=\"discount_final_price\">2,49\u20ac<\/div><\/div><\/div>","small_capsulev5":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22300\/capsule_184x69.jpg?t=1506541249","os_windows":true,"discount":true,"localized":true},"20510":{"name":"S.T.A.L.K.E.R.: Clear Sky","url_name":"STALKER_Clear_Sky","discount_block":"<div class=\"discount_block \"> <div class=\"discount_pct\">-75%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">9,99\u20ac<\/div><div class=\"discount_final_price\">2,49\u20ac<\/div><\/div><\/div>","small_capsulev5":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/20510\/capsule_184x69.jpg?t=1447351137","os_windows":true,"discount":true,"localized":true},"41700":{"name":"S.T.A.L.K.E.R.: Call of Pripyat","url_name":"STALKER_Call_of_Pripyat","discount_block":"<div class=\"discount_block \"> <div class=\"discount_pct\">-75%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">19,99\u20ac<\/div><div class=\"discount_final_price\">4,99\u20ac<\/div><\/div><\/div>","small_capsulev5":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/41700\/capsule_184x69.jpg?t=1447352705","os_windows":true,"discount":true,"localized":true},"22320":{"name":"The Elder Scrolls III: Morrowind\u00ae Game of the Year Edition","url_name":"The_Elder_Scrolls_III_Morrowind_Game_of_the_Year_Edition","discount_block":"<div class=\"discount_block \"> <div class=\"discount_pct\">-50%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">14,99\u20ac<\/div><div class=\"discount_final_price\">7,49\u20ac<\/div><\/div><\/div>","small_capsulev5":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22320\/capsule_184x69.jpg?t=1498138106","os_windows":true,"discount":true,"localized":true},"4500":{"name":"S.T.A.L.K.E.R.: Shadow of Chernobyl","url_name":"STALKER_Shadow_of_Chernobyl","discount_block":"<div class=\"discount_block \"> <div class=\"discount_pct\">-75%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">15,99\u20ac<\/div><div class=\"discount_final_price\">3,99\u20ac<\/div><\/div><\/div>","small_capsulev5":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/4500\/capsule_184x69.jpg?t=1492025191","os_windows":true,"discount":true,"localized":true},"9200":{"name":"RAGE","url_name":"RAGE","discount_block":"<div class=\"discount_block \"> <div class=\"discount_pct\">-75%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">9,99\u20ac<\/div><div class=\"discount_final_price\">2,49\u20ac<\/div><\/div><\/div>","small_capsulev5":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/9200\/capsule_184x69.jpg?t=1447353435","os_windows":true,"discount":true,"localized":true},"234140":{"name":"Mad Max","url_name":"Mad_Max","discount_block":"<div class=\"discount_block \"> <div class=\"discount_pct\">-66%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">19,99\u20ac<\/div><div class=\"discount_final_price\">6,79\u20ac<\/div><\/div><\/div>","small_capsulev5":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/234140\/capsule_184x69.jpg?t=1496257938","os_windows":true,"os_macos":true,"os_linux":true,"discount":true,"localized":true,"status_string":"Jetzt f\u00fcr Mac und SteamOS verf\u00fcgbar!"},"22330":{"name":"The Elder Scrolls IV: Oblivion\u00ae Game of the Year Edition","url_name":"The_Elder_Scrolls_IV_Oblivion_Game_of_the_Year_Edition","discount_block":"<div class=\"discount_block \"> <div class=\"discount_pct\">-50%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">14,99\u20ac<\/div><div class=\"discount_final_price\">7,49\u20ac<\/div><\/div><\/div>","small_capsulev5":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22330\/capsule_184x69.jpg?t=1478567463","os_windows":true,"discount":true,"localized":true},"8980":{"name":"Borderlands","url_name":"Borderlands","discount_block":"<div class=\"discount_block \"> <div class=\"discount_pct\">-75%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">29,99\u20ac<\/div><div class=\"discount_final_price\">7,49\u20ac<\/div><\/div><\/div>","small_capsulev5":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/8980\/capsule_184x69.jpg?t=1447366534","os_windows":true,"discount":true,"localized":true},"411300":{"name":"ELEX","url_name":"ELEX","discount_block":"<div class=\"discount_block \"> <div class=\"discount_pct\">-33%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">49,99\u20ac<\/div><div class=\"discount_final_price\">33,49\u20ac<\/div><\/div><\/div>","small_capsulev5":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/411300\/capsule_184x69.jpg?t=1513848793","os_windows":true,"discount":true,"localized":true}},"rgPackages":[],"rgBundles":[]}	);
+	GStoreItemData.AddNavParams( {
+		recommended: "1_5_9__300",
+		bundle_component_preview: "1_5_9__412"	} );
+
+	$J( function() {
+		var $Expander = $J('#devnotes_expander');
+		if( $Expander.length && $Expander.height() < parseInt( $Expander.css('max-height') ) ) {
+			$J('#devnotes_more').hide();
+		}
+
+		CollapseLongStrings( '.dev_row .summary.column' );
+
+				InitAutocollapse();
+		InitHorizontalAutoSliders();
+
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_right', $J('#responsive_apppage_details_right_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_left', $J('#responsive_apppage_details_left_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_reviewblock', $J('#responsive_apppage_reviewblock_ctn') );
+
+		//hack to workaround chrome bug
+		$J('#responsive_apppage_reviewblock_ctn' ).css('width', '100%' );
+		window.setTimeout( function() { $J('#responsive_apppage_reviewblock_ctn').css('width', '' ); }, 1 );
+
+		
+				var watcher = new CScrollOffsetWatcher( $J('#app_reviews_hash'), OnLoadReviews );
+		watcher.SetBufferHeight( 0 );
+	} );
+	GDynamicStore.OnReady( function() {
+		RenderMoreLikeThisBlock( ["22380","377160","22300","20510","41700","22320","4500","9200","234140","22330","8980","411300"] );
+			});
+
+	
+	
+</script>
+
+<div class="game_page_background game" style="background-image: url('http://cdn.edgecast.steamstatic.com/steam/apps/22370/page_bg_generated_v6b.jpg?t=1449019604');">
+
+	
+
+		<div id="store_header" class="">
+		<div class="content">
+			<div id="store_controls">
+				<div id="cart_status_data">
+																					<div class="store_header_btn_green store_header_btn" id="store_header_cart_btn" style="display: none;">
+							<div class="store_header_btn_caps store_header_btn_leftcap"></div>
+							<div class="store_header_btn_caps store_header_btn_rightcap"></div>
+							<a id="cart_link" class="store_header_btn_content" href="http://store.steampowered.com/cart/?snr=1_5_9__12">
+								Warenkorb								(<span id="cart_item_count_value">0</span>)
+							</a>
+						</div>
+									</div>
+			</div>
+							<div id="store_nav_area">
+					<div class="store_nav_leftcap"></div>
+					<div class="store_nav_bg">
+						<div class="store_nav">
+
+													<div class="tab  flyout_tab " id="foryou_tab" data-flyout="foryou_flyout" data-flyout-align="left" data-flyout-valign="bottom" onmouseover="EnsureStoreMenuTagsLoaded( '#foryou_yourtags' );">
+								<span class="pulldown">
+									<a class="pulldown_desktop" href="http://store.steampowered.com/?snr=1_5_9__12">Ihr Shop</a>
+									<span></span>
+								</span>
+							</div>
+							<div class="popup_block_new flyout_tab_flyout responsive_slidedown" id="foryou_flyout" style="display: none;">
+								<div class="popup_body popup_menu">
+									<a class="popup_menu_item" href="http://store.steampowered.com/?snr=1_5_9__12">
+										Shopstartseite									</a>
+									<div class="hr"></div>
+									<a class="popup_menu_item" href="http://store.steampowered.com/recommended/?snr=1_5_9__12">
+										Zuletzt angesehen									</a>
+									<a class="popup_menu_item" href="http://store.steampowered.com/curators/?snr=1_5_9__12">
+										Steam-Kuratoren									</a>
+									<a class="popup_menu_item" href="http://store.steampowered.com/updated/all/?snr=1_5_9__12">
+										Kürzlich aktualisiert									</a>
+								</div>
+							</div>
+						
+
+															<div class="tab  flyout_tab " id="genre_tab" data-flyout="genre_flyout" data-flyout-align="left" data-flyout-valign="bottom">
+									<span class="pulldown">
+										<a class="pulldown_desktop" href="http://store.steampowered.com/games/?snr=1_5_9__12">Spiele</a>
+										<a class="pulldown_mobile" href="#">Spiele</a>
+										<span></span>
+									</span>
+								</div>
+								<div class="popup_block_new flyout_tab_flyout responsive_slidedown" id="genre_flyout" style="display: none;">
+									<div class="popup_body popup_menu">
+																																											<a class="popup_menu_item" href="http://store.steampowered.com/genre/Free%20to%20Play/?snr=1_5_9__12">
+													Kostenlos												</a>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																<a class="popup_menu_item" href="http://store.steampowered.com/genre/Early%20Access/?snr=1_5_9__12">
+													Early Access												</a>
+																																																																																																																																																																																																																																																	<a class="popup_menu_item" href="http://store.steampowered.com/freestuff/demos/?snr=1_5_9__12">
+											<span>Demos</span>
+										</a>
+										<a class="popup_menu_item" href="http://store.steampowered.com/vr/?snr=1_5_9__12">
+											<span>Virtuelle Realität</span>
+										</a>
+										<a class="popup_menu_item" href="http://store.steampowered.com/controller/?snr=1_5_9__12">
+											<span>Unterstützt Steam Controller</span>
+										</a>
+										<div class="hr"></div>
+										<div class="popup_menu_subheader">Nach Genre durchsuchen:</div>
+
+																																	<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Abenteuer/?snr=1_5_9__12">
+													Abenteuer												</a>
+																																												<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Action/?snr=1_5_9__12">
+													Action												</a>
+																																																																	<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Gelegenheitsspiele/?snr=1_5_9__12">
+													Gelegenheitsspiele												</a>
+																																												<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Indie/?snr=1_5_9__12">
+													Indie												</a>
+																																																																	<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/MMO/?snr=1_5_9__12">
+													MMO												</a>
+																																												<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Rennspiele/?snr=1_5_9__12">
+													Rennspiele												</a>
+																																												<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/RPG/?snr=1_5_9__12">
+													RPG												</a>
+																																												<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Simulation/?snr=1_5_9__12">
+													Simulation												</a>
+																																												<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Sport/?snr=1_5_9__12">
+													Sport												</a>
+																																												<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Strategie/?snr=1_5_9__12">
+													Strategie												</a>
+																					
+										<div class="hr"></div>
+										<a class="popup_menu_item" href="http://store.steampowered.com/tag/browse/?snr=1_5_9__12">
+											Beliebte Tags anzeigen										</a>
+										<div class="hr"></div>
+										<div class="popup_menu_subheader">Nach Plattform durchsuchen:</div>
+										<a class="popup_menu_item" href="http://store.steampowered.com/macos?snr=1_5_9__12">
+											Mac OS X										</a>
+										<a class="popup_menu_item" href="http://store.steampowered.com/linux?snr=1_5_9__12">
+											SteamOS + Linux										</a>
+									</div>
+								</div>
+							
+							<div class="tab  flyout_tab " id="software_tab" data-flyout="software_flyout" data-flyout-align="left" data-flyout-valign="bottom">
+								<span class="pulldown">
+									<a class="pulldown_desktop" href="http://store.steampowered.com/software/?snr=1_5_9__12">Software</a>
+									<a class="pulldown_mobile" href="#">Software</a>
+									<span></span>
+								</span>
+
+							</div>
+							<div class="popup_block_new flyout_tab_flyout responsive_slidedown" id="software_flyout" style="display: none;">
+								<div class="popup_body popup_menu">
+									<a class="popup_menu_item" href="http://store.steampowered.com/software/?snr=1_5_9__12">
+										Software-Hub									</a>
+									<div class="hr"></div>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Animation%20%26%20Modellierung/?snr=1_5_9__12">
+											Animation & Modellierung										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Audio-Produktion/?snr=1_5_9__12">
+											Audio-Produktion										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Bildung/?snr=1_5_9__12">
+											Bildung										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Design%20%26%20Illustration/?snr=1_5_9__12">
+											Design & Illustration										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Fotobearbeitung/?snr=1_5_9__12">
+											Fotobearbeitung										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Game%20Development/?snr=1_5_9__12">
+											Game Development										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Video%20Produktion/?snr=1_5_9__12">
+											Video Produktion										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Web%20Publishing/?snr=1_5_9__12">
+											Web Publishing										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/tags/de/Werkzeuge/?snr=1_5_9__12">
+											Werkzeuge										</a>
+									
+								</div>
+							</div>
+
+							<div class="tab  flyout_tab " id="hardware_tab" data-flyout="hardware_flyout" data-flyout-align="left" data-flyout-valign="bottom">
+								<span class="pulldown">
+									<a class="pulldown_desktop" href="http://store.steampowered.com/hardware/?snr=1_5_9__12">Hardware</a>
+									<a class="pulldown_mobile" href="#">Hardware</a>
+									<span></span>
+								</span>
+
+							</div>
+							<div class="popup_block_new flyout_tab_flyout responsive_slidedown" id="hardware_flyout" style="display: none;">
+								<div class="popup_body popup_menu">
+									<a class="popup_menu_item" href="http://store.steampowered.com/app/353370/?snr=1_5_9__12">
+										Steam Controller									</a>
+									<a class="popup_menu_item" href="http://store.steampowered.com/app/353380/?snr=1_5_9__12">
+										Steam Link									</a>
+									<a class="popup_menu_item" href="http://store.steampowered.com/hardware/?snr=1_5_9__12#Machines">
+										Steam Machines									</a>
+									<a class="popup_menu_item" href="http://store.steampowered.com/app/358040/?snr=1_5_9__12">
+										HTC Vive									</a>
+								</div>
+							</div>
+
+							<div class="tab  flyout_tab " id="videos_tab" data-flyout="videos_flyout" data-flyout-align="left" data-flyout-valign="bottom">
+								<span class="pulldown">
+									<a class="pulldown_desktop" href="http://store.steampowered.com/videos/?snr=1_5_9__12">Videos</a>
+									<a class="pulldown_mobile" href="#">Videos</a>
+									<span></span>
+								</span>
+
+							</div>
+							<div class="popup_block_new flyout_tab_flyout responsive_slidedown" id="videos_flyout" style="display: none;">
+								<div class="popup_body popup_menu">
+									<a class="popup_menu_item" href="http://store.steampowered.com/videos/?snr=1_5_9__12">
+										Video-Hub									</a>
+									<div class="hr"></div>
+									<div class="popup_menu_subheader">Nach Typ durchsuchen:</div>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/search/?snr=1_5_9__12#category1=992&sort_by=Released_DESC&page=1&tags=4700">
+											Film										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/search/?snr=1_5_9__12#category1=992&sort_by=Released_DESC&page=1&tags=4242">
+											Episodentitel										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/search/?snr=1_5_9__12#category1=992&sort_by=Released_DESC&page=1&tags=15339">
+											Dokumentation										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/search/?snr=1_5_9__12#category1=992&sort_by=Released_DESC&page=1&tags=150626">
+											Gaming										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/search/?snr=1_5_9__12#category1=992&sort_by=Released_DESC&page=1&tags=12057">
+											Tutorial										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/search/?snr=1_5_9__12#category1=992&sort_by=Released_DESC&page=1&tags=4234">
+											Kurz										</a>
+									
+									<div class="hr"></div>
+									<div class="popup_menu_subheader">Nach Genre durchsuchen:</div>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/search/?snr=1_5_9__12#category1=992&sort_by=Released_DESC&page=1&tags=19">
+											Action										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/search/?snr=1_5_9__12#category1=992&sort_by=Released_DESC&page=1&tags=4085">
+											Anime										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/search/?snr=1_5_9__12#category1=992&sort_by=Released_DESC&page=1&tags=1719">
+											Humor										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/search/?snr=1_5_9__12#category1=992&sort_by=Released_DESC&page=1&tags=5984">
+											Drama										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/search/?snr=1_5_9__12#category1=992&sort_by=Released_DESC&page=1&tags=1667">
+											Horror										</a>
+																			<a class="popup_menu_item" href="http://store.steampowered.com/search/?snr=1_5_9__12#category1=992&sort_by=Released_DESC&page=1&tags=3942">
+											SciFi										</a>
+																	</div>
+							</div>
+
+							<a class="tab  " href="http://store.steampowered.com/news/?snr=1_5_9__12">
+								<span>Neuigkeiten</span>
+							</a>
+
+							<div class="search_area">
+								<div id="store_search">
+									<form id="searchform" name="searchform" method="get" action="http://store.steampowered.com/search/" onsubmit="return SearchSuggestCheckTerm(this);">
+										<input type="hidden" name="snr" value="1_5_9__12" >
+										<div class="searchbox">
+											<input id="store_nav_search_term" name="term" type="text" class="default" placeholder="Im Shop suchen" size="22" autocomplete="off">
+											<a href="#" id="store_search_link" onclick="var $Form = $J(this).parents('form'); $Form.submit(); return false;"><img src="http://store.edgecast.steamstatic.com/public/images/blank.gif"></a>
+										</div>
+									</form>
+								</div>
+								<div id="searchterm_options" class="search_suggest popup_block_new" style="display: none;">
+									<div class="popup_body" style="border-top: none;">
+										<div id="search_suggestion_contents">
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="store_nav_rightcap"></div>
+				</div>
+					</div>
+	</div>
+				<script type="text/javascript">
+			$J( function() {
+				BindAutoFlyoutEvents();
+
+				var $Window = $J(window);
+				var $Header = $J('#store_header');
+				var $ResponsiveNavCtn = $J('#responsive_store_nav_ctn');
+				var $HeaderWrapper;
+				$Window.on('Responsive_SmallScreenModeToggled.StoreMenu', function() {
+					var bUseSmallScreenMode =window.UseSmallScreenMode && window.UseSmallScreenMode();
+
+					if ( !$HeaderWrapper )
+						$HeaderWrapper = $Header.wrap( $J('<div/>', {'class': 'responsive_store_nav_ctn_spacer'} ) ).parent();
+
+					if ( bUseSmallScreenMode )
+						$ResponsiveNavCtn.append( $Header );
+					else
+						$HeaderWrapper.append( $Header );
+
+
+					if ( bUseSmallScreenMode )
+					{
+						$Header.css( 'visibility', 'hidden' );
+						$Header.show();
+						var nMenuHeight = $J('#store_header' ).height() + $J('#store_header' ).offset().top;
+						if ( $Window.scrollTop() < nMenuHeight )
+							$Window.scrollTop( nMenuHeight - GetResponsiveHeaderFixedOffsetAdjustment() );
+
+						$Header.css('visibility', 'visible');
+					}
+				} ).trigger('Responsive_SmallScreenModeToggled.StoreMenu');
+
+									if( $J('#searchform').length > 0 )
+					{
+						EnableSearchSuggestions( $J('#searchform')[0].elements['term'], '1_5_9_', 'DE', 'german', '0', '0', '3870030' );
+					}
+				
+
+			} );
+		</script>
+	<script type="text/javascript">
+	var g_AccountID = 0;
+	var g_sessionID = "6b739aaec83b1b4a54243fa0";
+	var g_ServerTime = 1514321002;
+
+	$J( InitMiniprofileHovers );
+
+			GDynamicStore.Init( 0, false, "" );
+		GStoreItemData.SetCurrencyFormatter( function( nValueInCents, bWholeUnitsOnly ) { var fnBase = function( nValueInCents, bWholeUnitsOnly ) { var fmt = function( nValueInCents, bWholeUnitsOnly ) {	var format = v_numberformat( nValueInCents / 100, bWholeUnitsOnly ? 0 : 2, ",", " "); return format; };var strNegativeSymbol = '';	if ( nValueInCents < 0 ) { strNegativeSymbol = '-'; nValueInCents = -nValueInCents; }return strNegativeSymbol + fmt( nValueInCents, bWholeUnitsOnly ) + "\u20ac";}; return fnBase( nValueInCents, bWholeUnitsOnly ).replace(  ',00', ',--' ); } );
+		GStoreItemData.SetCurrencyMinPriceIncrement( 1 );
+	</script>
+	<div class="page_content_ctn" itemscope itemtype="http://schema.org/Product">
+
+		<meta itemprop="image" content="http://cdn.edgecast.steamstatic.com/steam/apps/22370/capsule_231x87.jpg?t=1449019604">
+					<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" style="display: none;">
+				<meta itemprop="priceCurrency" content="EUR">
+				<meta itemprop="price" content="9,99">
+							</div>
+				<div class="page_title_area game_title_area page_content">
+			<div class="breadcrumbs">
+								<div class="blockbg">
+											<a href="http://store.steampowered.com/search/?term=&snr=1_5_9__205">Alle Spiele</a>
+																					&gt; <a href="http://store.steampowered.com/genre/RPG/?snr=1_5_9__205">RPG</a>
+															&gt; <a href="http://store.steampowered.com/app/22370/?snr=1_5_9__205"><span itemprop="name">Fallout 3: Game of the Year Edition</span></a>
+
+				</div>
+				<div style="clear: left;"></div>
+							</div>
+			<div class="apphub_HomeHeaderContent">
+
+	<div class="apphub_HeaderStandardTop">
+				<div class="apphub_OtherSiteInfo">
+			<a class="btnv6_blue_hoverfade btn_medium" href="http://steamcommunity.com/app/22370">
+				<span>Communityhub</span>
+			</a>
+		</div>
+		<div class="apphub_AppIcon"><img src="http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/apps/22370/21d7090bdea8f6685ca730850b7b55acfdb92732.jpg"><div class="overlay"></div></div>
+		<div class="apphub_AppName">Fallout 3: Game of the Year Edition</div>
+		<div style="clear: both"></div>
+	</div>
+
+</div>
+
+		</div>
+		<div style="clear: left;"></div>
+
+		<div class="block">
+						<script type="text/javascript">
+				var strRequiredVersion = "9";
+				if ( typeof( g_bIsOnMac ) != 'undefined' && g_bIsOnMac )
+					strRequiredVersion = "10.1.0";
+
+				
+			</script>
+			<div class="game_background_glow">
+			<div class="block_content page_content" id="game_highlights">
+
+				<div class="rightcol">
+					<div class="glance_ctn">
+						<div class="game_header_image_ctn">
+							<img class="game_header_image_full" src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/header.jpg?t=1449019604">
+						</div>
+													<div class="game_description_snippet">
+								Bereiten Sie sich auf die Zukunft vor!Mit der Fallout 3: Game of the Year Edition können Sie das preisgekrönte Spiel von 2008 wie so noch nie zuvor erleben. Erstellen Sie einen Charakter und tauchen Sie in eine schier unglaubliche, post-apokalyptische Welt, in der jede Minute ein Kampf ums Überleben ist.							</div>
+						
+						<div class="glance_ctn_responsive_left">
+															<div class="user_reviews">
+
+																											<div class="user_reviews_summary_row" onclick="window.location='#app_reviews_hash'" style="cursor: pointer;" data-store-tooltip="74% der 231 Nutzerreviews der letzten 30 Tage sind positiv.">
+										<div class="subtitle column">Kürzliche Reviews:</div>
+										<div class="summary column">
+											<span class="game_review_summary positive">Größtenteils positiv</span>
+																							<span class="responsive_hidden">
+													(231)
+												</span>
+																						<span class="nonresponsive_hidden responsive_reviewdesc">
+												- 74% der 231 Nutzerreviews der letzten 30 Tage sind positiv.											</span>
+										</div>
+									</div>
+									
+																		<div class="user_reviews_summary_row" onclick="window.location='#app_reviews_hash'" style="cursor: pointer;" data-store-tooltip="81 % der 15,372 Nutzerreviews für dieses Spiel sind positiv." itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+										<div class="subtitle column all">Alle Reviews:</div>
+										<div class="summary column">
+																					<span class="game_review_summary positive" itemprop="description">Sehr positiv</span>
+																							<span class="responsive_hidden">
+													(15,372)
+												</span>
+											
+											<span class="nonresponsive_hidden responsive_reviewdesc">
+												- 81 % der 15,372 Nutzerreviews für dieses Spiel sind positiv.											</span>
+
+											<!-- microdata -->
+											<meta itemprop="reviewCount" content="15372">
+											<meta itemprop="ratingValue" content="9">
+											<meta itemprop="bestRating" content="10">
+											<meta itemprop="worstRating" content="1">
+																				</div>
+									</div>
+
+
+							
+
+
+															<div class="release_date">
+									<div class="subtitle column">Veröffentlichung:</div>
+									<div class="date">13. Okt. 2009</div>
+								</div>
+							
+
+															<div class="dev_row">
+									<div class="subtitle column">Entwickler:</div>
+									<div class="summary column" id="developers_list">
+																																<a href="http://store.steampowered.com/search/?developer=Bethesda%20Game%20Studios&snr=1_5_9__400">Bethesda Game Studios</a>
+																			</div>
+								</div>
+							
+															<div class="dev_row">
+									<div class="subtitle column">Publisher:</div>
+									<div class="summary column">
+									<a href="http://store.steampowered.com/search/?publisher=Bethesda Softworks">Bethesda Softworks</a>									</div>
+								</div>
+							
+						</div>
+						</div>
+
+						<div class="glance_ctn_responsive_right">
+																								<!-- when the javascript runs, it will set these visible or not depending on what fits in the area -->
+																		<div class="glance_tags_ctn popular_tags_ctn">
+										<div class="glance_tags_label">Beliebte benutzerdefinierte Tags für dieses Produkt:</div>
+										<div class="glance_tags popular_tags" data-appid="22370">
+											<a href="http://store.steampowered.com/tags/de/OpenWorld/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												OpenWorld												</a><a href="http://store.steampowered.com/tags/de/RPG/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												RPG												</a><a href="http://store.steampowered.com/tags/de/post-apokalyptisch/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												post-apokalyptisch												</a><a href="http://store.steampowered.com/tags/de/Einzelspieler/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Einzelspieler												</a><a href="http://store.steampowered.com/tags/de/Modifizierbar/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Modifizierbar												</a><a href="http://store.steampowered.com/tags/de/First-Person/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												First-Person												</a><a href="http://store.steampowered.com/tags/de/SciFi/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												SciFi												</a><a href="http://store.steampowered.com/tags/de/Action/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Action												</a><a href="http://store.steampowered.com/tags/de/Abenteuer/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Abenteuer												</a><a href="http://store.steampowered.com/tags/de/FPS/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												FPS												</a><a href="http://store.steampowered.com/tags/de/Wiederspielbarkeit/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Wiederspielbarkeit												</a><a href="http://store.steampowered.com/tags/de/Sandbox/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Sandbox												</a><a href="http://store.steampowered.com/tags/de/3rd-Person%20/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												3rd-Person 												</a><a href="http://store.steampowered.com/tags/de/Entdeckungsreisen/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Entdeckungsreisen												</a><a href="http://store.steampowered.com/tags/de/Atmosph%C3%A4risch/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Atmosphärisch												</a><a href="http://store.steampowered.com/tags/de/Episch/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Episch												</a><a href="http://store.steampowered.com/tags/de/Shooter/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Shooter												</a><a href="http://store.steampowered.com/tags/de/Kult-Klassiker/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Kult-Klassiker												</a><a href="http://store.steampowered.com/tags/de/Action-RPG/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Action-RPG												</a><a href="http://store.steampowered.com/tags/de/Guter%20Soundtrack/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Guter Soundtrack												</a><div class="app_tag add_button" onclick="ShowAppTagModal( 22370 )">+</div>
+										</div>
+									</div>
+																													</div>
+						<div style="clear: both;"></div>
+					</div>
+				</div>
+
+				<div class="leftcol">
+					<div class="highlight_ctn">
+						<div class="highlight_overflow">
+							<div id="highlight_player_area" >
+								<div class="highlight_player_area_spacer">
+									<img src="http://store.edgecast.steamstatic.com/public/images/game/game_highlight_image_spacer.gif">
+								</div>
+																									<div class="highlight_player_item highlight_movie" id="highlight_movie_5523"
+										 style="display: none;"
+										 data-webm-source="http://cdn.edgecast.steamstatic.com/steam/apps/5523/movie480.webm?t=1447352764"
+										 data-webm-hd-source="http://cdn.edgecast.steamstatic.com/steam/apps/5523/movie_max.webm?t=1447352764"
+										 data-mp4-source="http://cdn.edgecast.steamstatic.com/steam/apps/5523/movie480.mp4?t=1447352764"
+										 data-mp4-hd-source="http://cdn.edgecast.steamstatic.com/steam/apps/5523/movie_max.mp4?t=1447352764"
+										 data-poster="http://cdn.edgecast.steamstatic.com/steam/apps/5523/movie.jpg?t=1447352764">
+									</div>
+																	<div class="highlight_player_item highlight_movie" id="highlight_movie_5526"
+										 style="display: none;"
+										 data-webm-source="http://cdn.edgecast.steamstatic.com/steam/apps/5526/movie480.webm?t=1447352765"
+										 data-webm-hd-source="http://cdn.edgecast.steamstatic.com/steam/apps/5526/movie_max.webm?t=1447352765"
+										 data-mp4-source="http://cdn.edgecast.steamstatic.com/steam/apps/5526/movie480.mp4?t=1447352765"
+										 data-mp4-hd-source="http://cdn.edgecast.steamstatic.com/steam/apps/5526/movie_max.mp4?t=1447352765"
+										 data-poster="http://cdn.edgecast.steamstatic.com/steam/apps/5526/movie.jpg?t=1447352765">
+									</div>
+																	<div class="highlight_player_item highlight_movie" id="highlight_movie_5522"
+										 style="display: none;"
+										 data-webm-source="http://cdn.edgecast.steamstatic.com/steam/apps/5522/movie480.webm?t=1447352763"
+										 data-webm-hd-source="http://cdn.edgecast.steamstatic.com/steam/apps/5522/movie_max.webm?t=1447352763"
+										 data-mp4-source="http://cdn.edgecast.steamstatic.com/steam/apps/5522/movie480.mp4?t=1447352763"
+										 data-mp4-hd-source="http://cdn.edgecast.steamstatic.com/steam/apps/5522/movie_max.mp4?t=1447352763"
+										 data-poster="http://cdn.edgecast.steamstatic.com/steam/apps/5522/movie.jpg?t=1447352763">
+									</div>
+																	<div class="highlight_player_item highlight_movie" id="highlight_movie_5524"
+										 style="display: none;"
+										 data-webm-source="http://cdn.edgecast.steamstatic.com/steam/apps/5524/movie480.webm?t=1447352764"
+										 data-webm-hd-source="http://cdn.edgecast.steamstatic.com/steam/apps/5524/movie_max.webm?t=1447352764"
+										 data-mp4-source="http://cdn.edgecast.steamstatic.com/steam/apps/5524/movie480.mp4?t=1447352764"
+										 data-mp4-hd-source="http://cdn.edgecast.steamstatic.com/steam/apps/5524/movie_max.mp4?t=1447352764"
+										 data-poster="http://cdn.edgecast.steamstatic.com/steam/apps/5524/movie.jpg?t=1447352764">
+									</div>
+																	<div class="highlight_player_item highlight_movie" id="highlight_movie_5525"
+										 style="display: none;"
+										 data-webm-source="http://cdn.edgecast.steamstatic.com/steam/apps/5525/movie480.webm?t=1447352764"
+										 data-webm-hd-source="http://cdn.edgecast.steamstatic.com/steam/apps/5525/movie_max.webm?t=1447352764"
+										 data-mp4-source="http://cdn.edgecast.steamstatic.com/steam/apps/5525/movie480.mp4?t=1447352764"
+										 data-mp4-hd-source="http://cdn.edgecast.steamstatic.com/steam/apps/5525/movie_max.mp4?t=1447352764"
+										 data-poster="http://cdn.edgecast.steamstatic.com/steam/apps/5525/movie.jpg?t=1447352764">
+									</div>
+								
+																									<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_87fb57e11912a692f29614f88411d0db2cba405a.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_87fb57e11912a692f29614f88411d0db2cba405a.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_87fb57e11912a692f29614f88411d0db2cba405a.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_d770133d0a0c1b9b73fa31f20f29fe6617b73cfb.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_d770133d0a0c1b9b73fa31f20f29fe6617b73cfb.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_d770133d0a0c1b9b73fa31f20f29fe6617b73cfb.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_2405f21839a5cec01918a5f6fe7cae0b80422107.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_2405f21839a5cec01918a5f6fe7cae0b80422107.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_2405f21839a5cec01918a5f6fe7cae0b80422107.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_37398576af0f80af58744b56a24b8526833f2efb.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_37398576af0f80af58744b56a24b8526833f2efb.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_37398576af0f80af58744b56a24b8526833f2efb.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_b37fe0d332ed8877e06a2b18efc95b1dab2a54af.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_b37fe0d332ed8877e06a2b18efc95b1dab2a54af.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_b37fe0d332ed8877e06a2b18efc95b1dab2a54af.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_be899cfc4b2716f77d0a07737d519895ae0919f2.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_be899cfc4b2716f77d0a07737d519895ae0919f2.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_be899cfc4b2716f77d0a07737d519895ae0919f2.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_bc45b3514bd9d10450e0f56cf6ca110d487ab9f1.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_bc45b3514bd9d10450e0f56cf6ca110d487ab9f1.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_bc45b3514bd9d10450e0f56cf6ca110d487ab9f1.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_4ea123bae2967a081baf183f99af485a8fe54fd3.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_4ea123bae2967a081baf183f99af485a8fe54fd3.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_4ea123bae2967a081baf183f99af485a8fe54fd3.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_da809b52f47085205a8eb1f116e22c73bee18c81.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_da809b52f47085205a8eb1f116e22c73bee18c81.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_da809b52f47085205a8eb1f116e22c73bee18c81.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_e5eca12ac4678e10d7c0ee86ba6cb423e413ef58.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_e5eca12ac4678e10d7c0ee86ba6cb423e413ef58.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_e5eca12ac4678e10d7c0ee86ba6cb423e413ef58.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_a6caf368d14ba1d5a2ad548ae419a05a7cced29d.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_a6caf368d14ba1d5a2ad548ae419a05a7cced29d.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_a6caf368d14ba1d5a2ad548ae419a05a7cced29d.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_f4923635e94cd2c09799f797b5f89ac3dda2eb15.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_f4923635e94cd2c09799f797b5f89ac3dda2eb15.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_f4923635e94cd2c09799f797b5f89ac3dda2eb15.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_ac1a49312f09178c78c3b4464cfc743bc4c380b1.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_ac1a49312f09178c78c3b4464cfc743bc4c380b1.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_ac1a49312f09178c78c3b4464cfc743bc4c380b1.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_56f0c65d34f78a4b2b468fa71773ce297c18ba7a.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_56f0c65d34f78a4b2b468fa71773ce297c18ba7a.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_56f0c65d34f78a4b2b468fa71773ce297c18ba7a.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_69399123132dcb4fe3691b4dd6b84077bf4da656.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_69399123132dcb4fe3691b4dd6b84077bf4da656.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_69399123132dcb4fe3691b4dd6b84077bf4da656.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_18517b1865f2ea003836002dbdd4f88001a40913.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_18517b1865f2ea003836002dbdd4f88001a40913.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_18517b1865f2ea003836002dbdd4f88001a40913.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_30d31f35608dcf8ad940eef06b06b72668a58c63.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_30d31f35608dcf8ad940eef06b06b72668a58c63.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_30d31f35608dcf8ad940eef06b06b72668a58c63.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_417951e16be2418b9ea8294f9957d40723c20d83.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_417951e16be2418b9ea8294f9957d40723c20d83.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_417951e16be2418b9ea8294f9957d40723c20d83.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_9ebd8b126b6b0e7f7de5ba46cd52e52079e0247f.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_9ebd8b126b6b0e7f7de5ba46cd52e52079e0247f.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_9ebd8b126b6b0e7f7de5ba46cd52e52079e0247f.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_515508f4c22bbc5988765988b20ef3f9b042709f.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_515508f4c22bbc5988765988b20ef3f9b042709f.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_515508f4c22bbc5988765988b20ef3f9b042709f.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_908adced631b238e775ea49caf086578efba22f5.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_908adced631b238e775ea49caf086578efba22f5.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_908adced631b238e775ea49caf086578efba22f5.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																	<div class="highlight_player_item highlight_screenshot" id="highlight_screenshot_ss_dd703a2d5c329d19a9caaca425c4e3d5d3ba1f8c.jpg" style="display: none;">
+										<div class="screenshot_holder">
+											<a class="highlight_screenshot_link" data-screenshotid="ss_dd703a2d5c329d19a9caaca425c4e3d5d3ba1f8c.jpg" href="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_dd703a2d5c329d19a9caaca425c4e3d5d3ba1f8c.1920x1080.jpg?t=1449019604" target="_blank" rel="noreferrer">
+												<img src="http://store.edgecast.steamstatic.com/public/images/blank.gif">
+											</a>
+										</div>
+									</div>
+																<script type="text/javascript">
+									var rgMovieFlashvars = {
+																					'movie_5523': {
+												FILENAME: "http://cdn.edgecast.steamstatic.com/steam/apps/5523/movieLrg.flv?t=1447352764",
+												MOVIE_NAME: "Fallout+3+Broken+Steel+Trailer"
+											 },
+																					'movie_5526': {
+												FILENAME: "http://cdn.edgecast.steamstatic.com/steam/apps/5526/movieLrg.flv?t=1447352765",
+												MOVIE_NAME: "Fallout+3+Bloodless+Trailer"
+											 },
+																					'movie_5522': {
+												FILENAME: "http://cdn.edgecast.steamstatic.com/steam/apps/5522/movieLrg.flv?t=1447352763",
+												MOVIE_NAME: "Fallout+3+Operation+Achorage+Trailer"
+											 },
+																					'movie_5524': {
+												FILENAME: "http://cdn.edgecast.steamstatic.com/steam/apps/5524/movieLrg.flv?t=1447352764",
+												MOVIE_NAME: "Fallout+3+Mothership+Zeta+Trailer"
+											 },
+																					'movie_5525': {
+												FILENAME: "http://cdn.edgecast.steamstatic.com/steam/apps/5525/movieLrg.flv?t=1447352764",
+												MOVIE_NAME: "Fallout+3+Point+Lookout+Trailer"
+											 },
+																				'' : ''
+									};
+									var rgCommonFlashVars = {
+											clientLanguage: "german",
+											capsuleSize: "huge",
+											STAGE_WIDTH: 600,
+											STAGE_HEIGHT: 338,
+											AUTO_PLAY: "true",
+											ALLOW_JSPAUSE: "true",
+											TRACK_MUTE: "true",
+											CHECKBOX_AUTOPLAY_SHOW: "true",
+											CHECKBOX_AUTOPLAY_TEXT: "Automatischer+Videostart"
+									};
+																		var rgScreenshotURLs = {"ss_87fb57e11912a692f29614f88411d0db2cba405a.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_87fb57e11912a692f29614f88411d0db2cba405a_SIZE_.jpg?t=1449019604","ss_d770133d0a0c1b9b73fa31f20f29fe6617b73cfb.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_d770133d0a0c1b9b73fa31f20f29fe6617b73cfb_SIZE_.jpg?t=1449019604","ss_2405f21839a5cec01918a5f6fe7cae0b80422107.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_2405f21839a5cec01918a5f6fe7cae0b80422107_SIZE_.jpg?t=1449019604","ss_37398576af0f80af58744b56a24b8526833f2efb.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_37398576af0f80af58744b56a24b8526833f2efb_SIZE_.jpg?t=1449019604","ss_b37fe0d332ed8877e06a2b18efc95b1dab2a54af.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_b37fe0d332ed8877e06a2b18efc95b1dab2a54af_SIZE_.jpg?t=1449019604","ss_be899cfc4b2716f77d0a07737d519895ae0919f2.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_be899cfc4b2716f77d0a07737d519895ae0919f2_SIZE_.jpg?t=1449019604","ss_bc45b3514bd9d10450e0f56cf6ca110d487ab9f1.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_bc45b3514bd9d10450e0f56cf6ca110d487ab9f1_SIZE_.jpg?t=1449019604","ss_4ea123bae2967a081baf183f99af485a8fe54fd3.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_4ea123bae2967a081baf183f99af485a8fe54fd3_SIZE_.jpg?t=1449019604","ss_da809b52f47085205a8eb1f116e22c73bee18c81.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_da809b52f47085205a8eb1f116e22c73bee18c81_SIZE_.jpg?t=1449019604","ss_e5eca12ac4678e10d7c0ee86ba6cb423e413ef58.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_e5eca12ac4678e10d7c0ee86ba6cb423e413ef58_SIZE_.jpg?t=1449019604","ss_a6caf368d14ba1d5a2ad548ae419a05a7cced29d.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_a6caf368d14ba1d5a2ad548ae419a05a7cced29d_SIZE_.jpg?t=1449019604","ss_f4923635e94cd2c09799f797b5f89ac3dda2eb15.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_f4923635e94cd2c09799f797b5f89ac3dda2eb15_SIZE_.jpg?t=1449019604","ss_ac1a49312f09178c78c3b4464cfc743bc4c380b1.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_ac1a49312f09178c78c3b4464cfc743bc4c380b1_SIZE_.jpg?t=1449019604","ss_56f0c65d34f78a4b2b468fa71773ce297c18ba7a.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_56f0c65d34f78a4b2b468fa71773ce297c18ba7a_SIZE_.jpg?t=1449019604","ss_69399123132dcb4fe3691b4dd6b84077bf4da656.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_69399123132dcb4fe3691b4dd6b84077bf4da656_SIZE_.jpg?t=1449019604","ss_18517b1865f2ea003836002dbdd4f88001a40913.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_18517b1865f2ea003836002dbdd4f88001a40913_SIZE_.jpg?t=1449019604","ss_30d31f35608dcf8ad940eef06b06b72668a58c63.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_30d31f35608dcf8ad940eef06b06b72668a58c63_SIZE_.jpg?t=1449019604","ss_417951e16be2418b9ea8294f9957d40723c20d83.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_417951e16be2418b9ea8294f9957d40723c20d83_SIZE_.jpg?t=1449019604","ss_9ebd8b126b6b0e7f7de5ba46cd52e52079e0247f.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_9ebd8b126b6b0e7f7de5ba46cd52e52079e0247f_SIZE_.jpg?t=1449019604","ss_515508f4c22bbc5988765988b20ef3f9b042709f.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_515508f4c22bbc5988765988b20ef3f9b042709f_SIZE_.jpg?t=1449019604","ss_908adced631b238e775ea49caf086578efba22f5.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_908adced631b238e775ea49caf086578efba22f5_SIZE_.jpg?t=1449019604","ss_dd703a2d5c329d19a9caaca425c4e3d5d3ba1f8c.jpg":"http:\/\/cdn.edgecast.steamstatic.com\/steam\/apps\/22370\/ss_dd703a2d5c329d19a9caaca425c4e3d5d3ba1f8c_SIZE_.jpg?t=1449019604"};
+								</script>
+							</div>
+														<div id="highlight_strip">
+								<div id="highlight_strip_scroll" style="width: 3242px;">
+									<div class="highlight_selector"></div>
+
+																			<div class="highlight_strip_item highlight_strip_movie" id="thumb_movie_5523" >
+											<img class="movie_thumb" src="http://cdn.edgecast.steamstatic.com/steam/apps/5523/movie.jpg?t=1447352764">
+											<div class="highlight_movie_marker"></div>
+										</div>
+																			<div class="highlight_strip_item highlight_strip_movie" id="thumb_movie_5526" >
+											<img class="movie_thumb" src="http://cdn.edgecast.steamstatic.com/steam/apps/5526/movie.jpg?t=1447352765">
+											<div class="highlight_movie_marker"></div>
+										</div>
+									
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_87fb57e11912a692f29614f88411d0db2cba405a.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_87fb57e11912a692f29614f88411d0db2cba405a.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_d770133d0a0c1b9b73fa31f20f29fe6617b73cfb.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_d770133d0a0c1b9b73fa31f20f29fe6617b73cfb.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_2405f21839a5cec01918a5f6fe7cae0b80422107.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_2405f21839a5cec01918a5f6fe7cae0b80422107.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_37398576af0f80af58744b56a24b8526833f2efb.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_37398576af0f80af58744b56a24b8526833f2efb.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_b37fe0d332ed8877e06a2b18efc95b1dab2a54af.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_b37fe0d332ed8877e06a2b18efc95b1dab2a54af.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_be899cfc4b2716f77d0a07737d519895ae0919f2.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_be899cfc4b2716f77d0a07737d519895ae0919f2.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_bc45b3514bd9d10450e0f56cf6ca110d487ab9f1.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_bc45b3514bd9d10450e0f56cf6ca110d487ab9f1.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_4ea123bae2967a081baf183f99af485a8fe54fd3.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_4ea123bae2967a081baf183f99af485a8fe54fd3.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_da809b52f47085205a8eb1f116e22c73bee18c81.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_da809b52f47085205a8eb1f116e22c73bee18c81.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_e5eca12ac4678e10d7c0ee86ba6cb423e413ef58.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_e5eca12ac4678e10d7c0ee86ba6cb423e413ef58.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_a6caf368d14ba1d5a2ad548ae419a05a7cced29d.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_a6caf368d14ba1d5a2ad548ae419a05a7cced29d.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_f4923635e94cd2c09799f797b5f89ac3dda2eb15.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_f4923635e94cd2c09799f797b5f89ac3dda2eb15.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_ac1a49312f09178c78c3b4464cfc743bc4c380b1.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_ac1a49312f09178c78c3b4464cfc743bc4c380b1.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_56f0c65d34f78a4b2b468fa71773ce297c18ba7a.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_56f0c65d34f78a4b2b468fa71773ce297c18ba7a.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_69399123132dcb4fe3691b4dd6b84077bf4da656.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_69399123132dcb4fe3691b4dd6b84077bf4da656.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_18517b1865f2ea003836002dbdd4f88001a40913.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_18517b1865f2ea003836002dbdd4f88001a40913.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_30d31f35608dcf8ad940eef06b06b72668a58c63.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_30d31f35608dcf8ad940eef06b06b72668a58c63.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_417951e16be2418b9ea8294f9957d40723c20d83.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_417951e16be2418b9ea8294f9957d40723c20d83.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_9ebd8b126b6b0e7f7de5ba46cd52e52079e0247f.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_9ebd8b126b6b0e7f7de5ba46cd52e52079e0247f.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_515508f4c22bbc5988765988b20ef3f9b042709f.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_515508f4c22bbc5988765988b20ef3f9b042709f.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_908adced631b238e775ea49caf086578efba22f5.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_908adced631b238e775ea49caf086578efba22f5.116x65.jpg?t=1449019604">
+										</div>
+																			<div class="highlight_strip_item highlight_strip_screenshot" id="thumb_screenshot_ss_dd703a2d5c329d19a9caaca425c4e3d5d3ba1f8c.jpg" >
+											<img src="http://cdn.edgecast.steamstatic.com/steam/apps/22370/ss_dd703a2d5c329d19a9caaca425c4e3d5d3ba1f8c.116x65.jpg?t=1449019604">
+										</div>
+									
+																			<div class="highlight_strip_item highlight_strip_movie" id="thumb_movie_5522" >
+											<img class="movie_thumb" src="http://cdn.edgecast.steamstatic.com/steam/apps/5522/movie.jpg?t=1447352763">
+											<div class="highlight_movie_marker"></div>
+										</div>
+																			<div class="highlight_strip_item highlight_strip_movie" id="thumb_movie_5524" >
+											<img class="movie_thumb" src="http://cdn.edgecast.steamstatic.com/steam/apps/5524/movie.jpg?t=1447352764">
+											<div class="highlight_movie_marker"></div>
+										</div>
+																			<div class="highlight_strip_item highlight_strip_movie" id="thumb_movie_5525" >
+											<img class="movie_thumb" src="http://cdn.edgecast.steamstatic.com/steam/apps/5525/movie.jpg?t=1447352764">
+											<div class="highlight_movie_marker"></div>
+										</div>
+																	</div>
+							</div>
+															<div class="slider_ctn">
+									<div id="highlight_slider_left" class="slider_left"><span></span></div>
+									<div class="slider" id="highlight_slider" >
+										<div class="slider_bg">
+										</div>
+										<div class="handle">
+										</div>
+									</div>
+									<div id="highlight_slider_right" class="slider_right"><span></span></div>
+								</div>
+								<script type="text/javascript">
+									$J( function() {
+										var player = new HighlightPlayer( {
+											elemPlayerArea: 'highlight_player_area',
+											elemStrip: 'highlight_strip',
+											elemStripScroll: 'highlight_strip_scroll',
+											elemSlider: 'highlight_slider',
+											rgMovieFlashvars: rgMovieFlashvars,
+											rgScreenshotURLs: rgScreenshotURLs,
+											rgDefaultMovieFlashvars: rgCommonFlashVars
+										} );
+
+										$J('#highlight_slider_right').click( function() {
+											player.Transition( true );
+										});
+										$J('#highlight_slider_left').click( function() {
+											player.TransitionBack( true );
+										});
+
+										if( window.location.hash )
+										{
+											var ssid = window.location.hash.substr(1);
+											player.HighlightScreenshot(ssid);
+										}
+									} );
+								</script>
+													</div>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+			</div>
+
+
+			
+			
+			<div class="queue_overflow_ctn">
+									<div class="queue_ctn">
+											<div class="queue_actions_ctn">
+							<p><a href="http://store.steampowered.com/login/?redir=app%2F22370">Melden Sie sich an</a>, um dieses Produkt zu Ihrer Wunschliste hinzuzufügen oder als "Nicht interessiert" zu markieren.</p>
+						</div>
+					</div>
+							</div>
+			
+			
+
+			
+			
+		</div>
+
+		
+
+				
+
+		<div class="page_content">
+
+				<!-- Right Column -->
+				<div class="rightcol game_meta_data">
+					<div id="responsive_apppage_details_left_ctn"></div>
+					<div id="responsive_apppage_details_right_ctn"></div>
+					<div style="clear: both;"></div>
+					
+													<div class="block responsive_apppage_details_right heading">Ist dieses Spiel relevant für Sie?</div>
+							<div class="block responsive_apppage_details_right recommendation_noinfo" >
+								<p>
+									Melden Sie sich an, um zu erfahren, warum Sie dies mögen könnten, basierend auf Ihren Spielen, Freunden und Kuratoren, denen Sie folgen.
+								</p>
+								<br>
+
+																	<a class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/login/?redir=app/22370"><span>Anmelden</span></a>
+									oder									<a class="btnv6_blue_hoverfade btn_medium" href="steam://store/22370"><span>Steam öffnen</span></a>
+															</div>
+													
+					
+
+
+
+
+
+					
+					
+					
+
+
+
+
+					
+
+											<div class="block responsive_apppage_details_left" id="category_block">
+
+							<div class="game_area_details_specs"><div class="icon"><a href="http://store.steampowered.com/search/?category2=2&snr=1_5_9__423"><img class="category_icon" src="http://store.edgecast.steamstatic.com/public/images/v6/ico/ico_singlePlayer.png"></a></div><a class="name" href="http://store.steampowered.com/search/?category2=2&snr=1_5_9__423">Einzelspieler</a></div>
+							
+							
+													</div>
+																					<div class="block responsive_apppage_details_right">
+							<div class="block_title">
+								Sprachen:
+							</div>
+
+							
+<table  class="game_language_options" cellpadding="0" cellspacing="0">
+	<tr>
+		<th style="width: 94px;"></th>
+				<th class="checkcol">Oberfläche</th>
+		<th class="checkcol">Ton</th>
+		<th class="checkcol">Untertitel</th>
+	</tr>
+
+			<tr style="" class="">
+			<td style="width: 94px; text-align: left" class="ellipsis">
+				Deutsch			</td>
+							<td class="checkcol">
+					 <img src="http://store.edgecast.steamstatic.com/public/images/v6/ico/ico_bluecheck.png"/> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: left" class="ellipsis">
+				Englisch			</td>
+							<td class="checkcol">
+					 <img src="http://store.edgecast.steamstatic.com/public/images/v6/ico/ico_bluecheck.png"/> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: left" class="ellipsis">
+				Französisch			</td>
+							<td class="checkcol">
+					 <img src="http://store.edgecast.steamstatic.com/public/images/v6/ico/ico_bluecheck.png"/> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: left" class="ellipsis">
+				Italienisch			</td>
+							<td class="checkcol">
+					 <img src="http://store.edgecast.steamstatic.com/public/images/v6/ico/ico_bluecheck.png"/> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: left" class="ellipsis">
+				Spanisch			</td>
+							<td class="checkcol">
+					 <img src="http://store.edgecast.steamstatic.com/public/images/v6/ico/ico_bluecheck.png"/> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+	</table>
+
+						</div>
+					
+											<div class="block responsive_apppage_details_right">
+																								<p><img src="http://store.edgecast.steamstatic.com/public/images/ratings/USK/18.gif"></p>
+															
+													</div>
+					
+					
+
+					<div class="block responsive_apppage_details_left game_details underlined_links">
+						<div class="block_content">
+							<div class="block_content_inner">
+								<div class="details_block">
+	<b>Titel:</b> Fallout 3: Game of the Year Edition<br>
+
+				<b>Genre:</b> <a href="http://store.steampowered.com/genre/RPG/?snr=1_5_9__408">RPG</a><br>
+			
+			<b>Entwickler:</b>
+								<a href="http://store.steampowered.com/search/?developer=Bethesda%20Game%20Studios&snr=1_5_9__408">Bethesda Game Studios</a>
+				<br>
+	
+			<b>Publisher:</b>
+		<a href="http://store.steampowered.com/search/?publisher=Bethesda Softworks">Bethesda Softworks</a>		<br>
+	
+	
+			<b>Veröffentlichung:</b> 13. Okt. 2009<br>
+	
+	</div>
+
+
+<div class="details_block">
+	<br>
+
+		
+	
+	
+	
+	
+	
+	
+			<a class="linkbar" href="http://store.steampowered.com/news/?appids=22370" target="_blank" rel="noreferrer" >
+			Updateverlauf anzeigen		</a>
+		<a class="linkbar" href="http://store.steampowered.com/news/?appids=22370" target="_blank" rel="noreferrer" >
+			Ähnliche News lesen		</a>
+	
+			<a class="linkbar" href="http://steamcommunity.com/app/22370/discussions/" target="_blank" rel="noreferrer" >
+			Diskussionen anzeigen		</a>
+		
+		<a class="linkbar" href="http://steamcommunity.com/actions/Search?T=ClanAccount&K=Fallout%203%3A%20Game%20of%20the%20Year%20Edition">
+		Communitygruppen finden	</a>
+</div>							</div>
+						</div>
+											</div>
+
+					<div class="block responsive_apppage_details_left">
+						<a class="btnv6_blue_hoverfade btn_medium" href="#" onclick="ShowShareDialog(); return false;"><span>Teilen</span></a>
+						<a class="btnv6_blue_hoverfade btn_medium" href="#" onclick="ShowEmbedWidget(22370); return false;"><span>Einbetten</span></a>
+						<a id="ReportAppBtn" class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(22370)"><span data-store-tooltip="Dieses Produkt melden"><i class="ico16 reportv6"></i>&nbsp;</span></a>
+					</div>
+
+											<div class="block responsive_apppage_reviewblock">
+															<div id="game_area_metascore">
+									<div class="score high">
+										91									</div>
+									<div class="logo"></div>
+									<div class="wordmark">
+										<div class="metacritic">metacritic</div>
+																					<div id="game_area_metalink"><a href="http://www.metacritic.com/game/pc/fallout-3?ftag=MCD-06-10aaa1f" target="_blank">Reviews lesen</a> <img src="http://store.edgecast.steamstatic.com/public/images/ico/iconExternalLink.gif" border="0" align="bottom"></div>
+																			</div>
+								</div>
+														<div style="clear: both"></div>
+						</div>
+					
+					
+					
+				</div>
+				<!-- End Right Column -->
+
+
+				<div class="leftcol game_description_column">
+
+
+					
+										<div id="game_area_purchase">
+
+																			
+																			<div id="purchase_note">
+								<div class="notice_box_top"></div>
+																											<div class="notice_box_content">
+																							<b>Hinweis:</b>
+																						Geschnittene Version - nur auf Deutsch verfügbar										</div>
+																																				<div class="notice_box_content">
+																							<b>Hinweis:</b>
+																						Fallout 3 ist nicht für Windows 7 optimiert										</div>
+																									<div class="notice_box_bottom"></div>
+							</div>
+						
+
+						
+
+												
+																			<!--[if lte IE 7]>
+<style type="text/css">
+.game_area_purchase_game_dropdown_right_panel .btn_addtocart { float: none; }
+</style>
+<![endif]-->
+<div class="game_area_purchase_game_wrapper">
+		<div class="game_area_purchase_game">
+		<form name="add_to_cart_2645" action="http://store.steampowered.com/cart/" method="POST">
+			<input type="hidden" name="snr" value="1_5_9__403">
+			<input type="hidden" name="action" value="add_to_cart">
+			<input type="hidden" name="sessionid" value="6b739aaec83b1b4a54243fa0">
+			<input type="hidden" name="subid" value="2645">
+		</form>
+		<div class="game_area_purchase_platform"><span class="platform_img win"></span></div>
+		<h1>Fallout 3 Game of the Year Edition kaufen</h1>
+							<p>Includes all five of the Fallout 3 Game Add-on Packs</p>
+										
+		<div class="game_purchase_action">
+																<div class="game_purchase_action_bg">
+															<div class="discount_block game_purchase_discount"> <div class="discount_pct">-50%</div><div class="discount_prices"><div class="discount_original_price">19,99€</div><div class="discount_final_price">9,99€</div></div></div>													<div class="btn_addtocart">
+																																<a class="btnv6_green_white_innerfade btn_medium" href="javascript:addToCart(2645);">
+								<span>In den Warenkorb</span>
+							</a>
+																		
+				</div>
+							</div>
+		</div>
+	</div>
+
+		
+	</div>
+
+					</div>
+					<!-- game_area_purchase -->
+
+					
+					<div class="purchase_area_spacer">&nbsp;</div>
+
+					
+					
+				
+
+					<div id="game_area_reviews" class="game_area_description">
+						<h2>Reviews</h2>
+						<p>&quot;Fallout 3 ist das ultimate Computerspiel.&quot; - Game Critics Awards</p>
+					</div>
+				
+									<div class="game_page_autocollapse" style="max-height: 850px;">
+						<div id="game_area_description" class="game_area_description">
+							<h2>Über dieses Spiel</h2>
+							<strong>Bereiten Sie sich auf die Zukunft vor!</strong><br>Mit der Fallout 3: Game of the Year Edition können Sie das preisgekrönte Spiel von 2008 wie so noch nie zuvor erleben. Erstellen Sie einen Charakter und tauchen Sie in eine schier unglaubliche, post-apokalyptische Welt, in der jede Minute ein Kampf ums Überleben ist. Die Fallout 3: Game of the Year Edition beinhaltet alle fünf Fallout 3 Game Add-on Packs:<br><ul class="bb_ul"><li><strong>Operation: Anchorage</strong> - Spielen Sie diese Militärsimulation und kämpfen Sie um die Befreiung von Anchorage (Alaska) von den chinesischen, kommunistischen Invasoren.<br></li><li><strong>The Pitt</strong> - Reisen Sie zu den post-apokalyptischen Überresten von Pittsburgh und überleben Sie die Schlacht zwischen den Sklaven und ihren Raider-Herren.<br></li><li><strong>Broken Steel</strong> - Verbessern Sie Ihren Charakter bis Level 30 und schlichten Sie die Gefechte zwischen den restlichen Enklave bei Liberty Prime.<br></li><li><strong>Point Lookout</strong> - Begeben Sie sich auf ein mysteriöses Abenteuer mit offenen Ende in einem riesigen, düsteren Sumpfgebiet an der Küste von Maryland.<br></li><li><strong>Mothership Zeta</strong> - Schlagen Sie feindliche Entführer zurück und bekämpfen Sie das Mutterschiff der Außerirdischen, dass Meilen über den zentralen Ödland schwebt.</li></ul><h2 class="bb_tag">Highlights</h2><ul class="bb_ul"><li><strong>Unbegrenzte Freiheit</strong> - Erleben Sie die Geräusche und die Landschaft des weitläufigen Ödlands! Sehen Sie die großartigen Monumente der USA in Staub un Asche liegend! Sie wählen Ihren Weg und verändern dabei die Welt. Behalten Sie nur ständig ein Auge auf Ihrem Geigerzähler!<br></li><li><strong>Erfahren Sie S.P.E.C.I.A.L.</strong> - Vault-Tec Ingenieure bieten Ihne das Neueste in der Simulation menschlicher Fähigkeiten — das SPECIAL Charakter System! Nutzen Sie Weiterentwicklungen des SPECIAL Systems und erleben Sie unbegrenzte Individualisierungsmöglichkeiten Ihres Charakters. Ein Dutzend einzigartiger Fähigkeiten und Perks sind ebenfalls beinhaltet, jeder mit einer verblüffenden Anzahl Effekte!<br></li><li><strong>Fantastische Neue Ansichten</strong> - Die Zauberer bei Vault-Tec haben es wiedereinmal geschafft! Sie sind nicht mehr nur an einen Blickwinkel gebunden - erleben Sie die Welt aus der Ich- oder der Drittpersonen-Perspektive. Wählen Sie Ihren Blickwinkel auf Knopfdruck!<br></li><li><strong>Die Qual der Wahl</strong> - Fühlen Sie sich heute wie ein feiger Bastard oder wie ein guter Samariter? Wählen Sie eine Seite oder bleiben Sie auf einem schmalen Grat, denn jede Situation kann auf unterschiedlichste Weise gelöst werden. Besprechen Sie Ihre Probleme in zivilisierter Weise oder überlassen Sie Ihrem Plasmagewehr die Überzeugungsarbeit.<br></li><li><strong>Blast 'Em Away With V.A.T.S.</strong> - Verbessern Sie Ihre Überlebenschance mit dem Vault-Tec Assisted Targeting System für Ihr Pip-Boy Model 3000! V.A.T.S. erlaubt Ihnen die Zeit im Kampf zu pausieren und spezifische Körperteile Ihres Gegners anzuvisieren, Attacken aneinanderzureihen und überlassen Sie es Vault-Tec Ihren Aggressionen Lauf zu lassen. Regnen Sie Tod und Zerstörung in filmreifen Darstellungen.<br></li><li><strong>Verblüffende KI</strong> - Bei Vault-Tec wissen wir, dass der Schlüssel zur Wiederbelebung der Zivilisation nach einem globalen nuklearen Krieg die Überlebenden an sich sind. Unsere besten Forscher haben all Ihre Anstrengungen gebündelt und eine verbesserte Version der Radiant AI entwicklet - Amerikas Erste Wahl in der Simulation menschlicher Fähigkeiten. Gesichtsanimationen, Gesten, einzigartige Dialoge und lebensnahes Verhalten werden hier zu außergewöhnlichen Resultaten mit Hilfe von Vault-Tecs Technologie.<br></li><li><strong>Unglaubliche Schönheit*</strong> - Werden Sie Zeuge einer rauen Realität des nuklearen Fallouts so wie noch nie zuvor in modernen super-deluxe HD Grafik gesehen. Von dem kargen Ödland bis zu den gefahrvollen Büros und Metro-Tunneln von DC, bis zu den schrecklichen Gesichtszügen der Mutantengesichter. </li></ul>*Schutzbrillen empfohlen.						</div>
+					</div>
+				
+				
+				
+					<div class="game_page_autocollapse sys_req" style="max-height: 300px;">
+		<h2>Systemanforderungen</h2>
+				<div class="sysreq_contents">
+							<div class="game_area_sys_req sysreq_content active" data-os="win">
+											<div class="game_area_sys_req_leftCol">
+							<ul>
+								<ul class="bb_ul"><li><strong>Betriebssystem: </strong>Windows XP/Vista                    <br>					</li><li><strong>Prozessor: </strong>2.4 Ghz Intel Pentium 4 oder vergleichbar                    <br>					</li><li><strong>Speicher: </strong>1 GB (XP)/ 2 GB (Vista)                    <br>					</li><li><strong>Festplatte: </strong>7 GB freier Speicherplatz                    <br>					</li><li><strong>Grafikkarte: </strong>DirectX 9.0c-kompatibel mit 256MB RAM (NVIDIA 6800 oder besser/ATI X850 oder besser)                    <br>					</li><li><strong>Sound: </strong>DirectX® 9.0c-kompatibel                    <br>					</li><li><strong>Unterstützte Eingabegeräte: </strong> Xbox 360-Controller <br>					</li><li><strong>Andere Voraussetzungen:</strong> Online-Spiele setzen den Log-in zu Games For Windows - Live voraus</li></ul><strong>Grafikkarten-Chipsets: </strong>                    <br>					<ul class="bb_ul"><li><strong>NVIDIA</strong> GeForce 200 Serien, Geforce 9800 Serien, Geforce 9600 Serien, Geforce 8800 Serien, Geforce 8600 Serien, Geforce 8500 Serien, Geforce 8400 Serien, Geforce 7900 Serien, Geforce 7800 Serien, Geforce 7600 Serien, Geforce 7300 Serien, GeForce 6800 Serien                    <br>					</li><li><strong>ATI</strong> HD 4800 Serien, HD 4600 Serien, HD 3800 Serien, HD 3600 Serien, HD 3400 Serien, HD 2900 Serien, HD 2600 Serien, HD 2400 Serien, X1900 Serien, X1800 Serien, X1600 Serien, X1300 Serien, X850 Serien                    </li></ul>							</ul>
+						</div>
+																<div class="game_area_sys_req_rightCol">
+							<ul>
+								<strong>Empfohlen:</strong>                    <br>					<ul class="bb_ul"><li><strong>Betriebssystem: </strong>Windows XP/Vista                    <br>					</li><li><strong>Prozessor: </strong>Intel Core 2 Duo Prozessor                     <br>					</li><li><strong>Speicher: </strong>2 GB System RAM                     <br>					</li><li><strong>Festplatte: </strong>7 GB                    <br>					</li><li><strong>Grafik: </strong>Direct X 9.0c Grafikkarte with 512MB RAM (NVIDIA 8800 Serien, ATI 3800 Serien)                     <br>					</li><li><strong>Sound: </strong>DirectX®: 9.0c                    <br>					</li><li><strong>Unterstützte Eingabegeräte: </strong> Xbox 360-Controller                    </li></ul>							</ul>
+						</div>
+										<div style="clear: both;"></div>
+				</div>
+					</div>
+	</div>
+	<script type="text/javascript">
+		$J( function() {
+			var $Tabs = $J('.sysreq_tab');
+			var $Content = $J('.sysreq_content');
+
+			$Tabs.click( function() {
+				var $Tab = $J(this);
+				$Tabs.removeClass('active');
+				$Tab.addClass('active');
+
+				$Content.removeClass('active');
+				$Content.filter('[data-os=' + $Tab.data('os') + ']').addClass('active');
+
+				$Content.trigger('gamepage_autocollapse_expand');
+			});
+		} );
+	</script>
+
+									<div class="game_page_autocollapse" style="max-height: 400px;">
+						<div id="game_area_legal">
+							<p>Fallout® 3: Game of the Year Edition © 2009 Bethesda Softworks LLC, a ZeniMax Media company. Bethesda Softworks, Bethesda Game Studios, ZeniMax and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the U.S. and/or other countries. Fallout, Prepare for the Future and related logos are trademarks or registered trademarks of Bethesda Softworks LLC in the U.S. and/or other countries. All rights reserved.</p>
+						</div>
+					</div>
+				
+				
+														<div class="block" id="recommended_block">
+						<div class="block_header">
+							<div class="right">
+								<a href="http://store.steampowered.com/recommended/morelike/app/22370/?snr=1_5_9__300">Alle</a>
+							</div>
+							<h4>Ähnliche Produkte</h4>
+						</div>
+						<div class="block_responsive_horizontal_scroll store_horizontal_autoslider block_content nopad" id="recommended_block_content">
+						</div>
+					</div>
+									
+				<div id="responsive_apppage_reviewblock_ctn" class="rightcol game_meta_data"></div>
+
+				
+
+
+			</div>
+				
+			<div style="clear: both;"></div>
+			</div>
+
+
+		<div class="review_ctn">
+			<div class="page_content">
+
+				<div id="app_reviews_hash" class="app_reviews_area">
+							<div class="user_reviews_header no_bottom_margin">
+			Nutzerreviews		</div>
+
+		<input type="hidden" id="review_appid" value="22370">
+		<input type="hidden" id="review_default_day_range" value="30">
+		<input type="hidden" id="review_start_date" value="-1">
+		<input type="hidden" id="review_end_date" value="-1">
+		<input type="hidden" id="review_summary_num_positive_reviews" value="12452">
+		<input type="hidden" id="review_summary_num_reviews" value="15372">
+
+		<div id="review_recent_events_container">
+			<div class="review_recent_events_icon"><img src="http://store.edgecast.steamstatic.com/public/images/v6/app/review_alert.png"></div>
+			<div class="recent_review_title">
+				<span id="recent_review_event_title">Hohe Reviewanzahl festgestellt:</span> <span class="recent_review_event_dates" id="recent_review_event_dates"></span>
+			</div>
+			<span class="btnv6_white_transparent btn_small_thin"><span id="filter_reviews_exclude_event_btn">Ausschließen von</span></span>
+			<span class="recent_review_event_text">&nbsp;oder&nbsp;</span>
+			<span class="btnv6_white_transparent btn_small_thin"><span id="filter_reviews_to_event_btn">filtern nach</span></span>
+			<span class="recent_review_event_text" id="recent_review_event_text"></span>
+		</div>
+		<div id="review_histograms_container" class="collapsed">
+			<canvas id="review_graph_canvas"></canvas>
+			<div id="review_histogram_rollup_section" class="review_histogram_section">
+				<div class="user_reviews_summary_bar">
+										<div class="summary_section" >
+						<div class="title">Alle Reviews:</div>
+						<span class="game_review_summary positive" data-store-tooltip="81 % der 15,372 Nutzerreviews für dieses Spiel sind positiv.">Sehr positiv</span>
+													<span>(15,372 Reviews)</span>
+												<a class="tooltip" data-tooltip-content="Diese Übersicht zeigt nur Reviews von Kunden an, die das Spiel direkt über Steam gekauft haben."><img src="http://store.edgecast.steamstatic.com/public/shared/images/ico/icon_questionmark.png"></a>
+					</div>
+				</div>
+				<div id="review_histogram_rollup_container" class="review_histogram">
+					<div id="review_histogram_rollup"></div>
+				</div>
+			</div><!--
+			--><div id="review_histogram_recent_section" class="review_histogram_section recent">
+				<div class="user_reviews_summary_bar">
+														<div class="summary_section">
+						<div class="title">Kürzliche Reviews:</div>
+						<span class="game_review_summary positive" data-store-tooltip="74% der 231 Nutzerreviews der letzten 30 Tage sind positiv.">Größtenteils positiv</span>
+													<span>(231 Reviews)</span>
+												<a class="tooltip" data-tooltip-content="Diese Übersicht zeigt nur Reviews von Kunden an, die das Spiel direkt über Steam gekauft haben."><img src="http://store.edgecast.steamstatic.com/public/shared/images/ico/icon_questionmark.png"></a>
+					</div>
+								</div>
+				<div class="review_histogram">
+					<div id="review_histogram_recent"></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="reviews_filter_options" class="user_reviews_filter_options flyout graph_collapsed">
+			<div class="user_reviews_filter_menu">
+				<div class="title">Reviewtyp</div>
+				<div class="user_reviews_filter_menu_flyout">
+					<div class="user_reviews_filter_menu_flyout_content">
+						<input type="radio" name="review_type" value="all" id="review_type_all" checked onchange="ShowFilteredReviews()">
+						<label for="review_type_all">Alle&nbsp;<span class="user_reviews_count">(19,238)</span></label><br>
+						<input type="radio" name="review_type" value="positive" id="review_type_positive" onchange="ShowFilteredReviews()">
+						<label for="review_type_positive">Positiv&nbsp;<span class="user_reviews_count">(15,720)</span></label><br>
+						<input type="radio" name="review_type" value="negative" id="review_type_negative" onchange="ShowFilteredReviews()">
+						<label for="review_type_negative">Negativ&nbsp;<span class="user_reviews_count">(3,518)</span></label>
+					</div>
+				</div>
+			</div>
+			<div class="user_reviews_filter_menu">
+				<div class="title">Erwerbsart</div>
+				<div class="user_reviews_filter_menu_flyout">
+					<div class="user_reviews_filter_menu_flyout_content">
+						<input type="radio" name="purchase_type" value="all" id="purchase_type_all" checked onchange="ChangeReviewPurchaseTypeFilter()">
+						<label for="purchase_type_all">Alle&nbsp;<span class="user_reviews_count">(19,238)</span></label><br>
+						<input type="radio" name="purchase_type" value="steam" id="purchase_type_steam"  onchange="ChangeReviewPurchaseTypeFilter()">
+						<label for="purchase_type_steam">Steam-Käufer&nbsp;<span class="user_reviews_count">(15,372)</span> <a class="tooltip" data-tooltip-content="Dies sind Reviews von Kunden, die dieses Spiel direkt auf Steam gekauft haben."><img src="http://store.edgecast.steamstatic.com/public/shared/images/ico/icon_questionmark_dark.png"></a></label><br>
+						<input type="radio" name="purchase_type" value="non_steam_purchase" id="purchase_type_non_steam"  onchange="ChangeReviewPurchaseTypeFilter()">
+						<label for="purchase_type_non_steam">Andere&nbsp;<span class="user_reviews_count">(3,866)</span> <a class="tooltip" data-tooltip-content="Dies sind Reviews von Kunden, die dieses Spiel nicht auf Steam gekauft haben. (Dies kann eine seriöse Quelle sein, wie beispielsweise andere digitale Shops, Einzelhandel, Testzwecke oder für Presserezensionen – oder eine zweckswidrige Quelle, wie im Austausch für Reviews herausgegebene Produktschlüssel.)"><img src="http://store.edgecast.steamstatic.com/public/shared/images/ico/icon_questionmark_dark.png"></a></label>
+					</div>
+				</div>
+			</div>
+			<div class="user_reviews_filter_menu">
+				<div class="title">Sprache</div>
+				<div class="user_reviews_filter_menu_flyout">
+					<div class="user_reviews_filter_menu_flyout_content">
+						<input type="radio" name="review_language" id="review_language_all" value="all" onchange="ShowFilteredReviews()">
+						<label for="review_language_all">Alle Sprachen&nbsp;<span class="user_reviews_count">(19,238)</span></label><br>
+						<input type="radio" name="review_language" id="review_language_mine" value="german,english" checked onchange="ShowFilteredReviews()">
+						<label for="review_language_mine">Ihre Sprachen&nbsp;<span class="user_reviews_count">(14,314)</span> <a class="tooltip" data-tooltip-content="Ihre Einstellungen sind derzeit so konfiguriert, dass Ihnen Inhalte in folgenden Sprachen angezeigt werden: German, English<br><br> Klicken Sie unten auf "Anpassen", um Ihre Einstellungen zu bearbeiten."><img src="http://store.edgecast.steamstatic.com/public/shared/images/ico/icon_questionmark_dark.png"></a></label><br>
+						<div class="user_reviews_customize_language"><a href="http://store.steampowered.com//account/languagepreferences">Anpassen</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="user_reviews_filter_menu" id="reviews_date_range_menu">
+				<div class="title">Zeitraum</div>
+				<div class="user_reviews_filter_menu_flyout">
+					<div class="user_reviews_filter_menu_flyout_content">
+						<div class="user_reviews_date_range_explanation">
+							Zum Anzeigen von Reviews in einem bestimmten Zeitraum, markieren Sie diesen bitte in einem der obigen Graphen oder klicken Sie auf einen einzelnen Balken.							<br><br>
+							<span class="btn_darkblue_white_innerfade btn_small_thin" onclick="SetReviewsGraphVisibility( true ); "><span>Graph anzeigen</span></span>
+						</div>
+						<input type="radio" name="review_date_range" id="review_date_range_all" value="all" checked onchange="ClearReviewDateFilter()">
+						<label for="review_date_range_all">Gesamt</label><br>
+						<input type="radio" name="review_date_range" id="review_date_range_histogram" value="include" disabled onchange="ShowFilteredReviews()">
+						<label for="review_date_range_histogram">Spezifische Zeitspanne (in Grafik auswählen)&nbsp</label><br>
+						<input type="radio" name="review_date_range" id="review_date_range_exclude_histogram" value="exclude" disabled onchange="ShowFilteredReviews()">
+						<label for="review_date_range_exclude_histogram">Spezifische Zeitspanne ausblenden (in Grafik auswählen)&nbsp</label><br>
+					</div>
+				</div>
+			</div>
+			<div class="user_reviews_filter_display_as">
+				<span class="title">Anzeigen:</span>
+				<select id="review_context" onchange="ShowFilteredReviews()">
+					<option value="summary">Übersicht</option>
+					<option value="all">Am hilfreichsten</option>
+					<option value="recent">Neu</option>
+					<option value="funny">Lustig</option>
+				</select>
+			</div>
+
+							<div class="user_reviews_filter_menu beta">
+					<div class="title">Review-Beta <span>NEU!</span></div>
+					<div class="user_reviews_filter_menu_flyout">
+						<div class="user_reviews_filter_menu_flyout_content">
+							<div class="user_reviews_beta_explanation">
+								Wenn aktiviert, werden die Reviews nach ihrer Nützlichkeitswertung sortiert. Lesen Sie für weitere Details den zugehörigen <a href="http://steamcommunity.com/games/593110/announcements/detail/2666556941788470579?snr=1_5_9_">Blogeintrag</a>.							</div>
+							<input type="checkbox" id="ReviewBetaCheckbox" name="review_beta_enabled" value="1" onchange="ChangedReviewHelpfulnessFilter()" checked><label for="ReviewBetaCheckbox">Aktiviert</label>
+						</div>
+					</div>
+				</div>
+			
+			<div style="float: right">
+				<span id="review_show_graph_button" class="btnv6_blue_hoverfade btn_small_thin review_graph_toggle" onclick="SetReviewsGraphVisibility( true ); "><span>Graph anzeigen</span> <div class="graph_toggle_icon down">&nbsp;</div></span>
+				<span id="review_hide_graph_button" class="btnv6_blue_hoverfade btn_small_thin review_graph_toggle" onclick="SetReviewsGraphVisibility( false ); "><span>Graph ausblenden</span> <div class="graph_toggle_icon up">&nbsp;</div></span>
+			</div>
+
+			<div style="clear: both"></div>
+		</div>
+
+		<div class="reviews_info_ctn">
+			<div id="reviews_active_filters" class="user_reviews_active_filters">
+				<div id="reviews_filter_title" class="title">Filter</div>
+				<div id="reviews_filter_type" class="active_filter" onclick="ClearReviewTypeFilter()"></div>
+				<div id="reviews_filter_purchase_type" class="active_filter" onclick="ClearReviewPurchaseTypeFilter()"></div>
+				<div id="reviews_filter_language" class="active_filter" onclick="ClearReviewLanguageFilter()"></div>
+				<div id="reviews_filter_graph" class="active_filter" onclick="ClearReviewDateRangeFilter()"><span id="review_selected_histogram_date_range_prefix"></span><span id="review_selected_histogram_date_range_text"></span></div>
+								<div id="reviews_beta" class="active_filter" onclick="ClearReviewBetaFilter()">Reviewnützlichkeitsbeta aktiviert</div>
+							</div>
+
+			<div class="user_reviews_filter_score visible" id="user_reviews_filter_score"></div>
+		
+		</div>
+
+		<div id="review_selected_filters"></div>
+
+		<div id="LoadingMoreReviewsall" style="display: none" class="loading_more_reviews">
+			<img src="http://store.edgecast.steamstatic.com/public/shared/images/throbber.gif" class="loading_more_reviews_throbber">
+			Reviews werden geladen...		</div>
+		<div id="LoadingMoreReviewsrecent" style="display: none" class="loading_more_reviews">
+			<img src="http://store.edgecast.steamstatic.com/public/shared/images/throbber.gif" class="loading_more_reviews_throbber">
+			Reviews werden geladen...		</div>
+		<div id="LoadingMoreReviewspositive" style="display: none" class="loading_more_reviews">
+			<img src="http://store.edgecast.steamstatic.com/public/shared/images/throbber.gif" class="loading_more_reviews_throbber">
+			Reviews werden geladen...		</div>
+		<div id="LoadingMoreReviewsnegative" style="display: none" class="loading_more_reviews">
+			<img src="http://store.edgecast.steamstatic.com/public/shared/images/throbber.gif" class="loading_more_reviews_throbber">
+			Reviews werden geladen...		</div>
+		<div id="LoadingMoreReviewsfunny" style="display: none" class="loading_more_reviews">
+			<img src="http://store.edgecast.steamstatic.com/public/shared/images/throbber.gif" class="loading_more_reviews_throbber">
+			Reviews werden geladen...		</div>
+
+
+		<div id="Reviews_positive" style="display: none" class="user_reviews_container leftcol"></div>
+		<div id="Reviews_negative" style="display: none" class="user_reviews_container leftcol"></div>
+		<div id="Reviews_recent" style="display: none" class="user_reviews_container leftcol"></div>
+		<div id="Reviews_funny" style="display: none" class="user_reviews_container leftcol"></div>
+		<div id="Reviews_all" style="display: none" class="user_reviews_container leftcol"></div>
+		<div id="Reviews_summary" class="user_reviews_container">
+			<div id="Reviewssummary0">
+
+		<div class="leftcol">
+					</div>
+		<div class="rightcol recent_reviews">
+					</div>
+		<div style="clear:left;"></div>
+
+					<div id="ViewAllReviewssummary" class="view_all_reviews_btn leftcol">
+									<div class="review_box">
+						<div class="noReviewsYetTitle">Es gibt keine weiteren Reviews, die Ihren Filterkriterien entspechen</div>
+						<div class="noReviewsYetSub">Passen Sie oben die Filter an, um andere Reviews anzuzeigen</div>
+						<div style="clear: left; height: 40px;"></div>
+					</div>
+							</div>
+		
+		<div style="clear: both"></div>
+		</div>
+		</div>
+		<div id="Reviews_loading" class="user_reviews_container">
+					<div class="LoadingWrapper">
+			<div class="LoadingThrobber">
+				<div class="Bar Bar1"></div>
+				<div class="Bar Bar2"></div>
+				<div class="Bar Bar3"></div>
+			</div>
+			<div class="LoadingText">Reviews werden geladen...</div>
+		</div>
+				</div>
+		<div style="clear: left"></div>
+
+						</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+		<div class="hover game_hover" id="global_hover" style="display: none; left: 0; top: 0;">
+			<div class="game_hover_box hover_box">
+				<div class="content" id="global_hover_content">
+				</div>
+			</div>
+			<div class="hover_arrow_left"></div>
+			<div class="hover_arrow_right"></div>
+		</div>
+<div id="EmbedModal"  style="display: none">
+	<div id="widget_create">
+		<p>Sie können den Widget-Assistent verwenden, um HTML-Code zu generieren, den Sie in Ihrer Website einbetten können, um es Ihren Kunden einfach zu ermöglichen, dieses Spiel bei Steam zu kaufen.</p>
+
+				<p class="small">Geben Sie bis zu 375 Zeichen als Beschreibung für Ihr Widget ein:</p>
+		<textarea name="w_text" placeholder="Bereiten Sie sich auf die Zukunft vor!Mit der Fallout 3: Game of the Year Edition können Sie das preisgekrönte Spiel von 2008 wie so noch nie zuvor erleben. Erstellen Sie einen Charakter und tauchen Sie in eine schier unglaubliche, post-apokalyptische Welt, in der jede Minute ein Kampf ums Überleben ist." maxlength="375"></textarea>
+
+		<div class="buttoncontainer">
+			<a class="btnv6_blue_hoverfade btn_medium " href="#" onclick="CreateWidget(22370); return false;"><span>Widget erstellen</span></a>
+		</div>
+	</div>
+	<div id="widget_finished" style="display: none;">
+		<div id="widget_container"></div>
+
+		<p class="small">Kopieren Sie den unten stehenden HTML-Code und fügen Sie ihn auf Ihrer Website ein, um das obige Widget anzeigen zu lassen</p>
+		<textarea id="widget_code" style=""></textarea>
+	</div>
+
+</div>
+
+<div id="ShareModal" style="display: none">
+	<div class="share">&nbsp; <a href="http://store.steampowered.com/share/facebook/app/22370" target="_blank" rel="noreferrer" title="Teilen Sie diesen Beitrag über Facebook anderen mit"><img src="http://store.edgecast.steamstatic.com/public/images/v6/social/facebook.png"></a>&nbsp; <a href="http://store.steampowered.com/share/twitter/app/22370" target="_blank" rel="noreferrer" title="Teilen Sie diesen Beitrag über Twitter anderen mit"><img src="http://store.edgecast.steamstatic.com/public/images/v6/social/twitter.png"></a>&nbsp; <a href="http://store.steampowered.com/share/reddit/app/22370" target="_blank" rel="noreferrer" title="Teilen Sie diesen Beitrag über Reddit anderen mit"><img src="http://store.edgecast.steamstatic.com/public/images/v6/social/reddit.png"></a></div></div>
+
+	<div id="app_tagging_modal" class="app_tag_modal nologin" style="display: none;">
+		<div class="app_tag_modal_content">
+			<div class="app_tag_modal_seperator"></div>
+			<div class="app_tag_modal_left">
+				<h2>Beliebte benutzerdefinierte Tags für dieses Produkt:<span class="app_tag_modal_tooltip" data-store-tooltip="Mit diesen Tags wurde das Produkt von den meisten Nutzern versehen. Sie können auf ein Tag klicken, um andere Produkte mit dem gleichen Tag zu finden. Oder Sie klicken auf das Plus-Symbol, um die Beliebtheit des Tags für dieses Produkt zu erhöhen.">(?)</span></h2>
+				<div class="app_tags popular_tags">
+				</div>
+			</div>
+			<div class="app_tag_modal_right">
+									<h2>Anmelden</h2>
+					<p>Melden Sie sich an, um diesem Produkt Ihre eigenen Tags hinzuzufügen.</p>
+					<p>
+						<a class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/login/?redir=app/22370">
+							<span>Anmelden</span>
+						</a>
+					</p>
+							</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+		<script type="text/javascript">
+		$J( function() {
+			InitAppTagModal( 22370,
+				[{"tagid":1695,"name":"OpenWorld","count":1241,"browseable":true},{"tagid":122,"name":"RPG","count":1195,"browseable":true},{"tagid":3835,"name":"post-apokalyptisch","count":1136,"browseable":true},{"tagid":4182,"name":"Einzelspieler","count":685,"browseable":true},{"tagid":1669,"name":"Modifizierbar","count":672,"browseable":true},{"tagid":3839,"name":"First-Person","count":598,"browseable":true},{"tagid":3942,"name":"SciFi","count":566,"browseable":true},{"tagid":19,"name":"Action","count":507,"browseable":true},{"tagid":21,"name":"Abenteuer","count":506,"browseable":true},{"tagid":1663,"name":"FPS","count":489,"browseable":true},{"tagid":4711,"name":"Wiederspielbarkeit","count":365,"browseable":true},{"tagid":3810,"name":"Sandbox","count":343,"browseable":true},{"tagid":1697,"name":"3rd-Person ","count":330,"browseable":true},{"tagid":3834,"name":"Entdeckungsreisen","count":321,"browseable":true},{"tagid":4166,"name":"Atmosph\u00e4risch","count":318,"browseable":true},{"tagid":1742,"name":"Episch","count":237,"browseable":true},{"tagid":1774,"name":"Shooter","count":222,"browseable":true},{"tagid":7782,"name":"Kult-Klassiker","count":212,"browseable":true},{"tagid":4231,"name":"Action-RPG","count":189,"browseable":true},{"tagid":1756,"name":"Guter Soundtrack","count":182,"browseable":true}],
+				[],
+				"1_5_9__410",
+				"1_5_9__411",
+				null			);
+
+						if ( typeof GDynamicStore != 'undefined' )
+				GDynamicStore.FixupNamePortion();
+					});
+	</script>
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+		<div id="footer_spacer" class=""></div>
+<div id="footer"  class="">
+<div class="footer_content">
+	<div class="rule"></div>
+
+	<div id="footer_nav">
+
+		
+		
+			<span class="pulldown btnv6_blue_hoverfade btn_small" id="footer_steam_pulldown">
+				<span>ÜBER STEAM</span>
+			</span>
+		<div class="popup_block_new" id="footer_steam_dropdown" style="display: none;">
+						<div class="popup_body popup_menu">
+				<a class="popup_menu_item" href="http://store.steampowered.com/about/?snr=1_44_44__22">
+					Was ist Steam?				</a>
+				<!--
+					<a class="popup_menu_item" href="">
+						Steam jetzt herunterladen					</a>
+					-->
+				<a class="popup_menu_item" href="https://support.steampowered.com/kb_article.php?p_faqid=549#gifts" target="_blank" rel="noreferrer">
+					Verschenken per Steam				</a>
+				<a class="popup_menu_item" href="https://steamcommunity.com/?snr=1_44_44__22">
+					Die Steam Community				</a>
+			</div>
+					</div>
+	
+			<span class="pulldown btnv6_blue_hoverfade btn_small" id="footer_valve_pulldown">
+				<span>ÜBER VALVE</span>
+			</span>
+		<div class="popup_block_new" id="footer_valve_dropdown" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item" href="http://www.valvesoftware.com/about.html" target="_blank" rel="noreferrer">
+					Über Valve				</a>
+				<a class="popup_menu_item" href="http://www.valvesoftware.com/business/" target="_blank" rel="noreferrer">
+					Unternehmenslösungen				</a>
+				<a class="popup_menu_item" href="http://www.steampowered.com/steamworks/" target="_blank" rel="noreferrer">
+					Steamworks				</a>
+				<a class="popup_menu_item" href="http://www.valvesoftware.com/jobs.html" target="_blank" rel="noreferrer">
+					Jobs				</a>
+			</div>
+		</div>
+			
+			
+			<span class="pulldown btnv6_blue_hoverfade btn_small" id="footer_help_pulldown">
+				<span>HILFE</span>
+			</span>
+		<div class="popup_block_new" id="footer_help_dropdown" style="display: none;">
+						<div class="popup_body popup_menu">
+				<a class="popup_menu_item" href="https://help.steampowered.com/de/?snr=1_44_44__23">
+					Support				</a>
+				<a class="popup_menu_item" href="http://store.steampowered.com/forums/?snr=1_44_44__23" target="_blank" rel="noreferrer">
+					Forum				</a>
+				<a class="popup_menu_item" href="http://store.steampowered.com/stats/?snr=1_44_44__23" target="_blank" rel="noreferrer">
+					Statistik				</a>
+			</div>
+					</div>
+
+			
+			<span class="pulldown btnv6_blue_hoverfade btn_small" id="footer_feeds_pulldown">
+				<span>NEWS-FEEDS</span>
+			</span>
+		<div class="popup_block_new" id="footer_feeds_dropdown" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item" href="http://store.steampowered.com/feeds/news.xml">
+					<img src="http://store.edgecast.steamstatic.com/public/images/ico/ico_rss2.gif" width="13" height="13" border="0" alt="" align="top">&nbsp;&nbsp;Steam-News				</a>
+				<a class="popup_menu_item" href="http://store.steampowered.com/feeds/newreleases.xml">
+					<img src="http://store.edgecast.steamstatic.com/public/images/ico/ico_rss2.gif" width="13" height="13" border="0" alt="" align="top">&nbsp;&nbsp;Spielveröffentlichungen				</a>
+				<a class="popup_menu_item" href="http://store.steampowered.com/feeds/daily_deals.xml">
+					<img src="http://store.edgecast.steamstatic.com/public/images/ico/ico_rss2.gif" width="13" height="13" border="0" alt="" align="top">&nbsp;&nbsp;Tagesangebote				</a>
+			</div>
+		</div>
+		<div style="clear: left;"></div>
+
+		<script type="text/javascript">
+			RegisterFlyout( 'footer_genre_pulldown', 'footer_genre_dropdown', null, null, true );
+			RegisterFlyout( 'footer_steam_pulldown', 'footer_steam_dropdown', null, null, true );
+			RegisterFlyout( 'footer_valve_pulldown', 'footer_valve_dropdown', null, null, true );
+			RegisterFlyout( 'footer_help_pulldown', 'footer_help_dropdown', null, null, true );
+			RegisterFlyout( 'footer_feeds_pulldown', 'footer_feeds_dropdown', null, null, true );
+		</script>
+	</div>
+
+	<br>
+
+    <div class="rule"></div>
+				<div id="footer_logo_steam"><img src="http://store.edgecast.steamstatic.com/public/images/v6/logo_steam_footer.png" alt="Valve Software" border="0" /></div>
+	
+    <div id="footer_logo"><a href="http://www.valvesoftware.com" target="_blank" rel="noreferrer"><img src="http://store.edgecast.steamstatic.com/public/images/v6/logo_valve_footer.png" alt="Valve Software" border="0" /></a></div>
+    <div id="footer_text">
+        <div>&copy; 2017 Valve Corporation. Alle Rechte vorbehalten. Alle Marken sind Eigentum ihrer jeweiligen Besitzer in den USA und anderen Ländern.</div>
+        <div>Inklusive Mehrwertsteuer, sofern zutreffend.&nbsp;&nbsp;
+
+            <a href="http://store.steampowered.com/privacy_agreement/" target="_blank" rel="noreferrer">Datenschutzrichtlinien</a>
+            &nbsp; | &nbsp;
+            <a href="http://store.steampowered.com/legal/" target="_blank" rel="noreferrer">Rechtliches</a>
+            &nbsp; | &nbsp;
+            <a href="http://store.steampowered.com/subscriber_agreement/" target="_blank" rel="noreferrer">Steam-Nutzungsvertrag</a>
+            &nbsp; | &nbsp;
+            <a href="http://store.steampowered.com/steam_refunds/" target="_blank" rel="noreferrer">Erstattungen</a>
+
+        </div>
+					<div class="responsive_optin_link">
+				<div class="btn_medium btnv6_grey_black" onclick="Responsive_RequestMobileView()">
+					<span>Mobilversion anzeigen</span>
+				</div>
+			</div>
+		    </div>
+
+
+
+    <div style="clear: left;"></div>
+
+    <div class="rule"></div>
+
+    <div class="valve_links">
+        <a href="http://www.valvesoftware.com/about.html" target="_blank" rel="noreferrer">Über Valve</a>
+        &nbsp; | &nbsp;<a href="http://www.steampowered.com/steamworks/" target="_blank" rel="noreferrer">Steamworks</a>
+        &nbsp; | &nbsp;<a href="http://www.valvesoftware.com/jobs.html" target="_blank" rel="noreferrer">Jobs</a>
+        &nbsp; | &nbsp;<a href="http://steamcommunity.com/greenlight" target="_blank" rel="noreferrer">Vertrieb über Steam</a>
+		&nbsp; | &nbsp;<a href="http://store.steampowered.com/digitalgiftcards/" target="_blank" rel="noreferrer">Geschenkkarten</a>
+		&nbsp; | &nbsp;<a href="http://www.facebook.com/Steam" target="_blank" rel="noreferrer"><img src="http://store.edgecast.steamstatic.com/public/images/ico/ico_facebook.gif"> Steam</a>
+		&nbsp; | &nbsp;<a href="http://twitter.com/steam_games" target="_blank" rel="noreferrer"><img src="http://store.edgecast.steamstatic.com/public/images/ico/ico_twitter.gif"> @steam_games</a>
+    </div>
+
+</div>
+</div>
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>
