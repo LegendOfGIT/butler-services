@@ -1,11 +1,10 @@
 ﻿using Information.Satellite.Usecase.Interfaces;
-using System;
 
 namespace Information.Satellite.Usecase.GetInformationItem
 {
-  public class GetInformationItemInteractorRequest
+  public class ParseByCssSelectionCommand : IContentParsingCommand
   {
-    public Uri Uri { get; set; }
+    public string Selector { get; set; }
     public IContentParsingCommand ContentParsingCommand { get; set; }
   }
 }

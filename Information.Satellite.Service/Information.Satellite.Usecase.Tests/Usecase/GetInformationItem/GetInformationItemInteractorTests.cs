@@ -51,35 +51,16 @@ namespace Information.Satellite.Usecase.GetInformationItems
     }
 
     [Fact]
-    public void TestInteractorReturnsContentFromWithinHtmlTag()
-    {
-      var interactor = new GetInformationItemInteractor(new WebContentRepositoryReturnsSpecificContentStub("Fallout4Goty.stub"));
-      var response = interactor.Execute(new GetInformationItemInteractorRequest());
-
-      Assert.Equal(
-        "Fallout 3: Game of the Year Edition",
-        response.Title
-      );
-    }
-
-    [Fact]
     public void TestInteractorReturnsReleaseDateFromWithinHtmlTagUsingTagParsingCommands()
     {
       var interactor = new GetInformationItemInteractor(new WebContentRepositoryReturnsSpecificContentStub("Fallout4Goty.stub"));
       var response = interactor.Execute(new GetInformationItemInteractorRequest
       {
-        ContentParsingCommands = new[]
-        {
-          new ParseByTagCommand
+        ContentParsingCommand = 
+          new ParseByCssSelectionCommand
           {
-            TagName = "div",
-            Attributes = new Dictionary<string, string>{ { "class", "release_date" } },
-            ContentParsingCommand = new ParseByTagCommand {
-              TagName = "div",
-              Attributes = new Dictionary<string, string>{ { "class", "date" }}
-            }
+            Selector = ".release_date .date"
           }
-        }
       });
 
       Assert.Equal(

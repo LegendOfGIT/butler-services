@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CsQuery, Version=1.3.3.249, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CsQuery.1.3.4\lib\net40\CsQuery.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\IContentParsingCommand.cs" />
-    <Compile Include="Usecase\GetInformationItem\ParseByTagCommand.cs" />
+    <Compile Include="Usecase\GetInformationItem\ParseByCssSelectionCommand.cs" />
     <Compile Include="Usecase\GetInformationItem\GetInformationItemInteractorRequest.cs" />
     <Compile Include="Usecase\GetInformationItem\GetInformationItemInteractorResponse.cs" />
     <Compile Include="Usecase\GetInformationItem\GetInformationItemInteractor.cs" />
@@ -52,6 +55,9 @@
       <Project>{d1f09566-eeeb-42cc-b3df-9a2b49e8b515}</Project>
       <Name>Information.Satellite.Repository</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

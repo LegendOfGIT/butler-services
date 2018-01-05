@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
+using CsQuery;
 
 namespace Information.Satellite.Usecase.GetInformationItem
 {
@@ -18,31 +19,28 @@ namespace Information.Satellite.Usecase.GetInformationItem
 
     public GetInformationItemInteractorResponse Execute(GetInformationItemInteractorRequest request)
     {
-      var content = this.webContentRepository.GetWebContentAsString(request.Uri).Replace(Environment.NewLine, string.Empty);
+      var content = 
+        (this.webContentRepository.GetWebContentAsString(request.Uri) ?? string.Empty)
+          .Replace(Environment.NewLine, string.Empty);
 
       return new GetInformationItemInteractorResponse
       {
-        ReleaseDate = GetContentByParsingCommands(content, request.ContentParsingCommands.First()),
+        ReleaseDate = GetContentByParsingCommands(content, request.ContentParsingCommand),
         WebContent = content
       };
     }
 
     private string GetContentByParsingCommands(string content, IContentParsingCommand parsingCommand)
     {
+      var document = CQ.Create(content);
+
       if (parsingCommand == null)
       {
-        return content;
+        return document.Text();
       }
 
-      var parseByTagCommand = parsingCommand as ParseByTagCommand;
-      var attributes = string.Join(" ", parseByTagCommand.Attributes.Select(entry => { return $"{entry.Key}=\"{entry.Value}\""; }));
-
-      var groups =
-  content == null
-    ? default(IEnumerable<Group>)
-    : Regex.Match(content, $"<{parseByTagCommand.TagName}.*{attributes}>(.*)</{parseByTagCommand.TagName}>(</{parseByTagCommand.TagName}>)?").Groups.OfType<Group>();
-
-      content = groups == null ? string.Empty : groups.Skip(1).FirstOrDefault().Value;
+      var parseCommand = parsingCommand as ParseByCssSelectionCommand;
+      content = document[parseCommand.Selector].RenderSelection();
 
       return GetContentByParsingCommands(content, parsingCommand.ContentParsingCommand);
     }
