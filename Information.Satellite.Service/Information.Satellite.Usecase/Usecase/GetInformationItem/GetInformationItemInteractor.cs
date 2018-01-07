@@ -1,9 +1,10 @@
 ﻿using Information.Satellite.Repository.Interfaces;
-using Information.Satellite.Usecase.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using CsQuery;
+using Newtonsoft.Json;
+using System.Text.RegularExpressions;
 
 namespace Information.Satellite.Usecase.GetInformationItem
 {
@@ -39,31 +40,70 @@ namespace Information.Satellite.Usecase.GetInformationItem
 
     private IEnumerable<string> GetContentByParsingCommands(
       string content, 
-      IContentParsingCommand parsingCommand,
-      IContentParsingCommand parentParsingCommand = null
+      ParseCommand parsingCommand,
+      ParseCommand parentParsingCommand = null
     )
     {
-      var document = CQ.Create(content);
-
       if (parsingCommand == null)
       {
-        var parentParseCommand = parentParsingCommand as ParseByCssSelectionCommand;
-        var targetAttribute = parentParseCommand?.Attribute;
-        return document.Select(
-          part =>
-            string.IsNullOrEmpty(targetAttribute) ? part.InnerText
-            : part.Attributes[targetAttribute]
-        );
+        return GetValuesFromParentParsingCommand(content, parentParsingCommand);
       }
 
-      var parseCommand = parsingCommand as ParseByCssSelectionCommand;
-      content = document[parseCommand.Selector].RenderSelection();
+      content = GetContentFromParsingCommand(content, parsingCommand);
 
       return GetContentByParsingCommands(
         content, 
         parsingCommand.ContentParsingCommand,
         parsingCommand
       );
+    }
+
+    private IEnumerable<string> GetValuesFromParentParsingCommand(string content, ParseCommand parsingCommand)
+    {
+      switch (parsingCommand.Type)
+      {
+        case ParseCommandType.Css:
+          return GetValuesFromParentCssParsingCommand(content, parsingCommand);
+      }
+
+      return new[] { content };
+    }
+    private IEnumerable<string> GetValuesFromParentCssParsingCommand(string content, ParseCommand parsingCommand)
+    {
+      var document = CQ.Create(content);
+      var targetAttribute = parsingCommand?.Attribute;
+      return document.Select(
+          part =>
+            string.IsNullOrEmpty(targetAttribute) ? part.InnerText
+            : part.Attributes[targetAttribute]
+      );
+    }
+
+    private string GetContentFromParsingCommand(string content, ParseCommand parsingCommand)
+    {
+      switch (parsingCommand.Type)
+      {
+        case ParseCommandType.Css:
+          return GetContentFromCssParsingCommand(content, parsingCommand);
+        case ParseCommandType.RegEx:
+          return GetContentFromRegExParsingCommand(content, parsingCommand);
+      }
+
+      return string.Empty;
+    }
+    private string GetContentFromCssParsingCommand(string content, ParseCommand parsingCommand)
+    {
+      return CQ.Create(content)[parsingCommand.Selector].RenderSelection();
+    }
+    private string GetContentFromRegExParsingCommand(string content, ParseCommand parsingCommand)
+    {
+      var match = Regex.Match(content, parsingCommand.Selector);
+
+      if(match != null && match.Groups.Count > parsingCommand.TargetIndex) { 
+        return match.Groups[parsingCommand.TargetIndex ?? 0].Value;
+      }
+
+      return string.Empty;
     }
   }
 }

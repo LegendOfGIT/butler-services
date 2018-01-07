@@ -33,6 +33,9 @@
     <Reference Include="CsQuery, Version=1.3.3.249, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\CsQuery.1.3.4\lib\net40\CsQuery.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,8 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\IContentParsingCommand.cs" />
-    <Compile Include="Usecase\GetInformationItem\ParseByCssSelectionCommand.cs" />
+    <Compile Include="Usecase\GetInformationItem\ParseCommandType.cs" />
+    <Compile Include="Usecase\GetInformationItem\ParseCommand.cs" />
     <Compile Include="Usecase\GetInformationItem\GetInformationItemInteractorRequest.cs" />
     <Compile Include="Usecase\GetInformationItem\GetInformationItemInteractorResponse.cs" />
     <Compile Include="Usecase\GetInformationItem\GetInformationItemInteractor.cs" />

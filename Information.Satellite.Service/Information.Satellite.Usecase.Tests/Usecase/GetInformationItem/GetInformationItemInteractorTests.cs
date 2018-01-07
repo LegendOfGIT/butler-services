@@ -57,7 +57,7 @@ namespace Information.Satellite.Usecase.GetInformationItems
       var response = interactor.Execute(new GetInformationItemInteractorRequest
       {
         ContentParsingCommands = new[] {
-          new ParseByCssSelectionCommand
+          new ParseCommand
           {
             Selector = ".release_date .date",
             TargetPropertyId = "ReleaseDate"
@@ -78,7 +78,7 @@ namespace Information.Satellite.Usecase.GetInformationItems
       var response = interactor.Execute(new GetInformationItemInteractorRequest
       {
         ContentParsingCommands = new[] {
-          new ParseByCssSelectionCommand
+          new ParseCommand
           {
             Selector = ".highlight_screenshot_link",
             Attribute = "href",
@@ -114,6 +114,46 @@ namespace Information.Satellite.Usecase.GetInformationItems
         },
         response.Properties["Images"].ToArray()
       );
+    }
+
+    [Fact]
+    public void TestInteractorReturnsPriceInformationFromWithinHtmlUsingCssParsingCommands()
+    {
+      var interactor = new GetInformationItemInteractor(new WebContentRepositoryReturnsSpecificContentStub("Fallout4Goty.stub"));
+      var response = interactor.Execute(new GetInformationItemInteractorRequest
+      {
+        ContentParsingCommands = new[] {
+          new ParseCommand { Selector = "meta[itemProp=price]", TargetPropertyId = "SalePrices", Attribute="content" },
+          new ParseCommand { Selector = "meta[itemProp=priceCurrency]", TargetPropertyId = "PriceCurrencys", Attribute="content" }
+
+        }
+      });
+
+      Assert.Equal(new[] { "9,99" }, response.Properties["SalePrices"]);
+      Assert.Equal(new[] { "EUR" }, response.Properties["PriceCurrencys"]);
+    }
+
+    [Fact]
+    public void TestInteractorReturnsPublisherFromWithinHtmlUsingMixedParsingCommands()
+    {
+      var interactor = new GetInformationItemInteractor(new WebContentRepositoryReturnsSpecificContentStub("Fallout4Goty.stub"));
+      var response = interactor.Execute(new GetInformationItemInteractorRequest
+      {
+        ContentParsingCommands = new[] {
+          new ParseCommand {
+            Selector = ".block_content_inner",
+            ContentParsingCommand = new ParseCommand
+            {
+              Selector = @"<b>Publisher:<\/b>.*?<a.*?>(.*?)<\/a>",
+              TargetIndex = 1,
+              Type = ParseCommandType.RegEx
+            },
+            TargetPropertyId = "Publishers"
+          },
+        }
+      });
+
+      Assert.Equal(new[] { "Bethesda Softworks" }, response.Properties["Publishers"]);
     }
   }
 }
