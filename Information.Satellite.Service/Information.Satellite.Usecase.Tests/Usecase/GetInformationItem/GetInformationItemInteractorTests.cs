@@ -155,5 +155,90 @@ namespace Information.Satellite.Usecase.GetInformationItems
 
       Assert.Equal(new[] { "Bethesda Softworks" }, response.Properties["Publishers"]);
     }
+
+    [Fact]
+    public void TestInteractorReturnsEmptyPropertyValueWhenParsingCommandIsReturnEmpty()
+    {
+      var interactor = new GetInformationItemInteractor(new WebContentRepositoryReturnsSpecificContentStub("Fallout4Goty.stub"));
+      var response = interactor.Execute(new GetInformationItemInteractorRequest
+      {
+        ContentParsingCommands = new[] {
+          new ParseCommand {
+            Type = ParseCommandType.ReturnEmpty,
+            TargetPropertyId = "Example"
+          },
+        }
+      });
+
+      Assert.Equal(new[] { string.Empty }, response.Properties["Example"]);
+    }
+
+    [Fact]
+    public void TestInteractorReturnsEmptyPropertyWhenRegexForParsingValuesDoesNotMatch()
+    {
+      var interactor = new GetInformationItemInteractor(new WebContentRepositoryReturnsSpecificContentStub("Fallout4Goty.stub"));
+      var response = interactor.Execute(new GetInformationItemInteractorRequest
+      {
+        ContentParsingCommands = new[] {
+          new ParseCommand {
+            Selector = ".block_content_inner",
+            ContentParsingCommand = new ParseCommand
+            {
+              Selector = @"<b>Pubisher:<\/b>.*?<a.*?>(.*?)<\/a>",
+              TargetIndex = 1,
+              Type = ParseCommandType.RegEx
+            },
+            TargetPropertyId = "Publishers"
+          },
+        }
+      });
+
+      Assert.Equal(new[] { string.Empty }, response.Properties["Publishers"]);
+    }
+
+    [Fact]
+    public void TestInteractorReturnsEmptyPropertyWhenRegexForParsingDoesNotReturnEnoughGroups()
+    {
+      var interactor = new GetInformationItemInteractor(new WebContentRepositoryReturnsSpecificContentStub("Fallout4Goty.stub"));
+      var response = interactor.Execute(new GetInformationItemInteractorRequest
+      {
+        ContentParsingCommands = new[] {
+          new ParseCommand {
+            Selector = ".block_content_inner",
+            ContentParsingCommand = new ParseCommand
+            {
+              Selector = @"<b>Publisher:<\/b>.*?<a.*?>(.*?)<\/a>",
+              TargetIndex = 3,
+              Type = ParseCommandType.RegEx
+            },
+            TargetPropertyId = "Publishers"
+          },
+        }
+      });
+
+      Assert.Equal(new[] { string.Empty }, response.Properties["Publishers"]);
+    }
+
+    [Fact]
+    public void TestInteractorReturnsPropertyFromFirstGroupWhenTargetIndexForRegexWasNotGiven()
+    {
+      var interactor = new GetInformationItemInteractor(new WebContentRepositoryReturnsSpecificContentStub("Fallout4Goty.stub"));
+      var response = interactor.Execute(new GetInformationItemInteractorRequest
+      {
+        ContentParsingCommands = new[] {
+          new ParseCommand {
+            Selector = ".block_content_inner",
+            ContentParsingCommand = new ParseCommand
+            {
+              Selector = @"<b>Publisher:<\/b>.*?<a.*?>(.*?)<\/a>",
+              Type = ParseCommandType.RegEx
+            },
+            TargetPropertyId = "Publishers"
+          },
+        }
+      });
+
+      Assert.Equal(new[] { "Bethesda Softworks" }, response.Properties["Publishers"]);
+    }
   }
 }

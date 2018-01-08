@@ -71,7 +71,7 @@ namespace Information.Satellite.Usecase.GetInformationItem
     private IEnumerable<string> GetValuesFromParentCssParsingCommand(string content, ParseCommand parsingCommand)
     {
       var document = CQ.Create(content);
-      var targetAttribute = parsingCommand?.Attribute;
+      var targetAttribute = parsingCommand.Attribute;
       return document.Select(
           part =>
             string.IsNullOrEmpty(targetAttribute) ? part.InnerText
@@ -99,8 +99,9 @@ namespace Information.Satellite.Usecase.GetInformationItem
     {
       var match = Regex.Match(content, parsingCommand.Selector);
 
-      if(match != null && match.Groups.Count > parsingCommand.TargetIndex) { 
-        return match.Groups[parsingCommand.TargetIndex ?? 0].Value;
+      var targetIndex = parsingCommand.TargetIndex ?? 1;
+      if(match != null && match.Groups.Count > targetIndex) { 
+        return match.Groups[targetIndex].Value;
       }
 
       return string.Empty;

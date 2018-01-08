@@ -3,6 +3,7 @@
   public enum ParseCommandType
   {
     Css,
-    RegEx
+    RegEx,
+    ReturnEmpty
   }
 }
