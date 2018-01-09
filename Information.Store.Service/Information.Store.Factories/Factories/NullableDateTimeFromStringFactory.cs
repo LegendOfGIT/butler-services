@@ -29,8 +29,8 @@ namespace Information.Store.Factories
     private string GetPreparedValueForDateTimeFactoring(string value)
     {
       value = (value ?? string.Empty)
-        
-        .ToLower();
+        .ToLower()
+        .Trim();
 
       value = GetValueWithReplacedMonthNames(value);
 
@@ -39,16 +39,30 @@ namespace Information.Store.Factories
 
     private string GetValueWithReplacedMonthNames(string value)
     {
-      var cultureInfos = CultureInfo.GetCultures(CultureTypes.AllCultures);
+      var cultureInfos = CultureInfo.GetCultures(CultureTypes.NeutralCultures);
       foreach(var cultureInfo in cultureInfos)
       {
+        var monthSuffixes = new[] { " ", ". " };
         var dateTimeFormat = DateTimeFormatInfo.GetInstance(cultureInfo);
-        for(int i = 1; i < dateTimeFormat.MonthNames.Length; i++)
+        for(int monthIndex = 1; monthIndex < dateTimeFormat.MonthNames.Length; monthIndex++)
         {
-          var monthName = dateTimeFormat.MonthNames[i - 1].ToLower();
-          if (monthName.StartsWith("0")) { 
-          value = value.Replace(monthName + " ", i.ToString("00") + ".");
-          value = value.Replace(monthName + ".", i.ToString("00") + ".");
+          for(int i = 1; i <= 2; i++){
+            var monthName = (
+              i == 1
+              ? dateTimeFormat.MonthNames[monthIndex - 1]
+              : dateTimeFormat.AbbreviatedMonthNames[monthIndex - 1].Replace(".", string.Empty)
+            ).ToLower();
+
+            if(monthName.Any(c => !char.IsDigit(c))) { 
+              foreach (var monthSuffix in monthSuffixes)
+              {
+                var replacer = $"{monthName}{monthSuffix}";
+                if (value.Contains(replacer))
+                {
+                  return value.Replace(replacer, $"{monthIndex.ToString("00")}.");
+                }
+              }
+            }
           }
         }
       }

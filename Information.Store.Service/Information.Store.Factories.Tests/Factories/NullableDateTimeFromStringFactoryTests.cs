@@ -50,5 +50,11 @@
       Assert.Equal((DateTime?)(new DateTime(2014, 6, 4)), (DateTime?)factory.GetObjectFromString("    04. Junio.   2  014 "));
     }
 
+    [Fact]
+    public void FactoryReturnsDateTimeValueFromHungarianDateWithMonthNameAbbrevationAndWhitespaces()
+    {
+      Assert.Equal((DateTime?)(new DateTime(2009, 3, 11)), (DateTime?)factory.GetObjectFromString("    11. Márc   20 09  "));
+      Assert.Equal((DateTime?)(new DateTime(2009, 3, 11)), (DateTime?)factory.GetObjectFromString("    11. Márc.   20 09 "));
+    }
   }
 }
