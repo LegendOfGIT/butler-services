@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Globalization;
 
 namespace Information.Store.Factories
@@ -27,8 +28,32 @@ namespace Information.Store.Factories
 
     private string GetPreparedValueForDateTimeFactoring(string value)
     {
-      value = value ?? string.Empty;
+      value = (value ?? string.Empty)
+        
+        .ToLower();
+
+      value = GetValueWithReplacedMonthNames(value);
+
       return value.Replace(" ", string.Empty);
+    }
+
+    private string GetValueWithReplacedMonthNames(string value)
+    {
+      var cultureInfos = CultureInfo.GetCultures(CultureTypes.AllCultures);
+      foreach(var cultureInfo in cultureInfos)
+      {
+        var dateTimeFormat = DateTimeFormatInfo.GetInstance(cultureInfo);
+        for(int i = 1; i < dateTimeFormat.MonthNames.Length; i++)
+        {
+          var monthName = dateTimeFormat.MonthNames[i - 1].ToLower();
+          if (monthName.StartsWith("0")) { 
+          value = value.Replace(monthName + " ", i.ToString("00") + ".");
+          value = value.Replace(monthName + ".", i.ToString("00") + ".");
+          }
+        }
+      }
+
+      return value;
     }
   }
 }
